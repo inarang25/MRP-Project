@@ -1,0 +1,20 @@
+{
+  "run_id": "20261116-02",
+  "database": "p2p_mrp",
+  "planning_date": "2026-11-16",
+  "items_planned": 65,
+  "finished_goods": 8,
+  "demand_lines": 208,
+  "open_orders_counted": 31,
+  "production_orders": 362,
+  "purchase_proposals": 232,
+  "purchase_value": 121192461.32,
+  "to_release_now": 0,
+  "to_release_value": 0.0,
+  "late_orders": 5,
+  "exceptions": {
+    "overdue_order_ignored": 73,
+    "short_until_receipt": 24,
+    "late": 5
+  }
+}

@@ -1,0 +1,29 @@
+parent,sequence,name,work_centre,minutes
+B001,10,Dispensing,DISP,90
+B001,20,Granulation and blending,GRAN,300
+B001,30,Compression,COMP,420
+B002,10,Dispensing,DISP,90
+B002,20,Granulation and blending,GRAN,300
+B002,30,Compression,COMP,420
+B002,40,Film coating,COAT,240
+B003,10,Dispensing,DISP,90
+B003,20,Blending,GRAN,180
+B003,30,Capsule filling,ENCAP,360
+B004,10,Dispensing,DISP,90
+B004,20,Granulation and blending,GRAN,300
+B004,30,Compression,COMP,420
+B004,40,Film coating,COAT,240
+B005,10,Dispensing,DISP,90
+B005,20,Granulation and blending,GRAN,300
+B005,30,Compression,COMP,420
+B006,10,Dispensing,DISP,90
+B006,20,Blending,GRAN,180
+B006,30,Capsule filling,ENCAP,360
+F001,10,Blister packing and cartoning,BLIS,300
+F002,10,Bottle filling and cartoning,BOTL,300
+F003,10,Blister packing and cartoning,BLIS,300
+F004,10,Blister packing and cartoning,BLIS,300
+F005,10,Blister packing and cartoning,BLIS,300
+F006,10,Blister packing and cartoning,BLIS,300
+F007,10,Blister packing and cartoning,BLIS,300
+F008,10,Blister packing and cartoning,BLIS,300

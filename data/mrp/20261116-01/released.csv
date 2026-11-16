@@ -1,0 +1,32 @@
+order_id,item,qty,requisition,po,po_state,po_value,vendor,buyer
+PL00440,M058,40000.0,PR02196,P01209,purchase,455755.25,Zoroni Print & Pack,Arjun Patel
+PL00469,M066,275.0,PR02199,P01209,purchase,455755.25,Zoroni Print & Pack,Arjun Patel
+PL00446,M059,711000.0,PR02197,P01210,purchase,489319.32,Cenent Print & Pack,Arjun Patel
+PL00474,M067,5124.0,PR02200,P01210,purchase,489319.32,Cenent Print & Pack,Arjun Patel
+PL00401,M051,280000.0,PR02192,P01211,to approve,1724830.0,Elelle Print & Pack,Arjun Patel
+PL00407,M052,180000.0,PR02193,P01211,to approve,1724830.0,Elelle Print & Pack,Arjun Patel
+PL00429,M056,44000.0,PR02195,P01211,to approve,1724830.0,Elelle Print & Pack,Arjun Patel
+PL00483,M069,1409000.0,PR02201,P01211,to approve,1724830.0,Elelle Print & Pack,Arjun Patel
+PL00413,M053,43000.0,PR02194,P01212,purchase,285020.0,Luminda Print & Pack,Arjun Patel
+PL00489,M070,109000.0,PR02202,P01212,purchase,285020.0,Luminda Print & Pack,Arjun Patel
+PL00363,M036,5375.0,PR02188,P01213,to approve,1232595.0,Hemar Packaging,Arjun Patel
+PL00375,M038,525.0,PR02189,P01214,purchase,694338.75,Valeth Packaging,Arjun Patel
+PL00387,M042,41000.0,PR02190,P01214,purchase,694338.75,Valeth Packaging,Arjun Patel
+PL00601,M029,225.0,PR02215,P01215,to approve,1263484.25,Cenana Excipients,Neha Kulkarni
+PL00615,M033,5500.0,PR02218,P01215,to approve,1263484.25,Cenana Excipients,Neha Kulkarni
+PL00400,M048,175.0,PR02191,P01216,purchase,82657.75,Ceninda Packaging,Arjun Patel
+PL00457,M063,206000.0,PR02198,P01217,purchase,90640.0,Quelix Print & Pack,Arjun Patel
+PL00527,M005,105.0,PR02204,P01218,purchase,575919.75,Queleth Pharmachem,Neha Kulkarni
+PL00516,M003,1650.0,PR02203,P01219,to approve,5226447.75,Aroni Pharmachem,Neha Kulkarni
+PL00536,M007,145.0,PR02205,P01219,to approve,5226447.75,Aroni Pharmachem,Neha Kulkarni
+PL00581,M022,375.0,PR02209,P01220,purchase,246585.0,Telana Excipients,Neha Kulkarni
+PL00595,M027,1800.0,PR02213,P01220,purchase,246585.0,Telana Excipients,Neha Kulkarni
+PL00592,M024,3300.0,PR02211,P01221,purchase,216169.5,Galix Excipients,Neha Kulkarni
+PL00613,M031,750.0,PR02216,P01221,purchase,216169.5,Galix Excipients,Neha Kulkarni
+PL00569,M018,1125.0,PR02207,P01222,purchase,165116.25,Lumova Excipients,Neha Kulkarni
+PL00565,M017,375.0,PR02206,P01223,purchase,322120.0,Draora Excipients,Neha Kulkarni
+PL00575,M021,250.0,PR02208,P01223,purchase,322120.0,Draora Excipients,Neha Kulkarni
+PL00614,M032,200.0,PR02217,P01223,purchase,322120.0,Draora Excipients,Neha Kulkarni
+PL00596,M028,250.0,PR02214,P01224,purchase,218752.5,Elova Excipients,Neha Kulkarni
+PL00586,M023,1300.0,PR02210,P01225,to approve,1155071.25,Telium Excipients,Neha Kulkarni
+PL00594,M026,75.0,PR02212,P01225,to approve,1155071.25,Telium Excipients,Neha Kulkarni

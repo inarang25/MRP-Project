@@ -1,0 +1,15 @@
+item,name,type,form,uom,batch,lead_days,shelf_life_months
+B001,Paracetamol 500 mg tablets (bulk),bulk,tablet,THOUSAND,1000,5,6
+B002,Metformin 500 mg tablets (bulk),bulk,coated tablet,THOUSAND,800,6,6
+B003,Amoxicillin 500 mg capsules (bulk),bulk,capsule,THOUSAND,500,4,6
+B004,Atorvastatin 10 mg tablets (bulk),bulk,coated tablet,THOUSAND,1000,6,6
+B005,Telmisartan 40 mg tablets (bulk),bulk,tablet,THOUSAND,500,5,6
+B006,Omeprazole 20 mg capsules (bulk),bulk,capsule,THOUSAND,500,5,6
+F001,"Paracetamol 500 mg tablets, 10x10 blister (India)",finished,blister,NOS,5000,3,36
+F002,"Paracetamol 500 mg tablets, bottle of 100 (US export)",finished,bottle,NOS,4000,3,36
+F003,"Metformin 500 mg tablets, 10x10 blister (India)",finished,blister,NOS,5000,3,36
+F004,"Metformin 500 mg tablets, 10x10 blister (EU export)",finished,blister,NOS,5000,3,36
+F005,"Amoxicillin 500 mg capsules, 10x10 blister (India)",finished,blister,NOS,5000,3,36
+F006,"Atorvastatin 10 mg tablets, 10x10 blister (India)",finished,blister,NOS,5000,3,36
+F007,"Telmisartan 40 mg tablets, 10x10 alu-alu blister (India)",finished,blister,NOS,5000,3,36
+F008,"Omeprazole 20 mg capsules, 10x10 alu-alu blister (India)",finished,blister,NOS,5000,3,36

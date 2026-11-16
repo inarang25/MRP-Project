@@ -1,0 +1,66 @@
+item,category,daily_usage,safety_stock,period_days
+B001,Bulk,631.714,0.0,1
+B002,Bulk,430.714,0.0,1
+B003,Bulk,143.571,0.0,1
+B004,Bulk,215.357,0.0,1
+B005,Bulk,114.857,0.0,1
+B006,Bulk,129.214,0.0,1
+F001,Finished goods,5142.857,25700.0,1
+F002,Finished goods,1142.857,5700.0,1
+F003,Finished goods,3428.571,17100.0,1
+F004,Finished goods,857.143,4300.0,1
+F005,Finished goods,1428.571,7100.0,1
+F006,Finished goods,2142.857,10700.0,1
+F007,Finished goods,1142.857,5700.0,1
+F008,Finished goods,1285.714,6400.0,1
+M001,APIs,315.857,3175.0,14
+M002,APIs,215.357,2175.0,14
+M003,APIs,82.41,825.0,14
+M005,APIs,2.584,30.0,14
+M007,APIs,4.594,50.0,14
+M008,APIs,2.337,25.0,14
+M016,Excipients,25.843,200.0,28
+M017,Excipients,8.614,75.0,28
+M018,Excipients,13.998,100.0,28
+M020,Excipients,6.217,50.0,28
+M021,Excipients,7.753,75.0,28
+M022,Excipients,10.624,75.0,28
+M023,Excipients,24.78,175.0,28
+M024,Excipients,37.903,275.0,28
+M026,Excipients,0.108,25.0,28
+M027,Excipients,5.542,50.0,28
+M028,Excipients,6.245,50.0,28
+M029,Excipients,7.322,75.0,28
+M030,Excipients,33.883,250.0,28
+M031,Excipients,4.307,50.0,28
+M032,Excipients,0.129,25.0,28
+M033,Excipients,146.443,1100.0,28
+M034,Excipients,131.799,1000.0,28
+M036,Primary packaging,139.286,975.0,28
+M037,Primary packaging,29.714,225.0,28
+M038,Primary packaging,16.5,125.0,28
+M039,Primary packaging,31.571,225.0,28
+M042,Primary packaging,1154.286,9000.0,28
+M043,Primary packaging,1154.286,9000.0,28
+M045,Primary packaging,1154.286,9000.0,28
+M046,Primary packaging,1154.286,9000.0,28
+M048,Primary packaging,0.571,25.0,28
+M051,Printed packaging,5194.286,52000.0,28
+M052,Printed packaging,3462.857,35000.0,28
+M053,Printed packaging,1442.857,15000.0,28
+M054,Printed packaging,2164.286,22000.0,28
+M055,Printed packaging,1154.286,12000.0,28
+M056,Printed packaging,1298.571,13000.0,28
+M057,Printed packaging,1154.286,12000.0,28
+M058,Printed packaging,865.714,9000.0,28
+M059,Printed packaging,14717.143,148000.0,28
+M060,Printed packaging,1154.286,12000.0,28
+M061,Printed packaging,865.714,9000.0,28
+M063,Printed packaging,1154.286,12000.0,28
+M064,Printed packaging,18.0,200.0,28
+M065,Printed packaging,12.0,125.0,28
+M066,Printed packaging,7.5,75.0,28
+M067,Printed packaging,145.714,1458.0,28
+M068,Printed packaging,32.571,326.0,28
+M069,Printed packaging,31165.714,312000.0,28
+M070,Printed packaging,2020.0,21000.0,28
