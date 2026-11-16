@@ -13,11 +13,29 @@ Read `docs/HANDOFF_MRP.md` first: it describes the Odoo setup, conventions and t
 - Record decisions as DEC-NNN in `docs/decisions.md`. Give the SAP equivalent of every object.
 - Money before GST. UI and write-ups in plain language, no codes on screen.
 
-## How to work with the owner
-Same as ProcessPro: Claude owns all technical work end to end and proves it with tests; the owner
-steers process understanding (planning, pharma), product direction and the showcase. Put product
-decisions to the owner at the start or end of a milestone with a recommendation. Sessions are short;
-end each with what was done, one commit pushed to GitHub (inarang25/MRP-Project), and the next step.
+## How to work with the owner (set by the owner 2026-11-16)
+- **Learn, then build.** The owner starts with no MRP knowledge, has time, and wants each concept
+  understood and digested before moving on. No rushing ahead with code.
+- Each lesson: plain-language concept -> worked example on Aravelle's own products -> SAP mapping ->
+  the pharma-industry problem it raises -> 2-3 check questions. Wait for the answers. Only then
+  build or revise the code for that concept, and show the result in planning terms.
+- The tool must handle real pharma planning problems, not just textbook MRP.
+- Code stays Claude's job and is explained at a high level only; Claude proves it with tests.
+- Milestone 1 (below) was built before the lessons started: treat it as a draft that each lesson
+  revisits and may change.
+- Every session ends with one commit pushed to GitHub (inarang25/MRP-Project) and the next step.
+
+## Lesson plan
+1. Why MRP exists: what, how much, when; independent vs dependent demand
+2. Bill of materials: bulk vs pack, levels, batch size, yield and losses
+3. Demand: forecast, orders, master production schedule; pharma seasonality, tenders, export packs
+4. Netting: stock, receipts, safety stock; quarantine, QC release, expiry, retest dates
+5. Lot sizing: batches, MOQ, packs; validated batch sizes; the expiry write-off trade-off
+6. Lead times and backward scheduling: import lead, QC time, artwork for printed packaging
+7. Exceptions: what a planner does on Monday morning (expedite, postpone, cancel)
+8. Capacity: can the plant do it; campaigns, changeovers, beta-lactam segregation
+9. MRP into buying: requisitions, POs, approvals, and how ProcessPro sees them
+10. Presenting it: the story, the app, the interview answers
 
 ## Layout
 ```
@@ -48,4 +66,6 @@ go-live stock take. Run 20261116-01: 65 items, 362 production orders, 263 purcha
 for the Purchase Head. Run 20261116-02 after release: nothing to release, nothing proposed twice.
 12 tests pass. Not built yet: production orders in Odoo (planned orders stay in CSV), capacity
 check on work centres, the app, the ProcessPro changes in handoff section 7.
-Next: owner reviews DEC-001..009 and the product direction for the app.
+Lesson 1 (why MRP exists) taught 2026-11-16; waiting for the owner's answers to its check questions.
+Known pharma gap to fix in lesson 8: Amoxicillin (a penicillin) shares work centres with other
+products, which GMP does not allow. Next: lesson 1 answers, then lesson 2 (bill of materials).
