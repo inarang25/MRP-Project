@@ -66,6 +66,8 @@ go-live stock take. Run 20261116-01: 65 items, 362 production orders, 263 purcha
 for the Purchase Head. Run 20261116-02 after release: nothing to release, nothing proposed twice.
 12 tests pass. Not built yet: production orders in Odoo (planned orders stay in CSV), capacity
 check on work centres, the app, the ProcessPro changes in handoff section 7.
-Lesson 1 (why MRP exists) taught 2026-11-16; waiting for the owner's answers to its check questions.
+Lesson 1 (why MRP exists) done 2026-11-17: answers good; taught why QC cannot be rushed, only prioritised.
+Lesson 2 (bill of materials) taught 2026-11-17; waiting for answers. After them: revise the BOM in
+code (explicit loss factors, API potency adjustment, BOM versions per market and change control).
 Known pharma gap to fix in lesson 8: Amoxicillin (a penicillin) shares work centres with other
-products, which GMP does not allow. Next: lesson 1 answers, then lesson 2 (bill of materials).
+products, which GMP does not allow. Next: lesson 2 answers, then the BOM revision, then lesson 3.
