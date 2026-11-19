@@ -66,3 +66,42 @@ PO lines, then confirmed. Rs 10 lakh or more before GST waits for the Purchase H
 Only proposals whose order date is within 7 days are released; the rest stay as a plan.
 Not done: the optional `origin` field on the requisition (handoff 7.5) and the ProcessPro changes
 (extractor, app filter), which belong to the ProcessPro repo.
+
+## DEC-010: BOM losses are shown openly (lesson 2, 2026-11-19)
+Every BOM line is stored as net quantity (what ends up in the product) + expected loss % = gross
+quantity (what MRP plans and Odoo holds). Losses: cartons, leaflets, labels, bottles and caps 1%;
+forming film and lidding foil 4% (set-up and trimmed edges); bulk tablets 0.5% on the packing line;
+capsule shells 2%; shipper cartons and cotton none. Ingredients of bulk have no loss per line: they are
+weighed exactly, and the batch loses output instead (DEC-011). Odoo Community BOM lines have no
+loss field, so Odoo holds the gross quantity and `data/plan/bom_lines.csv` keeps the split. This
+corrected the lidding foil from 17.5 to 17.68 kg per 5,000 packs on seven BOMs.
+SAP parallel: component scrap on the BOM item.
+
+## DEC-011: Batch yield and API potency (lesson 2, 2026-11-19)
+- **Yield.** A bulk batch gives 97.5-98.5% of its nominal size as good tablets (plain tablets 98%,
+  coated 97.5%, capsules 98.5%). MRP plans whole nominal batches and counts only the good output,
+  so 2,000 good tablets from 1,000-tablet batches at 98% need 3 batches, not 2.
+  SAP parallel: assembly scrap on the material master.
+- **Potency.** The recipe states API at 100%. Each API is planned at a planning potency (98.6-99.4%,
+  estimates), which adds API and takes the same weight off that product's filler, so the tablet
+  weight stays the same. Capsules without a filler get a higher fill weight instead. The actual
+  assay of each lot will be recorded on the lot in lesson 4, with retest dates.
+  SAP parallel: active ingredient management, batch characteristics.
+
+## DEC-012: Artwork changes and the go-live record (lesson 2, 2026-11-19)
+- New artwork = a new material, so old and new can never be mixed. The change control register is
+  `planner/config.py` MATERIAL_CHANGES -> `data/plan/material_changes.csv` (change number, old and
+  new material, kind, last use date, reason); the new material is created in Odoo as a copy of the old
+  one with the same approved printers.
+- Planning rule, the same for every change: the old material is never reordered; its stock and the
+  orders already placed are used up oldest first, in whole packing batches (a batch never mixes old
+  and new); from the first batch it cannot cover, or from the last use date, the new material takes
+  over. Whatever is left is reported as a write-off with its value. A gap before an old order
+  arrives is reported as a delay to chase, not covered by a new order.
+- Two examples: Paracetamol India carton (cosmetic, last use 1 Mar 2027) and EU leaflet (safety
+  update, last use 4 Jan 2027). A first version of the rule switched as soon as stock alone ran short
+  and ignored orders already placed; it would have scrapped Rs 6.3 lakh of cartons. The current rule
+  scraps under Rs 10,000.
+- `data/plan/opening_stock.csv` is the record of the go-live count (DEC-003) and is never regenerated.
+SAP parallel: discontinuation indicator and follow-up material (MRP 4 view) under an engineering
+change number.

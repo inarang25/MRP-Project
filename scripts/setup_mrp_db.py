@@ -7,6 +7,7 @@ Steps (each one is "find it, or create it", so the script can be run again safel
   4. work centres
   5. finished goods and bulk products, with bills of materials and operations
   6. stock take                         brings stock to the go-live quantities, once (DEC-003)
+  7. new artwork materials              from the change control register (DEC-012)
 
 Usage: .venv/Scripts/python scripts/setup_mrp_db.py      (after `python -m planner.master_data`)
 """
@@ -95,9 +96,32 @@ for _, row in make_items.iterrows():
         "gmp": True, "tracking": "lot", "use_expiration_date": True,       # every batch is traceable
         "expiration_time": int(row["shelf_life_months"] * 30)})
 
+# New artwork = a new material, copied from the one it replaces, with the same approved printers.
+# (In a real plant QA also approves the printer's proof of the new artwork before the first order.)
+changes = pd.read_csv(f"{config.PLAN_DIR}/material_changes.csv")
+COPY_FIELDS = ["categ_id", "detailed_type", "uom_id", "uom_po_id", "purchase_method", "standard_price",
+               "supplier_taxes_id", "gmp", "moisture_sensitive", "pack_size", "tracking", "use_expiration_date",
+               "expiration_time"]
+VENDOR_FIELDS = ["partner_id", "price", "currency_id", "delay", "min_qty", "preferred", "quality_agreement",
+                 "avl_status", "qualified_on"]
+for change in changes.itertuples():
+    old = odoo.admin("product.template", "search_read", [["default_code", "=", change.old]], fields=COPY_FIELDS)[0]
+    values = {field: (value[0] if isinstance(value, list) and field != "supplier_taxes_id" else value)
+              for field, value in old.items() if field != "id"}
+    values["supplier_taxes_id"] = [(6, 0, old["supplier_taxes_id"])]
+    new_id = odoo.upsert("product.template", [["default_code", "=", change.new]],
+                         {**values, "name": change.new_name, "default_code": change.new})
+    for vendor in odoo.admin("product.supplierinfo", "search_read", [["product_tmpl_id", "=", old["id"]]],
+                             fields=VENDOR_FIELDS):
+        copy = {field: (vendor[field][0] if isinstance(vendor[field], list) else vendor[field]) for field in VENDOR_FIELDS}
+        odoo.upsert("product.supplierinfo", [["product_tmpl_id", "=", new_id], ["partner_id", "=", copy["partner_id"]]],
+                    {**copy, "product_tmpl_id": new_id})
+print(f"New artwork materials: {', '.join(changes['new'])} (replacing {', '.join(changes['old'])})")
+
 variants = odoo.admin("product.product", "search_read", [["default_code", "!=", False]], fields=["default_code"])
 variant_id = {variant["default_code"]: variant["id"] for variant in variants}
 
+bom_changes = []
 for _, row in make_items.iterrows():
     code = row["item"]
     lines = bom_lines[bom_lines["parent"] == code]
@@ -107,7 +131,15 @@ for _, row in make_items.iterrows():
               "produce_delay": int(row["lead_days"])}
     found = odoo.admin("mrp.bom", "search", [["product_tmpl_id", "=", template_ids[code]]], limit=1)
     if found:
-        continue                                             # BOMs are not rewritten once they exist
+        # Existing BOM: correct only the lines whose quantity differs from the plan (Odoo keeps the history)
+        planned = dict(zip(lines["component"].map(variant_id), lines["qty_per_batch"]))
+        for line in odoo.admin("mrp.bom.line", "search_read", [["bom_id", "=", found[0]]],
+                               fields=["product_id", "product_qty"]):
+            target = planned.get(line["product_id"][0])
+            if target is not None and abs(line["product_qty"] - target) > 1e-6:
+                odoo.admin("mrp.bom.line", "write", [line["id"]], {"product_qty": float(target)})
+                bom_changes.append((code, line["product_id"][1], line["product_qty"], target))
+        continue
     values["bom_line_ids"] = [(0, 0, {"product_id": variant_id[line["component"]],
                                       "product_qty": float(line["qty_per_batch"])}) for _, line in lines.iterrows()]
     values["operation_ids"] = [(0, 0, {"name": step["name"], "workcenter_id": centre_ids[step["work_centre"]],
@@ -115,6 +147,8 @@ for _, row in make_items.iterrows():
                                        "time_cycle_manual": float(step["minutes"])}) for _, step in steps.iterrows()]
     odoo.admin("mrp.bom", "create", values)
 print(f"Products: {len(template_ids)} finished and bulk, each with a BOM and operations")
+for code, component, before, after in bom_changes:
+    print(f"  BOM {code}: {component} {before:g} -> {after:g}")
 
 # ---------------------------------------------------------------------
 # 6. Stock take at go-live (once)

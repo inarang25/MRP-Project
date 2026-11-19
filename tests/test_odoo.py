@@ -109,3 +109,35 @@ def test_rerun_after_release_proposes_nothing_twice():
     released = (first["action"] == "release").sum()
     assert (second["kind"] == "buy").sum() == (first["kind"] == "buy").sum() - released
     assert (second["kind"] == "make").sum() == (first["kind"] == "make").sum()
+
+
+def latest(name):
+    return pd.read_csv(f"{config.RUN_DIR}/latest/{name}.csv")
+
+
+def test_latest_run_plans_whole_batches_at_their_yield():
+    orders = latest("planned_orders")
+    made = orders[orders["kind"] == "make"]
+    assert (made["batches"].round(6) % 1 == 0).all()
+    make_items = pd.read_csv(f"{config.PLAN_DIR}/make_items.csv").set_index("item")
+    good = made["item"].map(make_items["batch"] * make_items["yield_pct"] / 100)
+    assert ((made["qty"] - made["batches"] * good).abs() < 1e-3).all()
+
+
+def test_latest_run_adds_api_for_potency_and_takes_it_off_the_filler():
+    orders, requirements = latest("planned_orders"), latest("requirements")
+    b001 = orders[orders["item"] == "B001"].set_index("order_id")["batches"]
+    from_b001 = requirements[requirements["source"].isin(b001.index)]
+    paracetamol = from_b001[from_b001["item"] == "M001"].groupby("source")["qty"].sum()
+    starch = from_b001[from_b001["item"] == "M024"].groupby("source")["qty"].sum()
+    extra = 500 / 0.993 - 500                                     # kg per batch at 99.3% potency
+    assert ((paracetamol - b001 * (500 + extra)).abs() < 1e-3).all()
+    assert ((starch - b001 * (60 - extra)).abs() < 1e-3).all()
+
+
+def test_latest_run_never_reorders_discontinued_artwork():
+    changes = pd.read_csv(f"{config.PLAN_DIR}/material_changes.csv")
+    orders = latest("planned_orders")
+    assert not orders["item"].isin(changes["old"]).any()
+    exceptions = latest("exceptions")
+    assert set(exceptions.loc[exceptions["type"] == "changeover", "item"]) == set(changes["old"])

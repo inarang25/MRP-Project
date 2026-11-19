@@ -39,7 +39,7 @@ Read `docs/HANDOFF_MRP.md` first: it describes the Odoo setup, conventions and t
 
 ## Layout
 ```
-planner/config.py       all assumptions: finished goods, BOMs, demand, planning parameters
+planner/config.py       all assumptions: products, BOMs, yields, potency, artwork changes, demand
 planner/master_data.py  config -> data/plan/*.csv
 planner/engine.py       the MRP calculation (pure Python, no Odoo)
 planner/run.py          read Odoo with SQL -> engine -> data/mrp/<run id>/
@@ -67,7 +67,11 @@ for the Purchase Head. Run 20261116-02 after release: nothing to release, nothin
 12 tests pass. Not built yet: production orders in Odoo (planned orders stay in CSV), capacity
 check on work centres, the app, the ProcessPro changes in handoff section 7.
 Lesson 1 (why MRP exists) done 2026-11-17: answers good; taught why QC cannot be rushed, only prioritised.
-Lesson 2 (bill of materials) taught 2026-11-17; waiting for answers. After them: revise the BOM in
-code (explicit loss factors, API potency adjustment, BOM versions per market and change control).
+Lesson 2 (bill of materials) done 2026-11-19: Q1 right (5 batches); Q2 (potency) taught; Q3 good
+instinct, taught use-up vs safety cut-off. Built after it (DEC-010..012): losses shown as net + loss %,
+batch yield, API potency with filler compensation, artwork changes (new material, use up stock and
+open orders batch by batch, last use date, write-off report). Run 20261119-02: 362 production orders,
+241 purchase proposals (Rs 12.5 crore), artwork write-off Rs 9,602. 22 tests pass. Not released.
+Known simplification: one India leaflet (M059) is shared by six products; real leaflets are per product.
 Known pharma gap to fix in lesson 8: Amoxicillin (a penicillin) shares work centres with other
-products, which GMP does not allow. Next: lesson 2 answers, then the BOM revision, then lesson 3.
+products, which GMP does not allow. Next: owner reviews the lesson 2 build, then lesson 3 (demand).

@@ -22,7 +22,7 @@ from datetime import date, timedelta
 import pandas as pd
 
 from planner import config
-from planner.engine import Bom, Item, run_mrp
+from planner.engine import Bom, Item, adjust_for_potency, run_mrp
 from planner.odoo import DATABASE, connect, sql
 
 ITEMS = """
@@ -103,6 +103,8 @@ def main():
         vendors = sql(connection, VENDORS)
     demand = pd.read_csv(f"{config.PLAN_DIR}/demand.csv", parse_dates=["due_date"])
     params = pd.read_csv(f"{config.PLAN_DIR}/planning_params.csv").set_index("item")
+    make_plan = pd.read_csv(f"{config.PLAN_DIR}/make_items.csv").set_index("item")
+    changes = pd.read_csv(f"{config.PLAN_DIR}/material_changes.csv", parse_dates=["last_use"]).set_index("old")
     products = products.set_index("item")
     exceptions = []
 
@@ -110,7 +112,17 @@ def main():
     boms = {parent: Bom(float(rows["batch_qty"].iloc[0]), dict(zip(rows["component"], rows["qty"])))
             for parent, rows in bom_rows.groupby("parent")}
     make_lead = dict(zip(bom_rows["parent"], bom_rows["lead_days"]))
+
+    # Potency: plan each API at its planning potency, taking the extra weight off the filler (lesson 2)
+    for parent, bom in boms.items():
+        for component in list(bom.lines):
+            potency = params["planning_potency_pct"].get(component) if "planning_potency_pct" in params else None
+            if pd.notna(potency) and potency:
+                filler = make_plan["filler"].get(parent)
+                bom.lines = adjust_for_potency(bom.lines, component, float(potency),
+                                               filler if isinstance(filler, str) else None)
     planned_codes = set(boms) | set(bom_rows["component"])
+    planned_codes |= {changes.loc[old, "new"] for old in changes.index if old in planned_codes}
 
     # Stock: released stock counts now, stock in quality check counts once released, expired stock never
     stock = stock[stock["item"].isin(planned_codes)]
@@ -127,21 +139,27 @@ def main():
         product = products.loc[code]
         safety = float(params["safety_stock"].get(code, 0))
         on_hand = float(released.get(code, 0))
+        change = {}
+        if code in changes.index:          # discontinued artwork: no safety stock, hands over to the new one
+            row = changes.loc[code]
+            change = {"follow_up": row["new"], "last_use": row["last_use"].date()}
+            safety = 0.0
         if code in boms:
+            good = boms[code].batch_qty * float(make_plan["yield_pct"].get(code, 100)) / 100
             items[code] = Item(code, "make", lead_days=int(make_lead[code]), on_hand=on_hand, safety_stock=safety,
-                               min_lot=boms[code].batch_qty, multiple=boms[code].batch_qty)
+                               min_lot=good, multiple=good, yield_factor=good / boms[code].batch_qty)
             continue
         vendor = choose_vendor(vendors[vendors["item"] == code], product["gmp"])
         quality_days = config.QC_DAYS_GMP if product["gmp"] else config.PUTAWAY_DAYS
         if vendor is None:
             exceptions.append({"type": "no_approved_vendor", "item": code, "order_id": "", "date": today,
                                "detail": "no approved vendor on the list: proposals cannot be released"})
-            items[code] = Item(code, "buy", lead_days=quality_days, on_hand=on_hand, safety_stock=safety)
+            items[code] = Item(code, "buy", lead_days=quality_days, on_hand=on_hand, safety_stock=safety, **change)
             continue
         chosen[code] = vendor
         items[code] = Item(code, "buy", lead_days=int(vendor["lead_days"]) + quality_days, on_hand=on_hand,
                            safety_stock=safety, min_lot=float(vendor["min_qty"]), multiple=product["pack_size"],
-                           period_days=int(params["period_days"].get(code, 7)))
+                           period_days=int(params["period_days"].get(code, 7)), **change)
 
     def quality_days_of(code):
         return config.QC_DAYS_GMP if products.loc[code, "gmp"] else config.PUTAWAY_DAYS
@@ -187,8 +205,11 @@ def main():
         else "release" if row["order_date"] <= window_end and pd.notna(row["vendor_ref"]) else "later", axis=1)
 
     exceptions = pd.DataFrame(exceptions + result.exceptions,
-                              columns=["type", "item", "order_id", "date", "detail"])
+                              columns=["type", "item", "order_id", "date", "detail", "qty"])
     exceptions["name"] = exceptions["item"].map(products["name"])
+    # Value of what will be scrapped, at the vendor price (before GST)
+    price = {code: float(vendor["price"]) for code, vendor in chosen.items()}
+    exceptions["value"] = (exceptions["qty"] * exceptions["item"].map(price)).round(2)
     requirements = pd.DataFrame(result.requirements)
     projection = pd.DataFrame(result.projection)
 
@@ -202,6 +223,7 @@ def main():
         "purchase_proposals": len(buy), "purchase_value": round(float(buy["value"].sum()), 2),
         "to_release_now": len(release), "to_release_value": round(float(release["value"].sum()), 2),
         "late_orders": int((orders["late_days"] > 0).sum()),
+        "write_off_value": round(float(exceptions.loc[exceptions["type"] == "write_off", "value"].sum()), 2),
         "exceptions": exceptions["type"].value_counts().to_dict(),
     }
 
@@ -223,6 +245,7 @@ def main():
     print(f"  Purchase proposals     {summary['purchase_proposals']}  (Rs {summary['purchase_value']:,.0f} before GST)")
     print(f"  To release this week   {summary['to_release_now']}  (Rs {summary['to_release_value']:,.0f})")
     print(f"  Late orders            {summary['late_orders']}")
+    print(f"  Artwork write-off      Rs {summary['write_off_value']:,.0f}")
     for kind, count in summary["exceptions"].items():
         print(f"  Exception: {kind:24} {count}")
     print(f"Results in {folder}")

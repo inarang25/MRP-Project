@@ -20,21 +20,39 @@ from planner import config
 from planner.odoo import connect, sql
 
 
-def build_boms():
-    """{parent: (batch quantity, {component: quantity per batch})} for bulks and finished goods."""
-    boms = {}
+def build_bom_lines():
+    """Every BOM line as net quantity + expected loss = gross quantity per batch (what Odoo holds)."""
+    rows = []
+
+    def add(parent, component, net, loss):
+        rows.append({"parent": parent, "component": component, "net_qty": round(net, 3), "loss_pct": loss,
+                     "qty_per_batch": round(net * (1 + loss / 100), 3)})
+
     for code, bulk in config.BULKS.items():
-        # mg per tablet x batch (thousand tablets) = grams; / 1000 = kg per batch
-        lines = {material: round(mg * bulk["batch"] / 1000, 3) for material, mg in bulk["mg"].items()}
+        # mg per tablet x batch (thousand tablets) = grams; / 1000 = kg per batch. Weighed exactly: no
+        # loss per ingredient; the batch's losses are its yield.
+        for material, mg in bulk["mg"].items():
+            add(code, material, mg * bulk["batch"] / 1000, 0.0)
         if "shells" in bulk:
-            lines[bulk["shells"]] = round(bulk["batch"] * config.SHELL_LOSS, 3)     # in thousand shells
-        boms[code] = (bulk["batch"], lines)
+            add(code, bulk["shells"], bulk["batch"], round((config.SHELL_LOSS - 1) * 100, 3))  # thousand shells
     for code, pack in config.FINISHED.items():
         scale = pack["batch"] / 1000
-        lines = {material: round(quantity * scale, 3) for material, quantity in pack["per_1000"].items()}
+        for material, quantity in pack["per_1000"].items():
+            add(code, material, quantity * scale, config.loss_pct(material))
         # bulk needed, in thousand tablets
-        lines[pack["bulk"]] = round(pack["batch"] * pack["units_per_pack"] / 1000 * config.BULK_YIELD, 3)
-        boms[code] = (pack["batch"], lines)
+        add(code, pack["bulk"], pack["batch"] * pack["units_per_pack"] / 1000, config.BULK_LOSS_PCT)
+    return rows
+
+
+def build_boms(bom_lines):
+    """{parent: (batch quantity, yield, {component: gross quantity per batch})}."""
+    batch = {**{c: b["batch"] for c, b in config.BULKS.items()}, **{c: f["batch"] for c, f in config.FINISHED.items()}}
+    boms = {}
+    for row in bom_lines:
+        parent = row["parent"]
+        if parent not in boms:
+            boms[parent] = (batch[parent], config.BULKS.get(parent, {}).get("yield", 1.0), {})
+        boms[parent][2][row["component"]] = row["qty_per_batch"]
     return boms
 
 
@@ -45,9 +63,9 @@ def daily_usage(boms):
     def add(code, quantity):
         usage[code] = usage.get(code, 0.0) + quantity
         if code in boms:
-            batch, lines = boms[code]
+            batch, yield_factor, lines = boms[code]
             for component, per_batch in lines.items():
-                add(component, quantity * per_batch / batch)
+                add(component, quantity * per_batch / (batch * yield_factor))
 
     for code, pack in config.FINISHED.items():
         add(code, pack["weekly_demand"] / 7)
@@ -57,23 +75,24 @@ def daily_usage(boms):
 def main():
     os.makedirs(config.PLAN_DIR, exist_ok=True)
     rng = np.random.default_rng(config.SEED)
-    boms = build_boms()
+    bom_lines = build_bom_lines()
+    boms = build_boms(bom_lines)
 
     make_items, operations = [], []
     for code, bulk in config.BULKS.items():
         make_items.append({"item": code, "name": bulk["name"], "type": "bulk", "form": bulk["form"],
-                           "uom": "THOUSAND", "batch": bulk["batch"], "lead_days": bulk["lead_days"],
+                           "uom": "THOUSAND", "batch": bulk["batch"], "yield_pct": bulk["yield"] * 100,
+                           "filler": bulk["filler"], "lead_days": bulk["lead_days"],
                            "shelf_life_months": config.BULK_SHELF_LIFE_MONTHS})
     for code, pack in config.FINISHED.items():
         make_items.append({"item": code, "name": pack["name"], "type": "finished", "form": pack["form"],
-                           "uom": "NOS", "batch": pack["batch"], "lead_days": pack["lead_days"],
+                           "uom": "NOS", "batch": pack["batch"], "yield_pct": 100.0, "filler": None,
+                           "lead_days": pack["lead_days"],
                            "shelf_life_months": config.FINISHED_SHELF_LIFE_MONTHS})
     for row in make_items:
         for sequence, (name, centre, minutes) in enumerate(config.OPERATIONS[row["form"]], start=1):
             operations.append({"parent": row["item"], "sequence": sequence * 10, "name": name,
                                "work_centre": centre, "minutes": minutes})
-    bom_lines = [{"parent": parent, "component": component, "qty_per_batch": quantity}
-                 for parent, (_, lines) in boms.items() for component, quantity in lines.items()]
 
     # Weekly demand, due every Monday from the week after planning starts
     start = date.fromisoformat(config.PLAN_START)
@@ -114,12 +133,24 @@ def main():
             pack = float(pack_size[code] or 1)
             params.append({"item": code, "category": group, "daily_usage": round(per_day, 3),
                            "safety_stock": float(np.ceil(per_day * config.SAFETY_DAYS[group] / pack) * pack),
-                           "period_days": config.ORDER_PERIOD_DAYS[group]})
+                           "period_days": config.ORDER_PERIOD_DAYS[group],
+                           "planning_potency_pct": config.PLANNING_POTENCY_PCT.get(code)})
             opening.append({"item": code, "cover_class": cover_class, "cover_days": round(cover, 1),
                             "target_qty": float(np.floor(per_day * cover / pack) * pack)})
 
-    for name, rows in [("make_items", make_items), ("bom_lines", bom_lines), ("operations", operations),
-                       ("demand", demand), ("planning_params", params), ("opening_stock", opening)]:
+    changes = pd.DataFrame(config.MATERIAL_CHANGES)
+    for change in config.MATERIAL_CHANGES:
+        old = next(row for row in params if row["item"] == change["old"])
+        params.append({**old, "item": change["new"]})
+
+    files = [("material_changes", changes.to_dict("records")), ("make_items", make_items),
+             ("bom_lines", bom_lines), ("operations", operations), ("demand", demand), ("planning_params", params)]
+    # The stock take happened once, at go-live (DEC-003). Its record is history: never regenerated.
+    if os.path.exists(f"{config.PLAN_DIR}/opening_stock.csv"):
+        print("  opening_stock    kept: the go-live stock take is already done")
+    else:
+        files.append(("opening_stock", opening))
+    for name, rows in files:
         pd.DataFrame(rows).to_csv(f"{config.PLAN_DIR}/{name}.csv", index=False)
         print(f"  {name:16} {len(rows):4} rows")
     materials_used = [code for code in usage if code.startswith("M")]
