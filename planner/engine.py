@@ -13,6 +13,9 @@ Pharma additions (lesson 2):
   - material changes: a discontinued material is never reordered. Its stock and the orders already
     placed are used up, batch by batch, then the follow-up material takes over; never after the last
     use date. A batch never mixes old and new. Leftover old stock is reported as a write-off.
+
+Demand (lesson 3): customer orders consume the forecast (consume_forecast): each week plans the
+larger of the two, and every order stays pegged to its customer.
 """
 import math
 from dataclasses import dataclass, field
@@ -112,6 +115,25 @@ def hand_over(item, requirements, arrivals):
         else:
             moved.append((when, quantity, source, per_batch))
     return kept, moved, switched
+
+
+def consume_forecast(forecast, orders):
+    """Customer orders consume the forecast (SAP: planning strategy 40).
+
+    forecast: [(code, date, qty)]; orders: [(code, date, qty, reference)], in the same weekly buckets.
+    Each week plans the larger of forecast and orders: every order line as itself (so it can be pegged
+    to the customer), plus whatever forecast the orders have not used up yet. Orders never add to the
+    forecast; orders above the forecast replace it. Returns demand lines [(code, date, qty, source)]."""
+    booked = {}
+    demand = []
+    for code, when, quantity, reference in orders:
+        booked[(code, when)] = booked.get((code, when), 0.0) + quantity
+        demand.append((code, when, quantity, reference))
+    for code, when, quantity in forecast:
+        rest = quantity - booked.get((code, when), 0.0)
+        if rest > 1e-9:
+            demand.append((code, when, rest, "Forecast"))
+    return sorted(demand, key=lambda d: (d[0], d[1]))
 
 
 def run_mrp(items, boms, demand, receipts, today):

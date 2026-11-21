@@ -3,7 +3,9 @@
   make_items.csv        finished goods and bulk products          (SAP: material master, FERT / HALB)
   bom_lines.csv         what one batch of each consumes           (SAP: BOM, STKO / STPO)
   operations.csv        the steps and work centres per batch      (SAP: routing, PLKO / PLPO)
-  demand.csv            weekly demand per finished good           (SAP: planned independent requirements, PBIM / PBED)
+  forecast.csv          expected weekly demand per finished good  (SAP: planned independent requirements, PBIM / PBED)
+  customer_orders.csv   distributor and export orders booked      (SAP: sales orders, VBAK / VBAP)
+  tenders.csv           government tenders and their lots         (SAP: quotations / a planning version)
   planning_params.csv   safety stock and order period per material (SAP: MRP 1 / MRP 2 views, MARC)
   opening_stock.csv     the stock-take quantities at go-live      (SAP: physical inventory / initial stock, 561)
 
@@ -72,6 +74,48 @@ def daily_usage(boms):
     return usage
 
 
+def build_demand(rng):
+    """Forecast, customer orders and tenders (lesson 3). Weekly buckets, due every Monday."""
+    start = date.fromisoformat(config.PLAN_START)
+    forecast, orders, tenders = [], [], []
+
+    def order(code, due, quantity, customer, kind):
+        orders.append({"order": f"SO-{len(orders) + 1:05d}", "customer": customer, "type": kind,
+                       "item": code, "due_date": due, "qty": int(quantity)})
+
+    for code, pack in config.FINISHED.items():
+        pattern = config.DEMAND_PATTERN[code]
+        for week in range(1, config.DEMAND_WEEKS + 1):
+            due = start + timedelta(weeks=week)
+            if pattern in config.SEASONALITY:
+                index = config.SEASONALITY[pattern][due.month]
+                quantity = round(pack["weekly_demand"] * index, -2)
+                forecast.append({"item": code, "due_date": due, "qty": int(quantity), "basis": pattern,
+                                 "season_index": round(index, 3)})
+                if week in config.ORDER_BOOK:
+                    # Real demand differs from the forecast; part of it is already ordered
+                    actual = quantity * (1 + rng.uniform(-config.ACTUAL_VS_FORECAST, config.ACTUAL_VS_FORECAST))
+                    booked = actual * config.ORDER_BOOK[week]
+                    shares = rng.dirichlet(np.ones(len(config.DISTRIBUTORS)))
+                    for customer, share in zip(config.DISTRIBUTORS, shares):
+                        if round(booked * share, -2) > 0:
+                            order(code, due, round(booked * share, -2), customer, "distributor")
+            elif pattern == "export":
+                contract = config.EXPORT_CONTRACTS[code]
+                if week >= contract["first_week"] and (week - contract["first_week"]) % contract["every"] == 0:
+                    forecast.append({"item": code, "due_date": due, "qty": contract["packs"], "basis": "export contract",
+                                     "season_index": 1.0})
+                    if week <= config.EXPORT_FIRM_WEEKS:
+                        order(code, due, contract["packs"], contract["customer"], "export")
+    for tender in config.TENDERS:
+        for lot, (due, quantity) in enumerate(tender["lots"], start=1):
+            tenders.append({"tender": tender["tender"], "authority": tender["authority"], "item": tender["item"],
+                            "status": tender["status"], "bid_date": tender["bid_date"],
+                            "result_date": tender["result_date"], "lot": lot, "due_date": due, "qty": quantity,
+                            "penalty": tender["penalty"]})
+    return forecast, orders, tenders
+
+
 def main():
     os.makedirs(config.PLAN_DIR, exist_ok=True)
     rng = np.random.default_rng(config.SEED)
@@ -94,14 +138,7 @@ def main():
             operations.append({"parent": row["item"], "sequence": sequence * 10, "name": name,
                                "work_centre": centre, "minutes": minutes})
 
-    # Weekly demand, due every Monday from the week after planning starts
-    start = date.fromisoformat(config.PLAN_START)
-    demand = []
-    for code, pack in config.FINISHED.items():
-        for week in range(1, config.DEMAND_WEEKS + 1):
-            factor = 1 + rng.uniform(-config.DEMAND_NOISE, config.DEMAND_NOISE)
-            demand.append({"item": code, "due_date": start + timedelta(weeks=week),
-                           "qty": int(round(pack["weekly_demand"] * factor, -2))})
+    forecast, orders, tenders = build_demand(rng)
 
     # Planning parameters and opening stock, from average daily usage
     with connect(config.SOURCE_DB) as connection:
@@ -115,7 +152,10 @@ def main():
 
     params, opening = [], []
     classes = list(config.OPENING_COVER_MIX)
+    new_codes = {m["new"] for m in config.NEW_MATERIALS}
     for code in sorted(usage):
+        if code in new_codes:
+            continue                                   # new materials: added below
         per_day = usage[code]
         if code in config.FINISHED:
             cover = rng.uniform(*config.OPENING_FINISHED_COVER_DAYS)
@@ -142,9 +182,13 @@ def main():
     for change in config.MATERIAL_CHANGES:
         old = next(row for row in params if row["item"] == change["old"])
         params.append({**old, "item": change["new"]})
+    for material in config.NEW_MATERIALS:              # tender-only: no regular use, so no safety stock
+        like = next(row for row in params if row["item"] == material["copy_of"])
+        params.append({**like, "item": material["new"], "daily_usage": 0.0, "safety_stock": 0.0})
 
     files = [("material_changes", changes.to_dict("records")), ("make_items", make_items),
-             ("bom_lines", bom_lines), ("operations", operations), ("demand", demand), ("planning_params", params)]
+             ("bom_lines", bom_lines), ("operations", operations), ("forecast", forecast),
+             ("customer_orders", orders), ("tenders", tenders), ("planning_params", params)]
     # The stock take happened once, at go-live (DEC-003). Its record is history: never regenerated.
     if os.path.exists(f"{config.PLAN_DIR}/opening_stock.csv"):
         print("  opening_stock    kept: the go-live stock take is already done")

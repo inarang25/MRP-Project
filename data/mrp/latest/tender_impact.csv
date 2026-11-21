@@ -1,0 +1,13 @@
+tender,item,name,category,regular_use,extra_qty,uom,extra_value,first_order_date,result_date,before_result,decision
+TN-MSC-2026-118,M001,Paracetamol,APIs,True,10070.493,kg,3981772.41,2027-01-03,2026-12-28,False,wait for the result; order by 2027-01-03
+TN-MSC-2026-118,M020,Magnesium stearate,Excipients,True,80.0,kg,30268.8,2027-01-07,2026-12-28,False,wait for the result; order by 2027-01-07
+TN-MSC-2026-118,M022,Sodium starch glycolate,Excipients,True,300.0,kg,117996.0,2026-12-24,2026-12-28,True,"order before the result; if the tender is lost, regular demand uses it up in about 28 days"
+TN-MSC-2026-118,M023,Povidone K30,Excipients,True,400.0,kg,333756.0,2026-12-20,2026-12-28,True,"order before the result; if the tender is lost, regular demand uses it up in about 16 days"
+TN-MSC-2026-118,M024,Maize starch,Excipients,True,1129.507,kg,49404.62,2027-02-04,2026-12-28,False,wait for the result; order by 2027-02-04
+TN-MSC-2026-118,M027,Talc,Excipients,True,120.0,kg,6606.0,2027-09-09,2026-12-28,False,wait for the result; order by 2027-09-09
+TN-MSC-2026-118,M036,PVC film 250 micron,Primary packaging,True,2600.0,kg,596232.0,2026-12-23,2026-12-28,True,"order before the result; if the tender is lost, regular demand uses it up in about 19 days"
+TN-MSC-2026-118,M059,Package leaflet India,Printed packaging,True,202000.0,Units,70700.0,2027-01-08,2026-12-28,False,wait for the result; order by 2027-01-08
+TN-MSC-2026-118,M064,Printed blister foil Paracetamol,Printed packaging,True,707.2,kg,465125.44,2027-01-04,2026-12-28,False,wait for the result; order by 2027-01-04
+TN-MSC-2026-118,M067,Shipper carton 5-ply,Printed packaging,True,2000.0,Units,93860.0,2026-12-28,2026-12-28,False,wait for the result; order by 2026-12-28
+TN-MSC-2026-118,M069,Tamper-evident seal label,Printed packaging,True,404000.0,Units,189880.0,2026-12-23,2026-12-28,True,"order before the result; if the tender is lost, regular demand uses it up in about 13 days"
+TN-MSC-2026-118,M123,Printed carton Paracetamol 500 mg (Government supply),Printed packaging,False,202000.0,Units,385820.0,2027-01-02,2026-12-28,False,"wait for the result; order by 2027-01-02, 5 days after it: have the artwork approved and a printer slot booked before the result"

@@ -1,0 +1,4 @@
+tender,authority,item,status,bid_date,result_date,lot,due_date,qty,penalty
+TN-MSC-2026-118,State Medical Services Corporation (fictional),F009,bid,2026-11-16,2026-12-28,1,2027-01-25,70000,0.5% of the lot value per week late; repeated failure means blacklisting
+TN-MSC-2026-118,State Medical Services Corporation (fictional),F009,bid,2026-11-16,2026-12-28,2,2027-02-22,65000,0.5% of the lot value per week late; repeated failure means blacklisting
+TN-MSC-2026-118,State Medical Services Corporation (fictional),F009,bid,2026-11-16,2026-12-28,3,2027-03-22,65000,0.5% of the lot value per week late; repeated failure means blacklisting

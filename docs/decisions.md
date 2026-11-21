@@ -32,7 +32,7 @@ Finished pack (FERT) <- bulk tablets or capsules (HALB) + packaging; bulk <- API
 Formulation quantities are estimates for teaching, not validated formulas.
 
 ## DEC-005: Demand and planning parameters live in the plan files, not in Odoo
-Weekly demand per finished good (26 weeks, +/-15% around an average) is `data/plan/demand.csv`;
+Demand (since lesson 3, DEC-013: forecast, customer orders, tenders in `data/plan/`);
 safety stock and order period are `data/plan/planning_params.csv`. Odoo Community has no place for
 independent requirements, and the only place for safety stock is a reorder rule, which would
 switch on Odoo's own scheduler (DEC-002). A small custom module could hold both later.
@@ -105,3 +105,38 @@ SAP parallel: component scrap on the BOM item.
 - `data/plan/opening_stock.csv` is the record of the go-live count (DEC-003) and is never regenerated.
 SAP parallel: discontinuation indicator and follow-up material (MRP 4 view) under an engineering
 change number.
+
+## DEC-013: Demand from four sources; orders consume the forecast (lesson 3, 2026-11-21)
+Replaces the first draft (flat weekly average +/-15%, `demand.csv`).
+- **Forecast** (`forecast.csv`), 52 weeks, so next year's monsoon is in view when buying APIs. Acute
+  medicines (Paracetamol India, Amoxicillin) follow a monthly season index: high July to September,
+  a smaller winter peak, low in spring, averaging the yearly figure. Chronic medicines (Metformin,
+  Atorvastatin, Telmisartan, Omeprazole) are steady. Indices are teaching estimates. The forecast is
+  meant to be based on secondary sales, so quarter-end loading of distributors is left out.
+- **Customer orders** (`customer_orders.csv`): distributor orders for the next 3 weeks (about 95%,
+  60% and 25% of that week's real demand already booked; real demand is within +/-15% of the forecast).
+- **Forecast consumption**: each week plans the larger of forecast and orders. Orders stay pegged to
+  their order number; the forecast not yet used up is planned as "Forecast". `engine.consume_forecast`.
+- **Export contracts**: the US bottle and EU blister ship every 4 weeks in fixed lots, as firm orders
+  for 12 weeks and at the contract rate after that. No season.
+- Not yet: smoothing into a master production schedule and a frozen period (capacity, lesson 8;
+  exceptions, lesson 7); customers' minimum remaining shelf life (lesson 4).
+SAP parallel: planned independent requirements (MD61), sales orders (VA01), strategy 40 (planning
+with final assembly: orders consume the forecast).
+
+## DEC-014: Tenders are planned only when won; a what-if report until then (lesson 3, 2026-11-21)
+Tender register: `planner/config.py` TENDERS -> `data/plan/tenders.csv` (status bid / won / lost,
+result date, lots, penalty). Tender packs are their own finished good (F009) with their own carton
+(M123, "Government supply, not for sale"), so tender stock cannot be sold in the market.
+- **Won**: every lot is a firm order in the plan.
+- **Bid**: not in the plan, because putting a tender we may lose into MRP buys for it automatically.
+  Instead, every run plans a second time as if it were won and writes `tender_impact.csv`: for each
+  material, the extra quantity and value, the first day an extra order must be placed, and whether
+  that is before the result.
+- **The rule** (from the owner's answer: "start preparing, it's a business"): order before the result
+  only what regular products also use (if the tender is lost, normal demand uses it up within weeks,
+  so the cost is stock held for a while). Tender-only materials are not bought before the award;
+  their artwork is approved and the printer booked in advance, so the order can go out on award day.
+  Example TN-MSC-2026-118 (2 lakh packs): Rs 63 lakh of extra materials, Rs 12.4 lakh needed before
+  the result, all of it common material; the Government carton can wait until 5 days after the result.
+SAP parallel: a quotation, or a simulative MRP run on a planning version (MS01/MS02).

@@ -104,19 +104,21 @@ COPY_FIELDS = ["categ_id", "detailed_type", "uom_id", "uom_po_id", "purchase_met
                "expiration_time"]
 VENDOR_FIELDS = ["partner_id", "price", "currency_id", "delay", "min_qty", "preferred", "quality_agreement",
                  "avl_status", "qualified_on"]
-for change in changes.itertuples():
-    old = odoo.admin("product.template", "search_read", [["default_code", "=", change.old]], fields=COPY_FIELDS)[0]
+copies = [(c.old, c.new, c.new_name) for c in changes.itertuples()] + \
+    [(m["copy_of"], m["new"], m["new_name"]) for m in config.NEW_MATERIALS]     # e.g. the Government supply carton
+for old_code, new_code, new_name in copies:
+    old = odoo.admin("product.template", "search_read", [["default_code", "=", old_code]], fields=COPY_FIELDS)[0]
     values = {field: (value[0] if isinstance(value, list) and field != "supplier_taxes_id" else value)
               for field, value in old.items() if field != "id"}
     values["supplier_taxes_id"] = [(6, 0, old["supplier_taxes_id"])]
-    new_id = odoo.upsert("product.template", [["default_code", "=", change.new]],
-                         {**values, "name": change.new_name, "default_code": change.new})
+    new_id = odoo.upsert("product.template", [["default_code", "=", new_code]],
+                         {**values, "name": new_name, "default_code": new_code})
     for vendor in odoo.admin("product.supplierinfo", "search_read", [["product_tmpl_id", "=", old["id"]]],
                              fields=VENDOR_FIELDS):
         copy = {field: (vendor[field][0] if isinstance(vendor[field], list) else vendor[field]) for field in VENDOR_FIELDS}
         odoo.upsert("product.supplierinfo", [["product_tmpl_id", "=", new_id], ["partner_id", "=", copy["partner_id"]]],
                     {**copy, "product_tmpl_id": new_id})
-print(f"New artwork materials: {', '.join(changes['new'])} (replacing {', '.join(changes['old'])})")
+print("New printed materials: " + ", ".join(f"{new} (copied from {old})" for old, new, _ in copies))
 
 variants = odoo.admin("product.product", "search_read", [["default_code", "!=", False]], fields=["default_code"])
 variant_id = {variant["default_code"]: variant["id"] for variant in variants}

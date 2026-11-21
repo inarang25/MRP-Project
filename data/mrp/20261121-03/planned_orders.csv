@@ -1,0 +1,1170 @@
+order_id,item,kind,qty,batches,need_date,order_date,due_date,late_days,name,category,uom,vendor_ref,vendor,unit_price,value,buyer,action
+PL00001,F001,make,35000.0,7.0,2026-11-23,2026-11-21,2026-11-24,1,"Paracetamol 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00002,F001,make,30000.0,6.0,2026-11-30,2026-11-27,2026-11-30,0,"Paracetamol 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00003,F001,make,40000.0,8.0,2026-12-07,2026-12-04,2026-12-07,0,"Paracetamol 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00004,F001,make,40000.0,8.0,2026-12-14,2026-12-11,2026-12-14,0,"Paracetamol 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00005,F001,make,35000.0,7.0,2026-12-21,2026-12-18,2026-12-21,0,"Paracetamol 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00006,F001,make,40000.0,8.0,2026-12-28,2026-12-25,2026-12-28,0,"Paracetamol 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00007,F001,make,40000.0,8.0,2027-01-04,2027-01-01,2027-01-04,0,"Paracetamol 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00008,F001,make,35000.0,7.0,2027-01-11,2027-01-08,2027-01-11,0,"Paracetamol 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00009,F001,make,40000.0,8.0,2027-01-18,2027-01-15,2027-01-18,0,"Paracetamol 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00010,F001,make,35000.0,7.0,2027-01-25,2027-01-22,2027-01-25,0,"Paracetamol 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00011,F001,make,35000.0,7.0,2027-02-01,2027-01-29,2027-02-01,0,"Paracetamol 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00012,F001,make,35000.0,7.0,2027-02-08,2027-02-05,2027-02-08,0,"Paracetamol 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00013,F001,make,30000.0,6.0,2027-02-15,2027-02-12,2027-02-15,0,"Paracetamol 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00014,F001,make,35000.0,7.0,2027-02-22,2027-02-19,2027-02-22,0,"Paracetamol 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00015,F001,make,30000.0,6.0,2027-03-01,2027-02-26,2027-03-01,0,"Paracetamol 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00016,F001,make,30000.0,6.0,2027-03-08,2027-03-05,2027-03-08,0,"Paracetamol 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00017,F001,make,30000.0,6.0,2027-03-15,2027-03-12,2027-03-15,0,"Paracetamol 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00018,F001,make,25000.0,5.0,2027-03-22,2027-03-19,2027-03-22,0,"Paracetamol 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00019,F001,make,30000.0,6.0,2027-03-29,2027-03-26,2027-03-29,0,"Paracetamol 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00020,F001,make,30000.0,6.0,2027-04-05,2027-04-02,2027-04-05,0,"Paracetamol 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00021,F001,make,30000.0,6.0,2027-04-12,2027-04-09,2027-04-12,0,"Paracetamol 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00022,F001,make,25000.0,5.0,2027-04-19,2027-04-16,2027-04-19,0,"Paracetamol 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00023,F001,make,30000.0,6.0,2027-04-26,2027-04-23,2027-04-26,0,"Paracetamol 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00024,F001,make,30000.0,6.0,2027-05-03,2027-04-30,2027-05-03,0,"Paracetamol 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00025,F001,make,25000.0,5.0,2027-05-10,2027-05-07,2027-05-10,0,"Paracetamol 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00026,F001,make,30000.0,6.0,2027-05-17,2027-05-14,2027-05-17,0,"Paracetamol 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00027,F001,make,30000.0,6.0,2027-05-24,2027-05-21,2027-05-24,0,"Paracetamol 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00028,F001,make,30000.0,6.0,2027-05-31,2027-05-28,2027-05-31,0,"Paracetamol 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00029,F001,make,35000.0,7.0,2027-06-07,2027-06-04,2027-06-07,0,"Paracetamol 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00030,F001,make,30000.0,6.0,2027-06-14,2027-06-11,2027-06-14,0,"Paracetamol 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00031,F001,make,35000.0,7.0,2027-06-21,2027-06-18,2027-06-21,0,"Paracetamol 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00032,F001,make,35000.0,7.0,2027-06-28,2027-06-25,2027-06-28,0,"Paracetamol 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00033,F001,make,40000.0,8.0,2027-07-05,2027-07-02,2027-07-05,0,"Paracetamol 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00034,F001,make,40000.0,8.0,2027-07-12,2027-07-09,2027-07-12,0,"Paracetamol 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00035,F001,make,40000.0,8.0,2027-07-19,2027-07-16,2027-07-19,0,"Paracetamol 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00036,F001,make,45000.0,9.0,2027-07-26,2027-07-23,2027-07-26,0,"Paracetamol 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00037,F001,make,45000.0,9.0,2027-08-02,2027-07-30,2027-08-02,0,"Paracetamol 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00038,F001,make,50000.0,10.0,2027-08-09,2027-08-06,2027-08-09,0,"Paracetamol 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00039,F001,make,45000.0,9.0,2027-08-16,2027-08-13,2027-08-16,0,"Paracetamol 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00040,F001,make,45000.0,9.0,2027-08-23,2027-08-20,2027-08-23,0,"Paracetamol 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00041,F001,make,50000.0,10.0,2027-08-30,2027-08-27,2027-08-30,0,"Paracetamol 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00042,F001,make,45000.0,9.0,2027-09-06,2027-09-03,2027-09-06,0,"Paracetamol 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00043,F001,make,45000.0,9.0,2027-09-13,2027-09-10,2027-09-13,0,"Paracetamol 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00044,F001,make,45000.0,9.0,2027-09-20,2027-09-17,2027-09-20,0,"Paracetamol 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00045,F001,make,45000.0,9.0,2027-09-27,2027-09-24,2027-09-27,0,"Paracetamol 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00046,F001,make,35000.0,7.0,2027-10-04,2027-10-01,2027-10-04,0,"Paracetamol 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00047,F001,make,35000.0,7.0,2027-10-11,2027-10-08,2027-10-11,0,"Paracetamol 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00048,F001,make,40000.0,8.0,2027-10-18,2027-10-15,2027-10-18,0,"Paracetamol 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00049,F001,make,35000.0,7.0,2027-10-25,2027-10-22,2027-10-25,0,"Paracetamol 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00050,F001,make,30000.0,6.0,2027-11-01,2027-10-29,2027-11-01,0,"Paracetamol 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00051,F001,make,35000.0,7.0,2027-11-08,2027-11-05,2027-11-08,0,"Paracetamol 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00052,F001,make,35000.0,7.0,2027-11-15,2027-11-12,2027-11-15,0,"Paracetamol 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00053,F002,make,28000.0,7.0,2026-11-30,2026-11-27,2026-11-30,0,"Paracetamol 500 mg tablets, bottle of 100 (US export)",Finished goods,Units,,,,,,plan
+PL00054,F002,make,32000.0,8.0,2026-12-28,2026-12-25,2026-12-28,0,"Paracetamol 500 mg tablets, bottle of 100 (US export)",Finished goods,Units,,,,,,plan
+PL00055,F002,make,32000.0,8.0,2027-01-25,2027-01-22,2027-01-25,0,"Paracetamol 500 mg tablets, bottle of 100 (US export)",Finished goods,Units,,,,,,plan
+PL00056,F002,make,32000.0,8.0,2027-02-22,2027-02-19,2027-02-22,0,"Paracetamol 500 mg tablets, bottle of 100 (US export)",Finished goods,Units,,,,,,plan
+PL00057,F002,make,32000.0,8.0,2027-03-22,2027-03-19,2027-03-22,0,"Paracetamol 500 mg tablets, bottle of 100 (US export)",Finished goods,Units,,,,,,plan
+PL00058,F002,make,32000.0,8.0,2027-04-19,2027-04-16,2027-04-19,0,"Paracetamol 500 mg tablets, bottle of 100 (US export)",Finished goods,Units,,,,,,plan
+PL00059,F002,make,32000.0,8.0,2027-05-17,2027-05-14,2027-05-17,0,"Paracetamol 500 mg tablets, bottle of 100 (US export)",Finished goods,Units,,,,,,plan
+PL00060,F002,make,32000.0,8.0,2027-06-14,2027-06-11,2027-06-14,0,"Paracetamol 500 mg tablets, bottle of 100 (US export)",Finished goods,Units,,,,,,plan
+PL00061,F002,make,32000.0,8.0,2027-07-12,2027-07-09,2027-07-12,0,"Paracetamol 500 mg tablets, bottle of 100 (US export)",Finished goods,Units,,,,,,plan
+PL00062,F002,make,32000.0,8.0,2027-08-09,2027-08-06,2027-08-09,0,"Paracetamol 500 mg tablets, bottle of 100 (US export)",Finished goods,Units,,,,,,plan
+PL00063,F002,make,32000.0,8.0,2027-09-06,2027-09-03,2027-09-06,0,"Paracetamol 500 mg tablets, bottle of 100 (US export)",Finished goods,Units,,,,,,plan
+PL00064,F002,make,32000.0,8.0,2027-10-04,2027-10-01,2027-10-04,0,"Paracetamol 500 mg tablets, bottle of 100 (US export)",Finished goods,Units,,,,,,plan
+PL00065,F002,make,32000.0,8.0,2027-11-01,2027-10-29,2027-11-01,0,"Paracetamol 500 mg tablets, bottle of 100 (US export)",Finished goods,Units,,,,,,plan
+PL00066,F003,make,30000.0,6.0,2026-11-23,2026-11-21,2026-11-24,1,"Metformin 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00067,F003,make,20000.0,4.0,2026-11-30,2026-11-27,2026-11-30,0,"Metformin 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00068,F003,make,25000.0,5.0,2026-12-07,2026-12-04,2026-12-07,0,"Metformin 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00069,F003,make,25000.0,5.0,2026-12-14,2026-12-11,2026-12-14,0,"Metformin 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00070,F003,make,25000.0,5.0,2026-12-21,2026-12-18,2026-12-21,0,"Metformin 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00071,F003,make,25000.0,5.0,2026-12-28,2026-12-25,2026-12-28,0,"Metformin 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00072,F003,make,20000.0,4.0,2027-01-04,2027-01-01,2027-01-04,0,"Metformin 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00073,F003,make,25000.0,5.0,2027-01-11,2027-01-08,2027-01-11,0,"Metformin 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00074,F003,make,25000.0,5.0,2027-01-18,2027-01-15,2027-01-18,0,"Metformin 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00075,F003,make,25000.0,5.0,2027-01-25,2027-01-22,2027-01-25,0,"Metformin 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00076,F003,make,25000.0,5.0,2027-02-01,2027-01-29,2027-02-01,0,"Metformin 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00077,F003,make,20000.0,4.0,2027-02-08,2027-02-05,2027-02-08,0,"Metformin 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00078,F003,make,25000.0,5.0,2027-02-15,2027-02-12,2027-02-15,0,"Metformin 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00079,F003,make,25000.0,5.0,2027-02-22,2027-02-19,2027-02-22,0,"Metformin 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00080,F003,make,25000.0,5.0,2027-03-01,2027-02-26,2027-03-01,0,"Metformin 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00081,F003,make,25000.0,5.0,2027-03-08,2027-03-05,2027-03-08,0,"Metformin 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00082,F003,make,20000.0,4.0,2027-03-15,2027-03-12,2027-03-15,0,"Metformin 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00083,F003,make,25000.0,5.0,2027-03-22,2027-03-19,2027-03-22,0,"Metformin 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00084,F003,make,25000.0,5.0,2027-03-29,2027-03-26,2027-03-29,0,"Metformin 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00085,F003,make,25000.0,5.0,2027-04-05,2027-04-02,2027-04-05,0,"Metformin 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00086,F003,make,25000.0,5.0,2027-04-12,2027-04-09,2027-04-12,0,"Metformin 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00087,F003,make,20000.0,4.0,2027-04-19,2027-04-16,2027-04-19,0,"Metformin 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00088,F003,make,25000.0,5.0,2027-04-26,2027-04-23,2027-04-26,0,"Metformin 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00089,F003,make,25000.0,5.0,2027-05-03,2027-04-30,2027-05-03,0,"Metformin 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00090,F003,make,25000.0,5.0,2027-05-10,2027-05-07,2027-05-10,0,"Metformin 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00091,F003,make,25000.0,5.0,2027-05-17,2027-05-14,2027-05-17,0,"Metformin 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00092,F003,make,20000.0,4.0,2027-05-24,2027-05-21,2027-05-24,0,"Metformin 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00093,F003,make,25000.0,5.0,2027-05-31,2027-05-28,2027-05-31,0,"Metformin 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00094,F003,make,25000.0,5.0,2027-06-07,2027-06-04,2027-06-07,0,"Metformin 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00095,F003,make,25000.0,5.0,2027-06-14,2027-06-11,2027-06-14,0,"Metformin 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00096,F003,make,25000.0,5.0,2027-06-21,2027-06-18,2027-06-21,0,"Metformin 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00097,F003,make,20000.0,4.0,2027-06-28,2027-06-25,2027-06-28,0,"Metformin 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00098,F003,make,25000.0,5.0,2027-07-05,2027-07-02,2027-07-05,0,"Metformin 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00099,F003,make,25000.0,5.0,2027-07-12,2027-07-09,2027-07-12,0,"Metformin 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00100,F003,make,25000.0,5.0,2027-07-19,2027-07-16,2027-07-19,0,"Metformin 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00101,F003,make,25000.0,5.0,2027-07-26,2027-07-23,2027-07-26,0,"Metformin 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00102,F003,make,20000.0,4.0,2027-08-02,2027-07-30,2027-08-02,0,"Metformin 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00103,F003,make,25000.0,5.0,2027-08-09,2027-08-06,2027-08-09,0,"Metformin 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00104,F003,make,25000.0,5.0,2027-08-16,2027-08-13,2027-08-16,0,"Metformin 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00105,F003,make,25000.0,5.0,2027-08-23,2027-08-20,2027-08-23,0,"Metformin 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00106,F003,make,25000.0,5.0,2027-08-30,2027-08-27,2027-08-30,0,"Metformin 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00107,F003,make,20000.0,4.0,2027-09-06,2027-09-03,2027-09-06,0,"Metformin 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00108,F003,make,25000.0,5.0,2027-09-13,2027-09-10,2027-09-13,0,"Metformin 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00109,F003,make,25000.0,5.0,2027-09-20,2027-09-17,2027-09-20,0,"Metformin 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00110,F003,make,25000.0,5.0,2027-09-27,2027-09-24,2027-09-27,0,"Metformin 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00111,F003,make,25000.0,5.0,2027-10-04,2027-10-01,2027-10-04,0,"Metformin 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00112,F003,make,20000.0,4.0,2027-10-11,2027-10-08,2027-10-11,0,"Metformin 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00113,F003,make,25000.0,5.0,2027-10-18,2027-10-15,2027-10-18,0,"Metformin 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00114,F003,make,25000.0,5.0,2027-10-25,2027-10-22,2027-10-25,0,"Metformin 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00115,F003,make,25000.0,5.0,2027-11-01,2027-10-29,2027-11-01,0,"Metformin 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00116,F003,make,25000.0,5.0,2027-11-08,2027-11-05,2027-11-08,0,"Metformin 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00117,F003,make,20000.0,4.0,2027-11-15,2027-11-12,2027-11-15,0,"Metformin 500 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00118,F004,make,20000.0,4.0,2026-12-07,2026-12-04,2026-12-07,0,"Metformin 500 mg tablets, 10x10 blister (EU export)",Finished goods,Units,,,,,,plan
+PL00119,F004,make,25000.0,5.0,2027-01-04,2027-01-01,2027-01-04,0,"Metformin 500 mg tablets, 10x10 blister (EU export)",Finished goods,Units,,,,,,plan
+PL00120,F004,make,25000.0,5.0,2027-02-01,2027-01-29,2027-02-01,0,"Metformin 500 mg tablets, 10x10 blister (EU export)",Finished goods,Units,,,,,,plan
+PL00121,F004,make,25000.0,5.0,2027-03-01,2027-02-26,2027-03-01,0,"Metformin 500 mg tablets, 10x10 blister (EU export)",Finished goods,Units,,,,,,plan
+PL00122,F004,make,25000.0,5.0,2027-03-29,2027-03-26,2027-03-29,0,"Metformin 500 mg tablets, 10x10 blister (EU export)",Finished goods,Units,,,,,,plan
+PL00123,F004,make,20000.0,4.0,2027-04-26,2027-04-23,2027-04-26,0,"Metformin 500 mg tablets, 10x10 blister (EU export)",Finished goods,Units,,,,,,plan
+PL00124,F004,make,25000.0,5.0,2027-05-24,2027-05-21,2027-05-24,0,"Metformin 500 mg tablets, 10x10 blister (EU export)",Finished goods,Units,,,,,,plan
+PL00125,F004,make,25000.0,5.0,2027-06-21,2027-06-18,2027-06-21,0,"Metformin 500 mg tablets, 10x10 blister (EU export)",Finished goods,Units,,,,,,plan
+PL00126,F004,make,25000.0,5.0,2027-07-19,2027-07-16,2027-07-19,0,"Metformin 500 mg tablets, 10x10 blister (EU export)",Finished goods,Units,,,,,,plan
+PL00127,F004,make,25000.0,5.0,2027-08-16,2027-08-13,2027-08-16,0,"Metformin 500 mg tablets, 10x10 blister (EU export)",Finished goods,Units,,,,,,plan
+PL00128,F004,make,20000.0,4.0,2027-09-13,2027-09-10,2027-09-13,0,"Metformin 500 mg tablets, 10x10 blister (EU export)",Finished goods,Units,,,,,,plan
+PL00129,F004,make,25000.0,5.0,2027-10-11,2027-10-08,2027-10-11,0,"Metformin 500 mg tablets, 10x10 blister (EU export)",Finished goods,Units,,,,,,plan
+PL00130,F004,make,25000.0,5.0,2027-11-08,2027-11-05,2027-11-08,0,"Metformin 500 mg tablets, 10x10 blister (EU export)",Finished goods,Units,,,,,,plan
+PL00131,F005,make,10000.0,2.0,2026-11-30,2026-11-27,2026-11-30,0,"Amoxicillin 500 mg capsules, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00132,F005,make,10000.0,2.0,2026-12-07,2026-12-04,2026-12-07,0,"Amoxicillin 500 mg capsules, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00133,F005,make,15000.0,3.0,2026-12-14,2026-12-11,2026-12-14,0,"Amoxicillin 500 mg capsules, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00134,F005,make,10000.0,2.0,2026-12-21,2026-12-18,2026-12-21,0,"Amoxicillin 500 mg capsules, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00135,F005,make,10000.0,2.0,2026-12-28,2026-12-25,2026-12-28,0,"Amoxicillin 500 mg capsules, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00136,F005,make,10000.0,2.0,2027-01-04,2027-01-01,2027-01-04,0,"Amoxicillin 500 mg capsules, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00137,F005,make,10000.0,2.0,2027-01-11,2027-01-08,2027-01-11,0,"Amoxicillin 500 mg capsules, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00138,F005,make,10000.0,2.0,2027-01-18,2027-01-15,2027-01-18,0,"Amoxicillin 500 mg capsules, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00139,F005,make,10000.0,2.0,2027-01-25,2027-01-22,2027-01-25,0,"Amoxicillin 500 mg capsules, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00140,F005,make,10000.0,2.0,2027-02-01,2027-01-29,2027-02-01,0,"Amoxicillin 500 mg capsules, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00141,F005,make,10000.0,2.0,2027-02-08,2027-02-05,2027-02-08,0,"Amoxicillin 500 mg capsules, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00142,F005,make,10000.0,2.0,2027-02-15,2027-02-12,2027-02-15,0,"Amoxicillin 500 mg capsules, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00143,F005,make,10000.0,2.0,2027-02-22,2027-02-19,2027-02-22,0,"Amoxicillin 500 mg capsules, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00144,F005,make,5000.0,1.0,2027-03-01,2027-02-26,2027-03-01,0,"Amoxicillin 500 mg capsules, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00145,F005,make,10000.0,2.0,2027-03-08,2027-03-05,2027-03-08,0,"Amoxicillin 500 mg capsules, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00146,F005,make,10000.0,2.0,2027-03-15,2027-03-12,2027-03-15,0,"Amoxicillin 500 mg capsules, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00147,F005,make,5000.0,1.0,2027-03-22,2027-03-19,2027-03-22,0,"Amoxicillin 500 mg capsules, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00148,F005,make,10000.0,2.0,2027-03-29,2027-03-26,2027-03-29,0,"Amoxicillin 500 mg capsules, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00149,F005,make,5000.0,1.0,2027-04-05,2027-04-02,2027-04-05,0,"Amoxicillin 500 mg capsules, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00150,F005,make,10000.0,2.0,2027-04-12,2027-04-09,2027-04-12,0,"Amoxicillin 500 mg capsules, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00151,F005,make,5000.0,1.0,2027-04-19,2027-04-16,2027-04-19,0,"Amoxicillin 500 mg capsules, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00152,F005,make,10000.0,2.0,2027-04-26,2027-04-23,2027-04-26,0,"Amoxicillin 500 mg capsules, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00153,F005,make,10000.0,2.0,2027-05-03,2027-04-30,2027-05-03,0,"Amoxicillin 500 mg capsules, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00154,F005,make,5000.0,1.0,2027-05-10,2027-05-07,2027-05-10,0,"Amoxicillin 500 mg capsules, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00155,F005,make,10000.0,2.0,2027-05-17,2027-05-14,2027-05-17,0,"Amoxicillin 500 mg capsules, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00156,F005,make,10000.0,2.0,2027-05-24,2027-05-21,2027-05-24,0,"Amoxicillin 500 mg capsules, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00157,F005,make,5000.0,1.0,2027-05-31,2027-05-28,2027-05-31,0,"Amoxicillin 500 mg capsules, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00158,F005,make,10000.0,2.0,2027-06-07,2027-06-04,2027-06-07,0,"Amoxicillin 500 mg capsules, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00159,F005,make,10000.0,2.0,2027-06-14,2027-06-11,2027-06-14,0,"Amoxicillin 500 mg capsules, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00160,F005,make,10000.0,2.0,2027-06-21,2027-06-18,2027-06-21,0,"Amoxicillin 500 mg capsules, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00161,F005,make,10000.0,2.0,2027-06-28,2027-06-25,2027-06-28,0,"Amoxicillin 500 mg capsules, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00162,F005,make,10000.0,2.0,2027-07-05,2027-07-02,2027-07-05,0,"Amoxicillin 500 mg capsules, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00163,F005,make,10000.0,2.0,2027-07-12,2027-07-09,2027-07-12,0,"Amoxicillin 500 mg capsules, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00164,F005,make,10000.0,2.0,2027-07-19,2027-07-16,2027-07-19,0,"Amoxicillin 500 mg capsules, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00165,F005,make,15000.0,3.0,2027-07-26,2027-07-23,2027-07-26,0,"Amoxicillin 500 mg capsules, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00166,F005,make,10000.0,2.0,2027-08-02,2027-07-30,2027-08-02,0,"Amoxicillin 500 mg capsules, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00167,F005,make,15000.0,3.0,2027-08-09,2027-08-06,2027-08-09,0,"Amoxicillin 500 mg capsules, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00168,F005,make,15000.0,3.0,2027-08-16,2027-08-13,2027-08-16,0,"Amoxicillin 500 mg capsules, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00169,F005,make,10000.0,2.0,2027-08-23,2027-08-20,2027-08-23,0,"Amoxicillin 500 mg capsules, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00170,F005,make,15000.0,3.0,2027-08-30,2027-08-27,2027-08-30,0,"Amoxicillin 500 mg capsules, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00171,F005,make,10000.0,2.0,2027-09-06,2027-09-03,2027-09-06,0,"Amoxicillin 500 mg capsules, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00172,F005,make,15000.0,3.0,2027-09-13,2027-09-10,2027-09-13,0,"Amoxicillin 500 mg capsules, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00173,F005,make,10000.0,2.0,2027-09-20,2027-09-17,2027-09-20,0,"Amoxicillin 500 mg capsules, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00174,F005,make,15000.0,3.0,2027-09-27,2027-09-24,2027-09-27,0,"Amoxicillin 500 mg capsules, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00175,F005,make,10000.0,2.0,2027-10-04,2027-10-01,2027-10-04,0,"Amoxicillin 500 mg capsules, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00176,F005,make,10000.0,2.0,2027-10-11,2027-10-08,2027-10-11,0,"Amoxicillin 500 mg capsules, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00177,F005,make,10000.0,2.0,2027-10-18,2027-10-15,2027-10-18,0,"Amoxicillin 500 mg capsules, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00178,F005,make,10000.0,2.0,2027-10-25,2027-10-22,2027-10-25,0,"Amoxicillin 500 mg capsules, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00179,F005,make,10000.0,2.0,2027-11-01,2027-10-29,2027-11-01,0,"Amoxicillin 500 mg capsules, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00180,F005,make,10000.0,2.0,2027-11-08,2027-11-05,2027-11-08,0,"Amoxicillin 500 mg capsules, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00181,F005,make,5000.0,1.0,2027-11-15,2027-11-12,2027-11-15,0,"Amoxicillin 500 mg capsules, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00182,F006,make,20000.0,4.0,2026-11-23,2026-11-21,2026-11-24,1,"Atorvastatin 10 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00183,F006,make,15000.0,3.0,2026-11-30,2026-11-27,2026-11-30,0,"Atorvastatin 10 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00184,F006,make,15000.0,3.0,2026-12-07,2026-12-04,2026-12-07,0,"Atorvastatin 10 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00185,F006,make,15000.0,3.0,2026-12-14,2026-12-11,2026-12-14,0,"Atorvastatin 10 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00186,F006,make,15000.0,3.0,2026-12-21,2026-12-18,2026-12-21,0,"Atorvastatin 10 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00187,F006,make,15000.0,3.0,2026-12-28,2026-12-25,2026-12-28,0,"Atorvastatin 10 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00188,F006,make,15000.0,3.0,2027-01-04,2027-01-01,2027-01-04,0,"Atorvastatin 10 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00189,F006,make,15000.0,3.0,2027-01-11,2027-01-08,2027-01-11,0,"Atorvastatin 10 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00190,F006,make,15000.0,3.0,2027-01-18,2027-01-15,2027-01-18,0,"Atorvastatin 10 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00191,F006,make,15000.0,3.0,2027-01-25,2027-01-22,2027-01-25,0,"Atorvastatin 10 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00192,F006,make,15000.0,3.0,2027-02-01,2027-01-29,2027-02-01,0,"Atorvastatin 10 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00193,F006,make,15000.0,3.0,2027-02-08,2027-02-05,2027-02-08,0,"Atorvastatin 10 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00194,F006,make,15000.0,3.0,2027-02-15,2027-02-12,2027-02-15,0,"Atorvastatin 10 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00195,F006,make,15000.0,3.0,2027-02-22,2027-02-19,2027-02-22,0,"Atorvastatin 10 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00196,F006,make,15000.0,3.0,2027-03-01,2027-02-26,2027-03-01,0,"Atorvastatin 10 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00197,F006,make,15000.0,3.0,2027-03-08,2027-03-05,2027-03-08,0,"Atorvastatin 10 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00198,F006,make,15000.0,3.0,2027-03-15,2027-03-12,2027-03-15,0,"Atorvastatin 10 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00199,F006,make,15000.0,3.0,2027-03-22,2027-03-19,2027-03-22,0,"Atorvastatin 10 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00200,F006,make,15000.0,3.0,2027-03-29,2027-03-26,2027-03-29,0,"Atorvastatin 10 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00201,F006,make,15000.0,3.0,2027-04-05,2027-04-02,2027-04-05,0,"Atorvastatin 10 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00202,F006,make,15000.0,3.0,2027-04-12,2027-04-09,2027-04-12,0,"Atorvastatin 10 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00203,F006,make,15000.0,3.0,2027-04-19,2027-04-16,2027-04-19,0,"Atorvastatin 10 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00204,F006,make,15000.0,3.0,2027-04-26,2027-04-23,2027-04-26,0,"Atorvastatin 10 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00205,F006,make,15000.0,3.0,2027-05-03,2027-04-30,2027-05-03,0,"Atorvastatin 10 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00206,F006,make,15000.0,3.0,2027-05-10,2027-05-07,2027-05-10,0,"Atorvastatin 10 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00207,F006,make,15000.0,3.0,2027-05-17,2027-05-14,2027-05-17,0,"Atorvastatin 10 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00208,F006,make,15000.0,3.0,2027-05-24,2027-05-21,2027-05-24,0,"Atorvastatin 10 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00209,F006,make,15000.0,3.0,2027-05-31,2027-05-28,2027-05-31,0,"Atorvastatin 10 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00210,F006,make,15000.0,3.0,2027-06-07,2027-06-04,2027-06-07,0,"Atorvastatin 10 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00211,F006,make,15000.0,3.0,2027-06-14,2027-06-11,2027-06-14,0,"Atorvastatin 10 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00212,F006,make,15000.0,3.0,2027-06-21,2027-06-18,2027-06-21,0,"Atorvastatin 10 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00213,F006,make,15000.0,3.0,2027-06-28,2027-06-25,2027-06-28,0,"Atorvastatin 10 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00214,F006,make,15000.0,3.0,2027-07-05,2027-07-02,2027-07-05,0,"Atorvastatin 10 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00215,F006,make,15000.0,3.0,2027-07-12,2027-07-09,2027-07-12,0,"Atorvastatin 10 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00216,F006,make,15000.0,3.0,2027-07-19,2027-07-16,2027-07-19,0,"Atorvastatin 10 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00217,F006,make,15000.0,3.0,2027-07-26,2027-07-23,2027-07-26,0,"Atorvastatin 10 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00218,F006,make,15000.0,3.0,2027-08-02,2027-07-30,2027-08-02,0,"Atorvastatin 10 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00219,F006,make,15000.0,3.0,2027-08-09,2027-08-06,2027-08-09,0,"Atorvastatin 10 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00220,F006,make,15000.0,3.0,2027-08-16,2027-08-13,2027-08-16,0,"Atorvastatin 10 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00221,F006,make,15000.0,3.0,2027-08-23,2027-08-20,2027-08-23,0,"Atorvastatin 10 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00222,F006,make,15000.0,3.0,2027-08-30,2027-08-27,2027-08-30,0,"Atorvastatin 10 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00223,F006,make,15000.0,3.0,2027-09-06,2027-09-03,2027-09-06,0,"Atorvastatin 10 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00224,F006,make,15000.0,3.0,2027-09-13,2027-09-10,2027-09-13,0,"Atorvastatin 10 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00225,F006,make,15000.0,3.0,2027-09-20,2027-09-17,2027-09-20,0,"Atorvastatin 10 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00226,F006,make,15000.0,3.0,2027-09-27,2027-09-24,2027-09-27,0,"Atorvastatin 10 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00227,F006,make,15000.0,3.0,2027-10-04,2027-10-01,2027-10-04,0,"Atorvastatin 10 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00228,F006,make,15000.0,3.0,2027-10-11,2027-10-08,2027-10-11,0,"Atorvastatin 10 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00229,F006,make,15000.0,3.0,2027-10-18,2027-10-15,2027-10-18,0,"Atorvastatin 10 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00230,F006,make,15000.0,3.0,2027-10-25,2027-10-22,2027-10-25,0,"Atorvastatin 10 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00231,F006,make,15000.0,3.0,2027-11-01,2027-10-29,2027-11-01,0,"Atorvastatin 10 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00232,F006,make,15000.0,3.0,2027-11-08,2027-11-05,2027-11-08,0,"Atorvastatin 10 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00233,F006,make,15000.0,3.0,2027-11-15,2027-11-12,2027-11-15,0,"Atorvastatin 10 mg tablets, 10x10 blister (India)",Finished goods,Units,,,,,,plan
+PL00234,F007,make,5000.0,1.0,2026-11-23,2026-11-21,2026-11-24,1,"Telmisartan 40 mg tablets, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00235,F007,make,5000.0,1.0,2026-11-30,2026-11-27,2026-11-30,0,"Telmisartan 40 mg tablets, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00236,F007,make,10000.0,2.0,2026-12-07,2026-12-04,2026-12-07,0,"Telmisartan 40 mg tablets, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00237,F007,make,10000.0,2.0,2026-12-14,2026-12-11,2026-12-14,0,"Telmisartan 40 mg tablets, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00238,F007,make,5000.0,1.0,2026-12-21,2026-12-18,2026-12-21,0,"Telmisartan 40 mg tablets, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00239,F007,make,10000.0,2.0,2026-12-28,2026-12-25,2026-12-28,0,"Telmisartan 40 mg tablets, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00240,F007,make,5000.0,1.0,2027-01-04,2027-01-01,2027-01-04,0,"Telmisartan 40 mg tablets, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00241,F007,make,10000.0,2.0,2027-01-11,2027-01-08,2027-01-11,0,"Telmisartan 40 mg tablets, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00242,F007,make,10000.0,2.0,2027-01-18,2027-01-15,2027-01-18,0,"Telmisartan 40 mg tablets, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00243,F007,make,5000.0,1.0,2027-01-25,2027-01-22,2027-01-25,0,"Telmisartan 40 mg tablets, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00244,F007,make,10000.0,2.0,2027-02-01,2027-01-29,2027-02-01,0,"Telmisartan 40 mg tablets, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00245,F007,make,5000.0,1.0,2027-02-08,2027-02-05,2027-02-08,0,"Telmisartan 40 mg tablets, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00246,F007,make,10000.0,2.0,2027-02-15,2027-02-12,2027-02-15,0,"Telmisartan 40 mg tablets, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00247,F007,make,10000.0,2.0,2027-02-22,2027-02-19,2027-02-22,0,"Telmisartan 40 mg tablets, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00248,F007,make,5000.0,1.0,2027-03-01,2027-02-26,2027-03-01,0,"Telmisartan 40 mg tablets, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00249,F007,make,10000.0,2.0,2027-03-08,2027-03-05,2027-03-08,0,"Telmisartan 40 mg tablets, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00250,F007,make,5000.0,1.0,2027-03-15,2027-03-12,2027-03-15,0,"Telmisartan 40 mg tablets, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00251,F007,make,10000.0,2.0,2027-03-22,2027-03-19,2027-03-22,0,"Telmisartan 40 mg tablets, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00252,F007,make,10000.0,2.0,2027-03-29,2027-03-26,2027-03-29,0,"Telmisartan 40 mg tablets, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00253,F007,make,5000.0,1.0,2027-04-05,2027-04-02,2027-04-05,0,"Telmisartan 40 mg tablets, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00254,F007,make,10000.0,2.0,2027-04-12,2027-04-09,2027-04-12,0,"Telmisartan 40 mg tablets, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00255,F007,make,5000.0,1.0,2027-04-19,2027-04-16,2027-04-19,0,"Telmisartan 40 mg tablets, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00256,F007,make,10000.0,2.0,2027-04-26,2027-04-23,2027-04-26,0,"Telmisartan 40 mg tablets, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00257,F007,make,10000.0,2.0,2027-05-03,2027-04-30,2027-05-03,0,"Telmisartan 40 mg tablets, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00258,F007,make,5000.0,1.0,2027-05-10,2027-05-07,2027-05-10,0,"Telmisartan 40 mg tablets, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00259,F007,make,10000.0,2.0,2027-05-17,2027-05-14,2027-05-17,0,"Telmisartan 40 mg tablets, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00260,F007,make,5000.0,1.0,2027-05-24,2027-05-21,2027-05-24,0,"Telmisartan 40 mg tablets, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00261,F007,make,10000.0,2.0,2027-05-31,2027-05-28,2027-05-31,0,"Telmisartan 40 mg tablets, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00262,F007,make,10000.0,2.0,2027-06-07,2027-06-04,2027-06-07,0,"Telmisartan 40 mg tablets, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00263,F007,make,5000.0,1.0,2027-06-14,2027-06-11,2027-06-14,0,"Telmisartan 40 mg tablets, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00264,F007,make,10000.0,2.0,2027-06-21,2027-06-18,2027-06-21,0,"Telmisartan 40 mg tablets, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00265,F007,make,5000.0,1.0,2027-06-28,2027-06-25,2027-06-28,0,"Telmisartan 40 mg tablets, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00266,F007,make,10000.0,2.0,2027-07-05,2027-07-02,2027-07-05,0,"Telmisartan 40 mg tablets, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00267,F007,make,10000.0,2.0,2027-07-12,2027-07-09,2027-07-12,0,"Telmisartan 40 mg tablets, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00268,F007,make,5000.0,1.0,2027-07-19,2027-07-16,2027-07-19,0,"Telmisartan 40 mg tablets, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00269,F007,make,10000.0,2.0,2027-07-26,2027-07-23,2027-07-26,0,"Telmisartan 40 mg tablets, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00270,F007,make,5000.0,1.0,2027-08-02,2027-07-30,2027-08-02,0,"Telmisartan 40 mg tablets, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00271,F007,make,10000.0,2.0,2027-08-09,2027-08-06,2027-08-09,0,"Telmisartan 40 mg tablets, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00272,F007,make,10000.0,2.0,2027-08-16,2027-08-13,2027-08-16,0,"Telmisartan 40 mg tablets, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00273,F007,make,5000.0,1.0,2027-08-23,2027-08-20,2027-08-23,0,"Telmisartan 40 mg tablets, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00274,F007,make,10000.0,2.0,2027-08-30,2027-08-27,2027-08-30,0,"Telmisartan 40 mg tablets, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00275,F007,make,5000.0,1.0,2027-09-06,2027-09-03,2027-09-06,0,"Telmisartan 40 mg tablets, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00276,F007,make,10000.0,2.0,2027-09-13,2027-09-10,2027-09-13,0,"Telmisartan 40 mg tablets, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00277,F007,make,10000.0,2.0,2027-09-20,2027-09-17,2027-09-20,0,"Telmisartan 40 mg tablets, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00278,F007,make,5000.0,1.0,2027-09-27,2027-09-24,2027-09-27,0,"Telmisartan 40 mg tablets, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00279,F007,make,10000.0,2.0,2027-10-04,2027-10-01,2027-10-04,0,"Telmisartan 40 mg tablets, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00280,F007,make,5000.0,1.0,2027-10-11,2027-10-08,2027-10-11,0,"Telmisartan 40 mg tablets, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00281,F007,make,10000.0,2.0,2027-10-18,2027-10-15,2027-10-18,0,"Telmisartan 40 mg tablets, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00282,F007,make,10000.0,2.0,2027-10-25,2027-10-22,2027-10-25,0,"Telmisartan 40 mg tablets, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00283,F007,make,5000.0,1.0,2027-11-01,2027-10-29,2027-11-01,0,"Telmisartan 40 mg tablets, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00284,F007,make,10000.0,2.0,2027-11-08,2027-11-05,2027-11-08,0,"Telmisartan 40 mg tablets, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00285,F007,make,5000.0,1.0,2027-11-15,2027-11-12,2027-11-15,0,"Telmisartan 40 mg tablets, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00286,F008,make,5000.0,1.0,2026-11-23,2026-11-21,2026-11-24,1,"Omeprazole 20 mg capsules, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00287,F008,make,10000.0,2.0,2026-11-30,2026-11-27,2026-11-30,0,"Omeprazole 20 mg capsules, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00288,F008,make,10000.0,2.0,2026-12-07,2026-12-04,2026-12-07,0,"Omeprazole 20 mg capsules, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00289,F008,make,5000.0,1.0,2026-12-14,2026-12-11,2026-12-14,0,"Omeprazole 20 mg capsules, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00290,F008,make,10000.0,2.0,2026-12-21,2026-12-18,2026-12-21,0,"Omeprazole 20 mg capsules, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00291,F008,make,10000.0,2.0,2026-12-28,2026-12-25,2026-12-28,0,"Omeprazole 20 mg capsules, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00292,F008,make,10000.0,2.0,2027-01-04,2027-01-01,2027-01-04,0,"Omeprazole 20 mg capsules, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00293,F008,make,10000.0,2.0,2027-01-11,2027-01-08,2027-01-11,0,"Omeprazole 20 mg capsules, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00294,F008,make,5000.0,1.0,2027-01-18,2027-01-15,2027-01-18,0,"Omeprazole 20 mg capsules, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00295,F008,make,10000.0,2.0,2027-01-25,2027-01-22,2027-01-25,0,"Omeprazole 20 mg capsules, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00296,F008,make,10000.0,2.0,2027-02-01,2027-01-29,2027-02-01,0,"Omeprazole 20 mg capsules, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00297,F008,make,10000.0,2.0,2027-02-08,2027-02-05,2027-02-08,0,"Omeprazole 20 mg capsules, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00298,F008,make,10000.0,2.0,2027-02-15,2027-02-12,2027-02-15,0,"Omeprazole 20 mg capsules, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00299,F008,make,5000.0,1.0,2027-02-22,2027-02-19,2027-02-22,0,"Omeprazole 20 mg capsules, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00300,F008,make,10000.0,2.0,2027-03-01,2027-02-26,2027-03-01,0,"Omeprazole 20 mg capsules, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00301,F008,make,10000.0,2.0,2027-03-08,2027-03-05,2027-03-08,0,"Omeprazole 20 mg capsules, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00302,F008,make,10000.0,2.0,2027-03-15,2027-03-12,2027-03-15,0,"Omeprazole 20 mg capsules, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00303,F008,make,10000.0,2.0,2027-03-22,2027-03-19,2027-03-22,0,"Omeprazole 20 mg capsules, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00304,F008,make,5000.0,1.0,2027-03-29,2027-03-26,2027-03-29,0,"Omeprazole 20 mg capsules, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00305,F008,make,10000.0,2.0,2027-04-05,2027-04-02,2027-04-05,0,"Omeprazole 20 mg capsules, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00306,F008,make,10000.0,2.0,2027-04-12,2027-04-09,2027-04-12,0,"Omeprazole 20 mg capsules, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00307,F008,make,10000.0,2.0,2027-04-19,2027-04-16,2027-04-19,0,"Omeprazole 20 mg capsules, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00308,F008,make,10000.0,2.0,2027-04-26,2027-04-23,2027-04-26,0,"Omeprazole 20 mg capsules, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00309,F008,make,5000.0,1.0,2027-05-03,2027-04-30,2027-05-03,0,"Omeprazole 20 mg capsules, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00310,F008,make,10000.0,2.0,2027-05-10,2027-05-07,2027-05-10,0,"Omeprazole 20 mg capsules, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00311,F008,make,10000.0,2.0,2027-05-17,2027-05-14,2027-05-17,0,"Omeprazole 20 mg capsules, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00312,F008,make,10000.0,2.0,2027-05-24,2027-05-21,2027-05-24,0,"Omeprazole 20 mg capsules, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00313,F008,make,10000.0,2.0,2027-05-31,2027-05-28,2027-05-31,0,"Omeprazole 20 mg capsules, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00314,F008,make,5000.0,1.0,2027-06-07,2027-06-04,2027-06-07,0,"Omeprazole 20 mg capsules, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00315,F008,make,10000.0,2.0,2027-06-14,2027-06-11,2027-06-14,0,"Omeprazole 20 mg capsules, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00316,F008,make,10000.0,2.0,2027-06-21,2027-06-18,2027-06-21,0,"Omeprazole 20 mg capsules, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00317,F008,make,10000.0,2.0,2027-06-28,2027-06-25,2027-06-28,0,"Omeprazole 20 mg capsules, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00318,F008,make,10000.0,2.0,2027-07-05,2027-07-02,2027-07-05,0,"Omeprazole 20 mg capsules, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00319,F008,make,5000.0,1.0,2027-07-12,2027-07-09,2027-07-12,0,"Omeprazole 20 mg capsules, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00320,F008,make,10000.0,2.0,2027-07-19,2027-07-16,2027-07-19,0,"Omeprazole 20 mg capsules, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00321,F008,make,10000.0,2.0,2027-07-26,2027-07-23,2027-07-26,0,"Omeprazole 20 mg capsules, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00322,F008,make,10000.0,2.0,2027-08-02,2027-07-30,2027-08-02,0,"Omeprazole 20 mg capsules, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00323,F008,make,10000.0,2.0,2027-08-09,2027-08-06,2027-08-09,0,"Omeprazole 20 mg capsules, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00324,F008,make,5000.0,1.0,2027-08-16,2027-08-13,2027-08-16,0,"Omeprazole 20 mg capsules, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00325,F008,make,10000.0,2.0,2027-08-23,2027-08-20,2027-08-23,0,"Omeprazole 20 mg capsules, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00326,F008,make,10000.0,2.0,2027-08-30,2027-08-27,2027-08-30,0,"Omeprazole 20 mg capsules, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00327,F008,make,10000.0,2.0,2027-09-06,2027-09-03,2027-09-06,0,"Omeprazole 20 mg capsules, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00328,F008,make,10000.0,2.0,2027-09-13,2027-09-10,2027-09-13,0,"Omeprazole 20 mg capsules, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00329,F008,make,5000.0,1.0,2027-09-20,2027-09-17,2027-09-20,0,"Omeprazole 20 mg capsules, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00330,F008,make,10000.0,2.0,2027-09-27,2027-09-24,2027-09-27,0,"Omeprazole 20 mg capsules, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00331,F008,make,10000.0,2.0,2027-10-04,2027-10-01,2027-10-04,0,"Omeprazole 20 mg capsules, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00332,F008,make,10000.0,2.0,2027-10-11,2027-10-08,2027-10-11,0,"Omeprazole 20 mg capsules, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00333,F008,make,10000.0,2.0,2027-10-18,2027-10-15,2027-10-18,0,"Omeprazole 20 mg capsules, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00334,F008,make,5000.0,1.0,2027-10-25,2027-10-22,2027-10-25,0,"Omeprazole 20 mg capsules, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00335,F008,make,10000.0,2.0,2027-11-01,2027-10-29,2027-11-01,0,"Omeprazole 20 mg capsules, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00336,F008,make,10000.0,2.0,2027-11-08,2027-11-05,2027-11-08,0,"Omeprazole 20 mg capsules, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00337,F008,make,10000.0,2.0,2027-11-15,2027-11-12,2027-11-15,0,"Omeprazole 20 mg capsules, 10x10 alu-alu blister (India)",Finished goods,Units,,,,,,plan
+PL00338,B001,make,3920.0,4.0,2026-11-21,2026-11-21,2026-11-26,5,Paracetamol 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00339,B001,make,5880.0,6.0,2026-11-27,2026-11-22,2026-11-27,0,Paracetamol 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00340,B001,make,3920.0,4.0,2026-12-04,2026-11-29,2026-12-04,0,Paracetamol 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00341,B001,make,3920.0,4.0,2026-12-11,2026-12-06,2026-12-11,0,Paracetamol 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00342,B001,make,3920.0,4.0,2026-12-18,2026-12-13,2026-12-18,0,Paracetamol 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00343,B001,make,6860.0,7.0,2026-12-25,2026-12-20,2026-12-25,0,Paracetamol 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00344,B001,make,3920.0,4.0,2027-01-01,2026-12-27,2027-01-01,0,Paracetamol 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00345,B001,make,3920.0,4.0,2027-01-08,2027-01-03,2027-01-08,0,Paracetamol 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00346,B001,make,3920.0,4.0,2027-01-15,2027-01-10,2027-01-15,0,Paracetamol 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00347,B001,make,6860.0,7.0,2027-01-22,2027-01-17,2027-01-22,0,Paracetamol 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00348,B001,make,2940.0,3.0,2027-01-29,2027-01-24,2027-01-29,0,Paracetamol 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00349,B001,make,3920.0,4.0,2027-02-05,2027-01-31,2027-02-05,0,Paracetamol 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00350,B001,make,2940.0,3.0,2027-02-12,2027-02-07,2027-02-12,0,Paracetamol 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00351,B001,make,6860.0,7.0,2027-02-19,2027-02-14,2027-02-19,0,Paracetamol 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00352,B001,make,2940.0,3.0,2027-02-26,2027-02-21,2027-02-26,0,Paracetamol 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00353,B001,make,2940.0,3.0,2027-03-05,2027-02-28,2027-03-05,0,Paracetamol 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00354,B001,make,2940.0,3.0,2027-03-12,2027-03-07,2027-03-12,0,Paracetamol 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00355,B001,make,5880.0,6.0,2027-03-19,2027-03-14,2027-03-19,0,Paracetamol 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00356,B001,make,2940.0,3.0,2027-03-26,2027-03-21,2027-03-26,0,Paracetamol 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00357,B001,make,2940.0,3.0,2027-04-02,2027-03-28,2027-04-02,0,Paracetamol 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00358,B001,make,2940.0,3.0,2027-04-09,2027-04-04,2027-04-09,0,Paracetamol 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00359,B001,make,5880.0,6.0,2027-04-16,2027-04-11,2027-04-16,0,Paracetamol 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00360,B001,make,2940.0,3.0,2027-04-23,2027-04-18,2027-04-23,0,Paracetamol 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00361,B001,make,2940.0,3.0,2027-04-30,2027-04-25,2027-04-30,0,Paracetamol 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00362,B001,make,2940.0,3.0,2027-05-07,2027-05-02,2027-05-07,0,Paracetamol 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00363,B001,make,5880.0,6.0,2027-05-14,2027-05-09,2027-05-14,0,Paracetamol 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00364,B001,make,2940.0,3.0,2027-05-21,2027-05-16,2027-05-21,0,Paracetamol 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00365,B001,make,2940.0,3.0,2027-05-28,2027-05-23,2027-05-28,0,Paracetamol 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00366,B001,make,3920.0,4.0,2027-06-04,2027-05-30,2027-06-04,0,Paracetamol 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00367,B001,make,5880.0,6.0,2027-06-11,2027-06-06,2027-06-11,0,Paracetamol 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00368,B001,make,3920.0,4.0,2027-06-18,2027-06-13,2027-06-18,0,Paracetamol 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00369,B001,make,3920.0,4.0,2027-06-25,2027-06-20,2027-06-25,0,Paracetamol 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00370,B001,make,3920.0,4.0,2027-07-02,2027-06-27,2027-07-02,0,Paracetamol 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00371,B001,make,6860.0,7.0,2027-07-09,2027-07-04,2027-07-09,0,Paracetamol 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00372,B001,make,3920.0,4.0,2027-07-16,2027-07-11,2027-07-16,0,Paracetamol 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00373,B001,make,4900.0,5.0,2027-07-23,2027-07-18,2027-07-23,0,Paracetamol 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00374,B001,make,3920.0,4.0,2027-07-30,2027-07-25,2027-07-30,0,Paracetamol 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00375,B001,make,8820.0,9.0,2027-08-06,2027-08-01,2027-08-06,0,Paracetamol 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00376,B001,make,3920.0,4.0,2027-08-13,2027-08-08,2027-08-13,0,Paracetamol 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00377,B001,make,4900.0,5.0,2027-08-20,2027-08-15,2027-08-20,0,Paracetamol 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00378,B001,make,4900.0,5.0,2027-08-27,2027-08-22,2027-08-27,0,Paracetamol 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00379,B001,make,7840.0,8.0,2027-09-03,2027-08-29,2027-09-03,0,Paracetamol 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00380,B001,make,4900.0,5.0,2027-09-10,2027-09-05,2027-09-10,0,Paracetamol 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00381,B001,make,3920.0,4.0,2027-09-17,2027-09-12,2027-09-17,0,Paracetamol 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00382,B001,make,4900.0,5.0,2027-09-24,2027-09-19,2027-09-24,0,Paracetamol 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00383,B001,make,6860.0,7.0,2027-10-01,2027-09-26,2027-10-01,0,Paracetamol 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00384,B001,make,2940.0,3.0,2027-10-08,2027-10-03,2027-10-08,0,Paracetamol 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00385,B001,make,3920.0,4.0,2027-10-15,2027-10-10,2027-10-15,0,Paracetamol 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00386,B001,make,3920.0,4.0,2027-10-22,2027-10-17,2027-10-22,0,Paracetamol 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00387,B001,make,5880.0,6.0,2027-10-29,2027-10-24,2027-10-29,0,Paracetamol 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00388,B001,make,3920.0,4.0,2027-11-05,2027-10-31,2027-11-05,0,Paracetamol 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00389,B001,make,3920.0,4.0,2027-11-12,2027-11-07,2027-11-12,0,Paracetamol 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00390,B002,make,5460.0,7.0,2026-11-21,2026-11-21,2026-11-27,6,Metformin 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00391,B002,make,4680.0,6.0,2026-12-04,2026-11-28,2026-12-04,0,Metformin 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00392,B002,make,2340.0,3.0,2026-12-11,2026-12-05,2026-12-11,0,Metformin 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00393,B002,make,2340.0,3.0,2026-12-18,2026-12-12,2026-12-18,0,Metformin 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00394,B002,make,2340.0,3.0,2026-12-25,2026-12-19,2026-12-25,0,Metformin 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00395,B002,make,4680.0,6.0,2027-01-01,2026-12-26,2027-01-01,0,Metformin 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00396,B002,make,2340.0,3.0,2027-01-08,2027-01-02,2027-01-08,0,Metformin 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00397,B002,make,3120.0,4.0,2027-01-15,2027-01-09,2027-01-15,0,Metformin 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00398,B002,make,2340.0,3.0,2027-01-22,2027-01-16,2027-01-22,0,Metformin 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00399,B002,make,4680.0,6.0,2027-01-29,2027-01-23,2027-01-29,0,Metformin 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00400,B002,make,2340.0,3.0,2027-02-05,2027-01-30,2027-02-05,0,Metformin 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00401,B002,make,2340.0,3.0,2027-02-12,2027-02-06,2027-02-12,0,Metformin 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00402,B002,make,2340.0,3.0,2027-02-19,2027-02-13,2027-02-19,0,Metformin 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00403,B002,make,5460.0,7.0,2027-02-26,2027-02-20,2027-02-26,0,Metformin 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00404,B002,make,2340.0,3.0,2027-03-05,2027-02-27,2027-03-05,0,Metformin 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00405,B002,make,2340.0,3.0,2027-03-12,2027-03-06,2027-03-12,0,Metformin 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00406,B002,make,2340.0,3.0,2027-03-19,2027-03-13,2027-03-19,0,Metformin 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00407,B002,make,4680.0,6.0,2027-03-26,2027-03-20,2027-03-26,0,Metformin 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00408,B002,make,2340.0,3.0,2027-04-02,2027-03-27,2027-04-02,0,Metformin 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00409,B002,make,3120.0,4.0,2027-04-09,2027-04-03,2027-04-09,0,Metformin 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00410,B002,make,1560.0,2.0,2027-04-16,2027-04-10,2027-04-16,0,Metformin 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00411,B002,make,4680.0,6.0,2027-04-23,2027-04-17,2027-04-23,0,Metformin 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00412,B002,make,2340.0,3.0,2027-04-30,2027-04-24,2027-04-30,0,Metformin 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00413,B002,make,2340.0,3.0,2027-05-07,2027-05-01,2027-05-07,0,Metformin 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00414,B002,make,3120.0,4.0,2027-05-14,2027-05-08,2027-05-14,0,Metformin 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00415,B002,make,4680.0,6.0,2027-05-21,2027-05-15,2027-05-21,0,Metformin 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00416,B002,make,2340.0,3.0,2027-05-28,2027-05-22,2027-05-28,0,Metformin 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00417,B002,make,2340.0,3.0,2027-06-04,2027-05-29,2027-06-04,0,Metformin 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00418,B002,make,2340.0,3.0,2027-06-11,2027-06-05,2027-06-11,0,Metformin 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00419,B002,make,5460.0,7.0,2027-06-18,2027-06-12,2027-06-18,0,Metformin 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00420,B002,make,1560.0,2.0,2027-06-25,2027-06-19,2027-06-25,0,Metformin 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00421,B002,make,2340.0,3.0,2027-07-02,2027-06-26,2027-07-02,0,Metformin 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00422,B002,make,3120.0,4.0,2027-07-09,2027-07-03,2027-07-09,0,Metformin 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00423,B002,make,4680.0,6.0,2027-07-16,2027-07-10,2027-07-16,0,Metformin 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00424,B002,make,2340.0,3.0,2027-07-23,2027-07-17,2027-07-23,0,Metformin 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00425,B002,make,2340.0,3.0,2027-07-30,2027-07-24,2027-07-30,0,Metformin 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00426,B002,make,2340.0,3.0,2027-08-06,2027-07-31,2027-08-06,0,Metformin 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00427,B002,make,5460.0,7.0,2027-08-13,2027-08-07,2027-08-13,0,Metformin 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00428,B002,make,2340.0,3.0,2027-08-20,2027-08-14,2027-08-20,0,Metformin 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00429,B002,make,2340.0,3.0,2027-08-27,2027-08-21,2027-08-27,0,Metformin 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00430,B002,make,2340.0,3.0,2027-09-03,2027-08-28,2027-09-03,0,Metformin 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00431,B002,make,3900.0,5.0,2027-09-10,2027-09-04,2027-09-10,0,Metformin 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00432,B002,make,3120.0,4.0,2027-09-17,2027-09-11,2027-09-17,0,Metformin 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00433,B002,make,2340.0,3.0,2027-09-24,2027-09-18,2027-09-24,0,Metformin 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00434,B002,make,2340.0,3.0,2027-10-01,2027-09-25,2027-10-01,0,Metformin 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00435,B002,make,4680.0,6.0,2027-10-08,2027-10-02,2027-10-08,0,Metformin 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00436,B002,make,2340.0,3.0,2027-10-15,2027-10-09,2027-10-15,0,Metformin 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00437,B002,make,2340.0,3.0,2027-10-22,2027-10-16,2027-10-22,0,Metformin 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00438,B002,make,2340.0,3.0,2027-10-29,2027-10-23,2027-10-29,0,Metformin 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00439,B002,make,5460.0,7.0,2027-11-05,2027-10-30,2027-11-05,0,Metformin 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00440,B002,make,1560.0,2.0,2027-11-12,2027-11-06,2027-11-12,0,Metformin 500 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00441,B003,make,1477.5,3.0,2026-11-27,2026-11-23,2026-11-27,0,Amoxicillin 500 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00442,B003,make,985.0,2.0,2026-12-04,2026-11-30,2026-12-04,0,Amoxicillin 500 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00443,B003,make,1477.5,3.0,2026-12-11,2026-12-07,2026-12-11,0,Amoxicillin 500 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00444,B003,make,985.0,2.0,2026-12-18,2026-12-14,2026-12-18,0,Amoxicillin 500 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00445,B003,make,985.0,2.0,2026-12-25,2026-12-21,2026-12-25,0,Amoxicillin 500 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00446,B003,make,985.0,2.0,2027-01-01,2026-12-28,2027-01-01,0,Amoxicillin 500 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00447,B003,make,985.0,2.0,2027-01-08,2027-01-04,2027-01-08,0,Amoxicillin 500 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00448,B003,make,985.0,2.0,2027-01-15,2027-01-11,2027-01-15,0,Amoxicillin 500 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00449,B003,make,985.0,2.0,2027-01-22,2027-01-18,2027-01-22,0,Amoxicillin 500 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00450,B003,make,985.0,2.0,2027-01-29,2027-01-25,2027-01-29,0,Amoxicillin 500 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00451,B003,make,985.0,2.0,2027-02-05,2027-02-01,2027-02-05,0,Amoxicillin 500 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00452,B003,make,985.0,2.0,2027-02-12,2027-02-08,2027-02-12,0,Amoxicillin 500 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00453,B003,make,985.0,2.0,2027-02-19,2027-02-15,2027-02-19,0,Amoxicillin 500 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00454,B003,make,492.5,1.0,2027-02-26,2027-02-22,2027-02-26,0,Amoxicillin 500 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00455,B003,make,985.0,2.0,2027-03-05,2027-03-01,2027-03-05,0,Amoxicillin 500 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00456,B003,make,985.0,2.0,2027-03-12,2027-03-08,2027-03-12,0,Amoxicillin 500 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00457,B003,make,492.5,1.0,2027-03-19,2027-03-15,2027-03-19,0,Amoxicillin 500 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00458,B003,make,985.0,2.0,2027-03-26,2027-03-22,2027-03-26,0,Amoxicillin 500 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00459,B003,make,492.5,1.0,2027-04-02,2027-03-29,2027-04-02,0,Amoxicillin 500 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00460,B003,make,985.0,2.0,2027-04-09,2027-04-05,2027-04-09,0,Amoxicillin 500 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00461,B003,make,492.5,1.0,2027-04-16,2027-04-12,2027-04-16,0,Amoxicillin 500 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00462,B003,make,985.0,2.0,2027-04-23,2027-04-19,2027-04-23,0,Amoxicillin 500 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00463,B003,make,985.0,2.0,2027-04-30,2027-04-26,2027-04-30,0,Amoxicillin 500 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00464,B003,make,492.5,1.0,2027-05-07,2027-05-03,2027-05-07,0,Amoxicillin 500 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00465,B003,make,985.0,2.0,2027-05-14,2027-05-10,2027-05-14,0,Amoxicillin 500 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00466,B003,make,985.0,2.0,2027-05-21,2027-05-17,2027-05-21,0,Amoxicillin 500 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00467,B003,make,492.5,1.0,2027-05-28,2027-05-24,2027-05-28,0,Amoxicillin 500 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00468,B003,make,1477.5,3.0,2027-06-04,2027-05-31,2027-06-04,0,Amoxicillin 500 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00469,B003,make,985.0,2.0,2027-06-11,2027-06-07,2027-06-11,0,Amoxicillin 500 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00470,B003,make,985.0,2.0,2027-06-18,2027-06-14,2027-06-18,0,Amoxicillin 500 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00471,B003,make,985.0,2.0,2027-06-25,2027-06-21,2027-06-25,0,Amoxicillin 500 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00472,B003,make,985.0,2.0,2027-07-02,2027-06-28,2027-07-02,0,Amoxicillin 500 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00473,B003,make,985.0,2.0,2027-07-09,2027-07-05,2027-07-09,0,Amoxicillin 500 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00474,B003,make,985.0,2.0,2027-07-16,2027-07-12,2027-07-16,0,Amoxicillin 500 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00475,B003,make,1477.5,3.0,2027-07-23,2027-07-19,2027-07-23,0,Amoxicillin 500 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00476,B003,make,985.0,2.0,2027-07-30,2027-07-26,2027-07-30,0,Amoxicillin 500 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00477,B003,make,1477.5,3.0,2027-08-06,2027-08-02,2027-08-06,0,Amoxicillin 500 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00478,B003,make,1477.5,3.0,2027-08-13,2027-08-09,2027-08-13,0,Amoxicillin 500 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00479,B003,make,985.0,2.0,2027-08-20,2027-08-16,2027-08-20,0,Amoxicillin 500 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00480,B003,make,1477.5,3.0,2027-08-27,2027-08-23,2027-08-27,0,Amoxicillin 500 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00481,B003,make,985.0,2.0,2027-09-03,2027-08-30,2027-09-03,0,Amoxicillin 500 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00482,B003,make,1477.5,3.0,2027-09-10,2027-09-06,2027-09-10,0,Amoxicillin 500 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00483,B003,make,985.0,2.0,2027-09-17,2027-09-13,2027-09-17,0,Amoxicillin 500 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00484,B003,make,1477.5,3.0,2027-09-24,2027-09-20,2027-09-24,0,Amoxicillin 500 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00485,B003,make,985.0,2.0,2027-10-01,2027-09-27,2027-10-01,0,Amoxicillin 500 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00486,B003,make,985.0,2.0,2027-10-08,2027-10-04,2027-10-08,0,Amoxicillin 500 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00487,B003,make,985.0,2.0,2027-10-15,2027-10-11,2027-10-15,0,Amoxicillin 500 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00488,B003,make,985.0,2.0,2027-10-22,2027-10-18,2027-10-22,0,Amoxicillin 500 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00489,B003,make,1477.5,3.0,2027-10-29,2027-10-25,2027-10-29,0,Amoxicillin 500 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00490,B003,make,985.0,2.0,2027-11-05,2027-11-01,2027-11-05,0,Amoxicillin 500 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00491,B003,make,492.5,1.0,2027-11-12,2027-11-08,2027-11-12,0,Amoxicillin 500 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00492,B004,make,3900.0,4.0,2026-11-21,2026-11-21,2026-11-27,6,Atorvastatin 10 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00493,B004,make,1950.0,2.0,2026-12-04,2026-11-28,2026-12-04,0,Atorvastatin 10 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00494,B004,make,975.0,1.0,2026-12-11,2026-12-05,2026-12-11,0,Atorvastatin 10 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00495,B004,make,1950.0,2.0,2026-12-18,2026-12-12,2026-12-18,0,Atorvastatin 10 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00496,B004,make,975.0,1.0,2026-12-25,2026-12-19,2026-12-25,0,Atorvastatin 10 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00497,B004,make,1950.0,2.0,2027-01-01,2026-12-26,2027-01-01,0,Atorvastatin 10 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00498,B004,make,975.0,1.0,2027-01-08,2027-01-02,2027-01-08,0,Atorvastatin 10 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00499,B004,make,1950.0,2.0,2027-01-15,2027-01-09,2027-01-15,0,Atorvastatin 10 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00500,B004,make,975.0,1.0,2027-01-22,2027-01-16,2027-01-22,0,Atorvastatin 10 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00501,B004,make,1950.0,2.0,2027-01-29,2027-01-23,2027-01-29,0,Atorvastatin 10 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00502,B004,make,1950.0,2.0,2027-02-05,2027-01-30,2027-02-05,0,Atorvastatin 10 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00503,B004,make,975.0,1.0,2027-02-12,2027-02-06,2027-02-12,0,Atorvastatin 10 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00504,B004,make,1950.0,2.0,2027-02-19,2027-02-13,2027-02-19,0,Atorvastatin 10 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00505,B004,make,975.0,1.0,2027-02-26,2027-02-20,2027-02-26,0,Atorvastatin 10 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00506,B004,make,1950.0,2.0,2027-03-05,2027-02-27,2027-03-05,0,Atorvastatin 10 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00507,B004,make,975.0,1.0,2027-03-12,2027-03-06,2027-03-12,0,Atorvastatin 10 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00508,B004,make,1950.0,2.0,2027-03-19,2027-03-13,2027-03-19,0,Atorvastatin 10 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00509,B004,make,975.0,1.0,2027-03-26,2027-03-20,2027-03-26,0,Atorvastatin 10 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00510,B004,make,1950.0,2.0,2027-04-02,2027-03-27,2027-04-02,0,Atorvastatin 10 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00511,B004,make,975.0,1.0,2027-04-09,2027-04-03,2027-04-09,0,Atorvastatin 10 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00512,B004,make,1950.0,2.0,2027-04-16,2027-04-10,2027-04-16,0,Atorvastatin 10 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00513,B004,make,1950.0,2.0,2027-04-23,2027-04-17,2027-04-23,0,Atorvastatin 10 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00514,B004,make,975.0,1.0,2027-04-30,2027-04-24,2027-04-30,0,Atorvastatin 10 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00515,B004,make,1950.0,2.0,2027-05-07,2027-05-01,2027-05-07,0,Atorvastatin 10 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00516,B004,make,975.0,1.0,2027-05-14,2027-05-08,2027-05-14,0,Atorvastatin 10 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00517,B004,make,1950.0,2.0,2027-05-21,2027-05-15,2027-05-21,0,Atorvastatin 10 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00518,B004,make,975.0,1.0,2027-05-28,2027-05-22,2027-05-28,0,Atorvastatin 10 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00519,B004,make,1950.0,2.0,2027-06-04,2027-05-29,2027-06-04,0,Atorvastatin 10 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00520,B004,make,975.0,1.0,2027-06-11,2027-06-05,2027-06-11,0,Atorvastatin 10 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00521,B004,make,1950.0,2.0,2027-06-18,2027-06-12,2027-06-18,0,Atorvastatin 10 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00522,B004,make,975.0,1.0,2027-06-25,2027-06-19,2027-06-25,0,Atorvastatin 10 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00523,B004,make,1950.0,2.0,2027-07-02,2027-06-26,2027-07-02,0,Atorvastatin 10 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00524,B004,make,1950.0,2.0,2027-07-09,2027-07-03,2027-07-09,0,Atorvastatin 10 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00525,B004,make,975.0,1.0,2027-07-16,2027-07-10,2027-07-16,0,Atorvastatin 10 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00526,B004,make,1950.0,2.0,2027-07-23,2027-07-17,2027-07-23,0,Atorvastatin 10 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00527,B004,make,975.0,1.0,2027-07-30,2027-07-24,2027-07-30,0,Atorvastatin 10 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00528,B004,make,1950.0,2.0,2027-08-06,2027-07-31,2027-08-06,0,Atorvastatin 10 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00529,B004,make,975.0,1.0,2027-08-13,2027-08-07,2027-08-13,0,Atorvastatin 10 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00530,B004,make,1950.0,2.0,2027-08-20,2027-08-14,2027-08-20,0,Atorvastatin 10 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00531,B004,make,975.0,1.0,2027-08-27,2027-08-21,2027-08-27,0,Atorvastatin 10 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00532,B004,make,1950.0,2.0,2027-09-03,2027-08-28,2027-09-03,0,Atorvastatin 10 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00533,B004,make,975.0,1.0,2027-09-10,2027-09-04,2027-09-10,0,Atorvastatin 10 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00534,B004,make,1950.0,2.0,2027-09-17,2027-09-11,2027-09-17,0,Atorvastatin 10 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00535,B004,make,1950.0,2.0,2027-09-24,2027-09-18,2027-09-24,0,Atorvastatin 10 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00536,B004,make,975.0,1.0,2027-10-01,2027-09-25,2027-10-01,0,Atorvastatin 10 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00537,B004,make,1950.0,2.0,2027-10-08,2027-10-02,2027-10-08,0,Atorvastatin 10 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00538,B004,make,975.0,1.0,2027-10-15,2027-10-09,2027-10-15,0,Atorvastatin 10 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00539,B004,make,1950.0,2.0,2027-10-22,2027-10-16,2027-10-22,0,Atorvastatin 10 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00540,B004,make,975.0,1.0,2027-10-29,2027-10-23,2027-10-29,0,Atorvastatin 10 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00541,B004,make,1950.0,2.0,2027-11-05,2027-10-30,2027-11-05,0,Atorvastatin 10 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00542,B004,make,975.0,1.0,2027-11-12,2027-11-06,2027-11-12,0,Atorvastatin 10 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00543,B005,make,980.0,2.0,2026-11-21,2026-11-21,2026-11-26,5,Telmisartan 40 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00544,B005,make,490.0,1.0,2026-11-27,2026-11-22,2026-11-27,0,Telmisartan 40 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00545,B005,make,980.0,2.0,2026-12-04,2026-11-29,2026-12-04,0,Telmisartan 40 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00546,B005,make,980.0,2.0,2026-12-11,2026-12-06,2026-12-11,0,Telmisartan 40 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00547,B005,make,490.0,1.0,2026-12-18,2026-12-13,2026-12-18,0,Telmisartan 40 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00548,B005,make,980.0,2.0,2026-12-25,2026-12-20,2026-12-25,0,Telmisartan 40 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00549,B005,make,490.0,1.0,2027-01-01,2026-12-27,2027-01-01,0,Telmisartan 40 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00550,B005,make,980.0,2.0,2027-01-08,2027-01-03,2027-01-08,0,Telmisartan 40 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00551,B005,make,980.0,2.0,2027-01-15,2027-01-10,2027-01-15,0,Telmisartan 40 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00552,B005,make,490.0,1.0,2027-01-22,2027-01-17,2027-01-22,0,Telmisartan 40 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00553,B005,make,980.0,2.0,2027-01-29,2027-01-24,2027-01-29,0,Telmisartan 40 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00554,B005,make,490.0,1.0,2027-02-05,2027-01-31,2027-02-05,0,Telmisartan 40 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00555,B005,make,980.0,2.0,2027-02-12,2027-02-07,2027-02-12,0,Telmisartan 40 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00556,B005,make,980.0,2.0,2027-02-19,2027-02-14,2027-02-19,0,Telmisartan 40 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00557,B005,make,490.0,1.0,2027-02-26,2027-02-21,2027-02-26,0,Telmisartan 40 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00558,B005,make,980.0,2.0,2027-03-05,2027-02-28,2027-03-05,0,Telmisartan 40 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00559,B005,make,490.0,1.0,2027-03-12,2027-03-07,2027-03-12,0,Telmisartan 40 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00560,B005,make,980.0,2.0,2027-03-19,2027-03-14,2027-03-19,0,Telmisartan 40 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00561,B005,make,980.0,2.0,2027-03-26,2027-03-21,2027-03-26,0,Telmisartan 40 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00562,B005,make,490.0,1.0,2027-04-02,2027-03-28,2027-04-02,0,Telmisartan 40 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00563,B005,make,980.0,2.0,2027-04-09,2027-04-04,2027-04-09,0,Telmisartan 40 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00564,B005,make,490.0,1.0,2027-04-16,2027-04-11,2027-04-16,0,Telmisartan 40 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00565,B005,make,980.0,2.0,2027-04-23,2027-04-18,2027-04-23,0,Telmisartan 40 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00566,B005,make,980.0,2.0,2027-04-30,2027-04-25,2027-04-30,0,Telmisartan 40 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00567,B005,make,490.0,1.0,2027-05-07,2027-05-02,2027-05-07,0,Telmisartan 40 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00568,B005,make,1470.0,3.0,2027-05-14,2027-05-09,2027-05-14,0,Telmisartan 40 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00569,B005,make,490.0,1.0,2027-05-21,2027-05-16,2027-05-21,0,Telmisartan 40 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00570,B005,make,980.0,2.0,2027-05-28,2027-05-23,2027-05-28,0,Telmisartan 40 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00571,B005,make,980.0,2.0,2027-06-04,2027-05-30,2027-06-04,0,Telmisartan 40 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00572,B005,make,490.0,1.0,2027-06-11,2027-06-06,2027-06-11,0,Telmisartan 40 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00573,B005,make,980.0,2.0,2027-06-18,2027-06-13,2027-06-18,0,Telmisartan 40 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00574,B005,make,490.0,1.0,2027-06-25,2027-06-20,2027-06-25,0,Telmisartan 40 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00575,B005,make,980.0,2.0,2027-07-02,2027-06-27,2027-07-02,0,Telmisartan 40 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00576,B005,make,980.0,2.0,2027-07-09,2027-07-04,2027-07-09,0,Telmisartan 40 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00577,B005,make,490.0,1.0,2027-07-16,2027-07-11,2027-07-16,0,Telmisartan 40 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00578,B005,make,980.0,2.0,2027-07-23,2027-07-18,2027-07-23,0,Telmisartan 40 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00579,B005,make,490.0,1.0,2027-07-30,2027-07-25,2027-07-30,0,Telmisartan 40 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00580,B005,make,980.0,2.0,2027-08-06,2027-08-01,2027-08-06,0,Telmisartan 40 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00581,B005,make,980.0,2.0,2027-08-13,2027-08-08,2027-08-13,0,Telmisartan 40 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00582,B005,make,490.0,1.0,2027-08-20,2027-08-15,2027-08-20,0,Telmisartan 40 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00583,B005,make,980.0,2.0,2027-08-27,2027-08-22,2027-08-27,0,Telmisartan 40 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00584,B005,make,490.0,1.0,2027-09-03,2027-08-29,2027-09-03,0,Telmisartan 40 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00585,B005,make,980.0,2.0,2027-09-10,2027-09-05,2027-09-10,0,Telmisartan 40 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00586,B005,make,980.0,2.0,2027-09-17,2027-09-12,2027-09-17,0,Telmisartan 40 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00587,B005,make,490.0,1.0,2027-09-24,2027-09-19,2027-09-24,0,Telmisartan 40 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00588,B005,make,980.0,2.0,2027-10-01,2027-09-26,2027-10-01,0,Telmisartan 40 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00589,B005,make,490.0,1.0,2027-10-08,2027-10-03,2027-10-08,0,Telmisartan 40 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00590,B005,make,980.0,2.0,2027-10-15,2027-10-10,2027-10-15,0,Telmisartan 40 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00591,B005,make,980.0,2.0,2027-10-22,2027-10-17,2027-10-22,0,Telmisartan 40 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00592,B005,make,980.0,2.0,2027-10-29,2027-10-24,2027-10-29,0,Telmisartan 40 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00593,B005,make,980.0,2.0,2027-11-05,2027-10-31,2027-11-05,0,Telmisartan 40 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00594,B005,make,490.0,1.0,2027-11-12,2027-11-07,2027-11-12,0,Telmisartan 40 mg tablets (bulk),Bulk products,Thousand,,,,,,plan
+PL00595,B006,make,985.0,2.0,2026-11-21,2026-11-21,2026-11-26,5,Omeprazole 20 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00596,B006,make,985.0,2.0,2026-11-27,2026-11-22,2026-11-27,0,Omeprazole 20 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00597,B006,make,985.0,2.0,2026-12-04,2026-11-29,2026-12-04,0,Omeprazole 20 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00598,B006,make,492.5,1.0,2026-12-11,2026-12-06,2026-12-11,0,Omeprazole 20 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00599,B006,make,985.0,2.0,2026-12-18,2026-12-13,2026-12-18,0,Omeprazole 20 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00600,B006,make,985.0,2.0,2026-12-25,2026-12-20,2026-12-25,0,Omeprazole 20 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00601,B006,make,985.0,2.0,2027-01-01,2026-12-27,2027-01-01,0,Omeprazole 20 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00602,B006,make,985.0,2.0,2027-01-08,2027-01-03,2027-01-08,0,Omeprazole 20 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00603,B006,make,492.5,1.0,2027-01-15,2027-01-10,2027-01-15,0,Omeprazole 20 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00604,B006,make,985.0,2.0,2027-01-22,2027-01-17,2027-01-22,0,Omeprazole 20 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00605,B006,make,985.0,2.0,2027-01-29,2027-01-24,2027-01-29,0,Omeprazole 20 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00606,B006,make,985.0,2.0,2027-02-05,2027-01-31,2027-02-05,0,Omeprazole 20 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00607,B006,make,985.0,2.0,2027-02-12,2027-02-07,2027-02-12,0,Omeprazole 20 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00608,B006,make,492.5,1.0,2027-02-19,2027-02-14,2027-02-19,0,Omeprazole 20 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00609,B006,make,985.0,2.0,2027-02-26,2027-02-21,2027-02-26,0,Omeprazole 20 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00610,B006,make,985.0,2.0,2027-03-05,2027-02-28,2027-03-05,0,Omeprazole 20 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00611,B006,make,985.0,2.0,2027-03-12,2027-03-07,2027-03-12,0,Omeprazole 20 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00612,B006,make,985.0,2.0,2027-03-19,2027-03-14,2027-03-19,0,Omeprazole 20 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00613,B006,make,492.5,1.0,2027-03-26,2027-03-21,2027-03-26,0,Omeprazole 20 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00614,B006,make,985.0,2.0,2027-04-02,2027-03-28,2027-04-02,0,Omeprazole 20 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00615,B006,make,985.0,2.0,2027-04-09,2027-04-04,2027-04-09,0,Omeprazole 20 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00616,B006,make,985.0,2.0,2027-04-16,2027-04-11,2027-04-16,0,Omeprazole 20 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00617,B006,make,985.0,2.0,2027-04-23,2027-04-18,2027-04-23,0,Omeprazole 20 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00618,B006,make,492.5,1.0,2027-04-30,2027-04-25,2027-04-30,0,Omeprazole 20 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00619,B006,make,985.0,2.0,2027-05-07,2027-05-02,2027-05-07,0,Omeprazole 20 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00620,B006,make,985.0,2.0,2027-05-14,2027-05-09,2027-05-14,0,Omeprazole 20 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00621,B006,make,985.0,2.0,2027-05-21,2027-05-16,2027-05-21,0,Omeprazole 20 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00622,B006,make,1477.5,3.0,2027-05-28,2027-05-23,2027-05-28,0,Omeprazole 20 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00623,B006,make,492.5,1.0,2027-06-04,2027-05-30,2027-06-04,0,Omeprazole 20 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00624,B006,make,985.0,2.0,2027-06-11,2027-06-06,2027-06-11,0,Omeprazole 20 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00625,B006,make,985.0,2.0,2027-06-18,2027-06-13,2027-06-18,0,Omeprazole 20 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00626,B006,make,985.0,2.0,2027-06-25,2027-06-20,2027-06-25,0,Omeprazole 20 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00627,B006,make,985.0,2.0,2027-07-02,2027-06-27,2027-07-02,0,Omeprazole 20 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00628,B006,make,492.5,1.0,2027-07-09,2027-07-04,2027-07-09,0,Omeprazole 20 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00629,B006,make,985.0,2.0,2027-07-16,2027-07-11,2027-07-16,0,Omeprazole 20 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00630,B006,make,985.0,2.0,2027-07-23,2027-07-18,2027-07-23,0,Omeprazole 20 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00631,B006,make,985.0,2.0,2027-07-30,2027-07-25,2027-07-30,0,Omeprazole 20 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00632,B006,make,985.0,2.0,2027-08-06,2027-08-01,2027-08-06,0,Omeprazole 20 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00633,B006,make,492.5,1.0,2027-08-13,2027-08-08,2027-08-13,0,Omeprazole 20 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00634,B006,make,985.0,2.0,2027-08-20,2027-08-15,2027-08-20,0,Omeprazole 20 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00635,B006,make,985.0,2.0,2027-08-27,2027-08-22,2027-08-27,0,Omeprazole 20 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00636,B006,make,985.0,2.0,2027-09-03,2027-08-29,2027-09-03,0,Omeprazole 20 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00637,B006,make,985.0,2.0,2027-09-10,2027-09-05,2027-09-10,0,Omeprazole 20 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00638,B006,make,492.5,1.0,2027-09-17,2027-09-12,2027-09-17,0,Omeprazole 20 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00639,B006,make,985.0,2.0,2027-09-24,2027-09-19,2027-09-24,0,Omeprazole 20 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00640,B006,make,985.0,2.0,2027-10-01,2027-09-26,2027-10-01,0,Omeprazole 20 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00641,B006,make,985.0,2.0,2027-10-08,2027-10-03,2027-10-08,0,Omeprazole 20 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00642,B006,make,985.0,2.0,2027-10-15,2027-10-10,2027-10-15,0,Omeprazole 20 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00643,B006,make,492.5,1.0,2027-10-22,2027-10-17,2027-10-22,0,Omeprazole 20 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00644,B006,make,985.0,2.0,2027-10-29,2027-10-24,2027-10-29,0,Omeprazole 20 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00645,B006,make,985.0,2.0,2027-11-05,2027-10-31,2027-11-05,0,Omeprazole 20 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00646,B006,make,985.0,2.0,2027-11-12,2027-11-07,2027-11-12,0,Omeprazole 20 mg capsules (bulk),Bulk products,Thousand,,,,,,plan
+PL00647,M036,buy,1100.0,,2026-11-21,2026-11-21,2026-12-07,16,PVC film 250 micron,Primary packaging,kg,V005,Hemar Packaging,229.32,252252.0,Arjun Patel,release
+PL00648,M036,buy,3975.0,,2027-01-08,2026-12-23,2027-01-08,0,PVC film 250 micron,Primary packaging,kg,V005,Hemar Packaging,229.32,911547.0,Arjun Patel,later
+PL00649,M036,buy,3700.0,,2027-02-05,2027-01-20,2027-02-05,0,PVC film 250 micron,Primary packaging,kg,V005,Hemar Packaging,229.32,848484.0,Arjun Patel,later
+PL00650,M036,buy,3500.0,,2027-03-05,2027-02-17,2027-03-05,0,PVC film 250 micron,Primary packaging,kg,V005,Hemar Packaging,229.32,802620.0,Arjun Patel,later
+PL00651,M036,buy,3525.0,,2027-04-02,2027-03-17,2027-04-02,0,PVC film 250 micron,Primary packaging,kg,V005,Hemar Packaging,229.32,808353.0,Arjun Patel,later
+PL00652,M036,buy,3500.0,,2027-04-30,2027-04-14,2027-04-30,0,PVC film 250 micron,Primary packaging,kg,V005,Hemar Packaging,229.32,802620.0,Arjun Patel,later
+PL00653,M036,buy,3775.0,,2027-05-28,2027-05-12,2027-05-28,0,PVC film 250 micron,Primary packaging,kg,V005,Hemar Packaging,229.32,865683.0,Arjun Patel,later
+PL00654,M036,buy,4025.0,,2027-06-25,2027-06-09,2027-06-25,0,PVC film 250 micron,Primary packaging,kg,V005,Hemar Packaging,229.32,923013.0,Arjun Patel,later
+PL00655,M036,buy,4425.0,,2027-07-23,2027-07-07,2027-07-23,0,PVC film 250 micron,Primary packaging,kg,V005,Hemar Packaging,229.32,1014741.0,Arjun Patel,later
+PL00656,M036,buy,4425.0,,2027-08-20,2027-08-04,2027-08-20,0,PVC film 250 micron,Primary packaging,kg,V005,Hemar Packaging,229.32,1014741.0,Arjun Patel,later
+PL00657,M036,buy,4100.0,,2027-09-17,2027-09-01,2027-09-17,0,PVC film 250 micron,Primary packaging,kg,V005,Hemar Packaging,229.32,940212.0,Arjun Patel,later
+PL00658,M036,buy,3900.0,,2027-10-15,2027-09-29,2027-10-15,0,PVC film 250 micron,Primary packaging,kg,V005,Hemar Packaging,229.32,894348.0,Arjun Patel,later
+PL00659,M036,buy,900.0,,2027-11-12,2027-10-27,2027-11-12,0,PVC film 250 micron,Primary packaging,kg,V005,Hemar Packaging,229.32,206388.0,Arjun Patel,later
+PL00660,M037,buy,875.0,,2026-12-11,2026-11-28,2026-12-11,0,PVC/PVDC film 250/60,Primary packaging,kg,V006,Valeth Packaging,436.87,382261.25,Arjun Patel,release
+PL00661,M037,buy,825.0,,2027-01-08,2026-12-26,2027-01-08,0,PVC/PVDC film 250/60,Primary packaging,kg,V006,Valeth Packaging,436.87,360417.75,Arjun Patel,later
+PL00662,M037,buy,800.0,,2027-02-05,2027-01-23,2027-02-05,0,PVC/PVDC film 250/60,Primary packaging,kg,V006,Valeth Packaging,436.87,349496.0,Arjun Patel,later
+PL00663,M037,buy,775.0,,2027-03-05,2027-02-20,2027-03-05,0,PVC/PVDC film 250/60,Primary packaging,kg,V006,Valeth Packaging,436.87,338574.25,Arjun Patel,later
+PL00664,M037,buy,650.0,,2027-04-02,2027-03-20,2027-04-02,0,PVC/PVDC film 250/60,Primary packaging,kg,V006,Valeth Packaging,436.87,283965.5,Arjun Patel,later
+PL00665,M037,buy,775.0,,2027-04-30,2027-04-17,2027-04-30,0,PVC/PVDC film 250/60,Primary packaging,kg,V006,Valeth Packaging,436.87,338574.25,Arjun Patel,later
+PL00666,M037,buy,775.0,,2027-05-28,2027-05-15,2027-05-28,0,PVC/PVDC film 250/60,Primary packaging,kg,V006,Valeth Packaging,436.87,338574.25,Arjun Patel,later
+PL00667,M037,buy,850.0,,2027-06-25,2027-06-12,2027-06-25,0,PVC/PVDC film 250/60,Primary packaging,kg,V006,Valeth Packaging,436.87,371339.5,Arjun Patel,later
+PL00668,M037,buy,1050.0,,2027-07-23,2027-07-10,2027-07-23,0,PVC/PVDC film 250/60,Primary packaging,kg,V006,Valeth Packaging,436.87,458713.5,Arjun Patel,later
+PL00669,M037,buy,900.0,,2027-08-20,2027-08-07,2027-08-20,0,PVC/PVDC film 250/60,Primary packaging,kg,V006,Valeth Packaging,436.87,393183.0,Arjun Patel,later
+PL00670,M037,buy,900.0,,2027-09-17,2027-09-04,2027-09-17,0,PVC/PVDC film 250/60,Primary packaging,kg,V006,Valeth Packaging,436.87,393183.0,Arjun Patel,later
+PL00671,M037,buy,850.0,,2027-10-15,2027-10-02,2027-10-15,0,PVC/PVDC film 250/60,Primary packaging,kg,V006,Valeth Packaging,436.87,371339.5,Arjun Patel,later
+PL00672,M037,buy,300.0,,2027-11-12,2027-10-30,2027-11-12,0,PVC/PVDC film 250/60,Primary packaging,kg,V006,Valeth Packaging,436.87,131061.0,Arjun Patel,later
+PL00673,M038,buy,425.0,,2027-01-01,2026-12-19,2027-01-01,0,Blister aluminium foil 25 micron,Primary packaging,kg,V006,Valeth Packaging,584.55,248433.75,Arjun Patel,later
+PL00674,M038,buy,475.0,,2027-01-29,2027-01-16,2027-01-29,0,Blister aluminium foil 25 micron,Primary packaging,kg,V006,Valeth Packaging,584.55,277661.25,Arjun Patel,later
+PL00675,M038,buy,450.0,,2027-02-26,2027-02-13,2027-02-26,0,Blister aluminium foil 25 micron,Primary packaging,kg,V006,Valeth Packaging,584.55,263047.5,Arjun Patel,later
+PL00676,M038,buy,425.0,,2027-03-26,2027-03-13,2027-03-26,0,Blister aluminium foil 25 micron,Primary packaging,kg,V006,Valeth Packaging,584.55,248433.75,Arjun Patel,later
+PL00677,M038,buy,425.0,,2027-04-23,2027-04-10,2027-04-23,0,Blister aluminium foil 25 micron,Primary packaging,kg,V006,Valeth Packaging,584.55,248433.75,Arjun Patel,later
+PL00678,M038,buy,450.0,,2027-05-21,2027-05-08,2027-05-21,0,Blister aluminium foil 25 micron,Primary packaging,kg,V006,Valeth Packaging,584.55,263047.5,Arjun Patel,later
+PL00679,M038,buy,475.0,,2027-06-18,2027-06-05,2027-06-18,0,Blister aluminium foil 25 micron,Primary packaging,kg,V006,Valeth Packaging,584.55,277661.25,Arjun Patel,later
+PL00680,M038,buy,525.0,,2027-07-16,2027-07-03,2027-07-16,0,Blister aluminium foil 25 micron,Primary packaging,kg,V006,Valeth Packaging,584.55,306888.75,Arjun Patel,later
+PL00681,M038,buy,475.0,,2027-08-13,2027-07-31,2027-08-13,0,Blister aluminium foil 25 micron,Primary packaging,kg,V006,Valeth Packaging,584.55,277661.25,Arjun Patel,later
+PL00682,M038,buy,500.0,,2027-09-10,2027-08-28,2027-09-10,0,Blister aluminium foil 25 micron,Primary packaging,kg,V006,Valeth Packaging,584.55,292275.0,Arjun Patel,later
+PL00683,M038,buy,475.0,,2027-10-08,2027-09-25,2027-10-08,0,Blister aluminium foil 25 micron,Primary packaging,kg,V006,Valeth Packaging,584.55,277661.25,Arjun Patel,later
+PL00684,M038,buy,325.0,,2027-11-05,2027-10-23,2027-11-05,0,Blister aluminium foil 25 micron,Primary packaging,kg,V006,Valeth Packaging,584.55,189978.75,Arjun Patel,later
+PL00685,M039,buy,825.0,,2026-12-18,2026-12-02,2026-12-18,0,Alu-alu cold-form foil,Primary packaging,kg,V014,Ceninda Packaging,722.88,596376.0,Arjun Patel,later
+PL00686,M039,buy,850.0,,2027-01-15,2026-12-30,2027-01-15,0,Alu-alu cold-form foil,Primary packaging,kg,V014,Ceninda Packaging,722.88,614448.0,Arjun Patel,later
+PL00687,M039,buy,900.0,,2027-02-12,2027-01-27,2027-02-12,0,Alu-alu cold-form foil,Primary packaging,kg,V014,Ceninda Packaging,722.88,650592.0,Arjun Patel,later
+PL00688,M039,buy,850.0,,2027-03-12,2027-02-24,2027-03-12,0,Alu-alu cold-form foil,Primary packaging,kg,V014,Ceninda Packaging,722.88,614448.0,Arjun Patel,later
+PL00689,M039,buy,900.0,,2027-04-09,2027-03-24,2027-04-09,0,Alu-alu cold-form foil,Primary packaging,kg,V014,Ceninda Packaging,722.88,650592.0,Arjun Patel,later
+PL00690,M039,buy,925.0,,2027-05-07,2027-04-21,2027-05-07,0,Alu-alu cold-form foil,Primary packaging,kg,V014,Ceninda Packaging,722.88,668664.0,Arjun Patel,later
+PL00691,M039,buy,850.0,,2027-06-04,2027-05-19,2027-06-04,0,Alu-alu cold-form foil,Primary packaging,kg,V014,Ceninda Packaging,722.88,614448.0,Arjun Patel,later
+PL00692,M039,buy,900.0,,2027-07-02,2027-06-16,2027-07-02,0,Alu-alu cold-form foil,Primary packaging,kg,V014,Ceninda Packaging,722.88,650592.0,Arjun Patel,later
+PL00693,M039,buy,850.0,,2027-07-30,2027-07-14,2027-07-30,0,Alu-alu cold-form foil,Primary packaging,kg,V014,Ceninda Packaging,722.88,614448.0,Arjun Patel,later
+PL00694,M039,buy,900.0,,2027-08-27,2027-08-11,2027-08-27,0,Alu-alu cold-form foil,Primary packaging,kg,V014,Ceninda Packaging,722.88,650592.0,Arjun Patel,later
+PL00695,M039,buy,925.0,,2027-09-24,2027-09-08,2027-09-24,0,Alu-alu cold-form foil,Primary packaging,kg,V014,Ceninda Packaging,722.88,668664.0,Arjun Patel,later
+PL00696,M039,buy,825.0,,2027-10-22,2027-10-06,2027-10-22,0,Alu-alu cold-form foil,Primary packaging,kg,V014,Ceninda Packaging,722.88,596376.0,Arjun Patel,later
+PL00697,M042,buy,24000.0,,2026-12-25,2026-12-15,2026-12-25,0,HDPE bottle 100 ml,Primary packaging,Units,V006,Valeth Packaging,9.45,226800.0,Arjun Patel,later
+PL00698,M042,buy,32000.0,,2027-01-22,2027-01-12,2027-01-22,0,HDPE bottle 100 ml,Primary packaging,Units,V006,Valeth Packaging,9.45,302400.0,Arjun Patel,later
+PL00699,M042,buy,33000.0,,2027-02-19,2027-02-09,2027-02-19,0,HDPE bottle 100 ml,Primary packaging,Units,V006,Valeth Packaging,9.45,311850.0,Arjun Patel,later
+PL00700,M042,buy,32000.0,,2027-03-19,2027-03-09,2027-03-19,0,HDPE bottle 100 ml,Primary packaging,Units,V006,Valeth Packaging,9.45,302400.0,Arjun Patel,later
+PL00701,M042,buy,32000.0,,2027-04-16,2027-04-06,2027-04-16,0,HDPE bottle 100 ml,Primary packaging,Units,V006,Valeth Packaging,9.45,302400.0,Arjun Patel,later
+PL00702,M042,buy,33000.0,,2027-05-14,2027-05-04,2027-05-14,0,HDPE bottle 100 ml,Primary packaging,Units,V006,Valeth Packaging,9.45,311850.0,Arjun Patel,later
+PL00703,M042,buy,32000.0,,2027-06-11,2027-06-01,2027-06-11,0,HDPE bottle 100 ml,Primary packaging,Units,V006,Valeth Packaging,9.45,302400.0,Arjun Patel,later
+PL00704,M042,buy,32000.0,,2027-07-09,2027-06-29,2027-07-09,0,HDPE bottle 100 ml,Primary packaging,Units,V006,Valeth Packaging,9.45,302400.0,Arjun Patel,later
+PL00705,M042,buy,33000.0,,2027-08-06,2027-07-27,2027-08-06,0,HDPE bottle 100 ml,Primary packaging,Units,V006,Valeth Packaging,9.45,311850.0,Arjun Patel,later
+PL00706,M042,buy,32000.0,,2027-09-03,2027-08-24,2027-09-03,0,HDPE bottle 100 ml,Primary packaging,Units,V006,Valeth Packaging,9.45,302400.0,Arjun Patel,later
+PL00707,M042,buy,32000.0,,2027-10-01,2027-09-21,2027-10-01,0,HDPE bottle 100 ml,Primary packaging,Units,V006,Valeth Packaging,9.45,302400.0,Arjun Patel,later
+PL00708,M042,buy,33000.0,,2027-10-29,2027-10-19,2027-10-29,0,HDPE bottle 100 ml,Primary packaging,Units,V006,Valeth Packaging,9.45,311850.0,Arjun Patel,later
+PL00709,M043,buy,81000.0,,2026-12-25,2026-12-15,2026-12-25,0,Child-resistant cap 28 mm,Primary packaging,Units,V005,Hemar Packaging,2.3,186300.0,Arjun Patel,later
+PL00710,M043,buy,81000.0,,2027-03-19,2027-03-09,2027-03-19,0,Child-resistant cap 28 mm,Primary packaging,Units,V005,Hemar Packaging,2.3,186300.0,Arjun Patel,later
+PL00711,M043,buy,81000.0,,2027-05-14,2027-05-04,2027-05-14,0,Child-resistant cap 28 mm,Primary packaging,Units,V005,Hemar Packaging,2.3,186300.0,Arjun Patel,later
+PL00712,M043,buy,81000.0,,2027-08-06,2027-07-27,2027-08-06,0,Child-resistant cap 28 mm,Primary packaging,Units,V005,Hemar Packaging,2.3,186300.0,Arjun Patel,later
+PL00713,M043,buy,81000.0,,2027-10-01,2027-09-21,2027-10-01,0,Child-resistant cap 28 mm,Primary packaging,Units,V005,Hemar Packaging,2.3,186300.0,Arjun Patel,later
+PL00714,M045,buy,274000.0,,2026-12-25,2026-12-11,2026-12-25,0,Induction seal wad,Primary packaging,Units,V026,Rosar Packaging,0.45,123300.0,Arjun Patel,later
+PL00715,M045,buy,274000.0,,2027-08-06,2027-07-23,2027-08-06,0,Induction seal wad,Primary packaging,Units,V026,Rosar Packaging,0.45,123300.0,Arjun Patel,later
+PL00716,M046,buy,70000.0,,2026-12-25,2026-12-14,2026-12-25,0,Silica gel desiccant canister 1 g,Primary packaging,Units,V027,Galex Packaging,0.97,67900.0,Arjun Patel,later
+PL00717,M046,buy,70000.0,,2027-02-19,2027-02-08,2027-02-19,0,Silica gel desiccant canister 1 g,Primary packaging,Units,V027,Galex Packaging,0.97,67900.0,Arjun Patel,later
+PL00718,M046,buy,70000.0,,2027-04-16,2027-04-05,2027-04-16,0,Silica gel desiccant canister 1 g,Primary packaging,Units,V027,Galex Packaging,0.97,67900.0,Arjun Patel,later
+PL00719,M046,buy,70000.0,,2027-06-11,2027-05-31,2027-06-11,0,Silica gel desiccant canister 1 g,Primary packaging,Units,V027,Galex Packaging,0.97,67900.0,Arjun Patel,later
+PL00720,M046,buy,70000.0,,2027-08-06,2027-07-26,2027-08-06,0,Silica gel desiccant canister 1 g,Primary packaging,Units,V027,Galex Packaging,0.97,67900.0,Arjun Patel,later
+PL00721,M046,buy,70000.0,,2027-10-01,2027-09-20,2027-10-01,0,Silica gel desiccant canister 1 g,Primary packaging,Units,V027,Galex Packaging,0.97,67900.0,Arjun Patel,later
+PL00722,M048,buy,175.0,,2027-08-06,2027-07-20,2027-08-06,0,Cotton coil,Primary packaging,kg,V014,Ceninda Packaging,472.33,82657.75,Arjun Patel,later
+PL00723,M052,buy,71000.0,,2026-11-21,2026-11-21,2026-12-14,23,Printed carton Metformin 500 mg,Printed packaging,Units,V003,Elelle Print & Pack,2.37,168270.0,Arjun Patel,release
+PL00724,M052,buy,76000.0,,2027-01-22,2026-12-30,2027-01-22,0,Printed carton Metformin 500 mg,Printed packaging,Units,V003,Elelle Print & Pack,2.37,180120.0,Arjun Patel,later
+PL00725,M052,buy,96000.0,,2027-02-19,2027-01-27,2027-02-19,0,Printed carton Metformin 500 mg,Printed packaging,Units,V003,Elelle Print & Pack,2.37,227520.0,Arjun Patel,later
+PL00726,M052,buy,101000.0,,2027-03-19,2027-02-24,2027-03-19,0,Printed carton Metformin 500 mg,Printed packaging,Units,V003,Elelle Print & Pack,2.37,239370.0,Arjun Patel,later
+PL00727,M052,buy,96000.0,,2027-04-16,2027-03-24,2027-04-16,0,Printed carton Metformin 500 mg,Printed packaging,Units,V003,Elelle Print & Pack,2.37,227520.0,Arjun Patel,later
+PL00728,M052,buy,95000.0,,2027-05-14,2027-04-21,2027-05-14,0,Printed carton Metformin 500 mg,Printed packaging,Units,V003,Elelle Print & Pack,2.37,225150.0,Arjun Patel,later
+PL00729,M052,buy,96000.0,,2027-06-11,2027-05-19,2027-06-11,0,Printed carton Metformin 500 mg,Printed packaging,Units,V003,Elelle Print & Pack,2.37,227520.0,Arjun Patel,later
+PL00730,M052,buy,96000.0,,2027-07-09,2027-06-16,2027-07-09,0,Printed carton Metformin 500 mg,Printed packaging,Units,V003,Elelle Print & Pack,2.37,227520.0,Arjun Patel,later
+PL00731,M052,buy,101000.0,,2027-08-06,2027-07-14,2027-08-06,0,Printed carton Metformin 500 mg,Printed packaging,Units,V003,Elelle Print & Pack,2.37,239370.0,Arjun Patel,later
+PL00732,M052,buy,96000.0,,2027-09-03,2027-08-11,2027-09-03,0,Printed carton Metformin 500 mg,Printed packaging,Units,V003,Elelle Print & Pack,2.37,227520.0,Arjun Patel,later
+PL00733,M052,buy,96000.0,,2027-10-01,2027-09-08,2027-10-01,0,Printed carton Metformin 500 mg,Printed packaging,Units,V003,Elelle Print & Pack,2.37,227520.0,Arjun Patel,later
+PL00734,M052,buy,71000.0,,2027-10-29,2027-10-06,2027-10-29,0,Printed carton Metformin 500 mg,Printed packaging,Units,V003,Elelle Print & Pack,2.37,168270.0,Arjun Patel,later
+PL00735,M053,buy,29000.0,,2026-11-27,2026-11-21,2026-12-08,11,Printed carton Amoxicillin 500 mg,Printed packaging,Units,V004,Luminda Print & Pack,3.84,111360.0,Arjun Patel,release
+PL00736,M053,buy,37000.0,,2027-01-15,2026-12-29,2027-01-15,0,Printed carton Amoxicillin 500 mg,Printed packaging,Units,V004,Luminda Print & Pack,3.84,142080.0,Arjun Patel,later
+PL00737,M053,buy,35000.0,,2027-02-12,2027-01-26,2027-02-12,0,Printed carton Amoxicillin 500 mg,Printed packaging,Units,V004,Luminda Print & Pack,3.84,134400.0,Arjun Patel,later
+PL00738,M053,buy,30000.0,,2027-03-12,2027-02-23,2027-03-12,0,Printed carton Amoxicillin 500 mg,Printed packaging,Units,V004,Luminda Print & Pack,3.84,115200.0,Arjun Patel,later
+PL00739,M053,buy,36000.0,,2027-04-09,2027-03-23,2027-04-09,0,Printed carton Amoxicillin 500 mg,Printed packaging,Units,V004,Luminda Print & Pack,3.84,138240.0,Arjun Patel,later
+PL00740,M053,buy,30000.0,,2027-05-07,2027-04-20,2027-05-07,0,Printed carton Amoxicillin 500 mg,Printed packaging,Units,V004,Luminda Print & Pack,3.84,115200.0,Arjun Patel,later
+PL00741,M053,buy,40000.0,,2027-06-04,2027-05-18,2027-06-04,0,Printed carton Amoxicillin 500 mg,Printed packaging,Units,V004,Luminda Print & Pack,3.84,153600.0,Arjun Patel,later
+PL00742,M053,buy,46000.0,,2027-07-02,2027-06-15,2027-07-02,0,Printed carton Amoxicillin 500 mg,Printed packaging,Units,V004,Luminda Print & Pack,3.84,176640.0,Arjun Patel,later
+PL00743,M053,buy,50000.0,,2027-07-30,2027-07-13,2027-07-30,0,Printed carton Amoxicillin 500 mg,Printed packaging,Units,V004,Luminda Print & Pack,3.84,192000.0,Arjun Patel,later
+PL00744,M053,buy,51000.0,,2027-08-27,2027-08-10,2027-08-27,0,Printed carton Amoxicillin 500 mg,Printed packaging,Units,V004,Luminda Print & Pack,3.84,195840.0,Arjun Patel,later
+PL00745,M053,buy,45000.0,,2027-09-24,2027-09-07,2027-09-24,0,Printed carton Amoxicillin 500 mg,Printed packaging,Units,V004,Luminda Print & Pack,3.84,172800.0,Arjun Patel,later
+PL00746,M053,buy,36000.0,,2027-10-22,2027-10-05,2027-10-22,0,Printed carton Amoxicillin 500 mg,Printed packaging,Units,V004,Luminda Print & Pack,3.84,138240.0,Arjun Patel,later
+PL00747,M054,buy,49000.0,,2026-12-18,2026-12-01,2026-12-18,0,Printed carton Atorvastatin 10 mg,Printed packaging,Units,V004,Luminda Print & Pack,3.35,164150.0,Arjun Patel,later
+PL00748,M054,buy,60000.0,,2027-01-15,2026-12-29,2027-01-15,0,Printed carton Atorvastatin 10 mg,Printed packaging,Units,V004,Luminda Print & Pack,3.35,201000.0,Arjun Patel,later
+PL00749,M054,buy,61000.0,,2027-02-12,2027-01-26,2027-02-12,0,Printed carton Atorvastatin 10 mg,Printed packaging,Units,V004,Luminda Print & Pack,3.35,204350.0,Arjun Patel,later
+PL00750,M054,buy,61000.0,,2027-03-12,2027-02-23,2027-03-12,0,Printed carton Atorvastatin 10 mg,Printed packaging,Units,V004,Luminda Print & Pack,3.35,204350.0,Arjun Patel,later
+PL00751,M054,buy,60000.0,,2027-04-09,2027-03-23,2027-04-09,0,Printed carton Atorvastatin 10 mg,Printed packaging,Units,V004,Luminda Print & Pack,3.35,201000.0,Arjun Patel,later
+PL00752,M054,buy,61000.0,,2027-05-07,2027-04-20,2027-05-07,0,Printed carton Atorvastatin 10 mg,Printed packaging,Units,V004,Luminda Print & Pack,3.35,204350.0,Arjun Patel,later
+PL00753,M054,buy,60000.0,,2027-06-04,2027-05-18,2027-06-04,0,Printed carton Atorvastatin 10 mg,Printed packaging,Units,V004,Luminda Print & Pack,3.35,201000.0,Arjun Patel,later
+PL00754,M054,buy,61000.0,,2027-07-02,2027-06-15,2027-07-02,0,Printed carton Atorvastatin 10 mg,Printed packaging,Units,V004,Luminda Print & Pack,3.35,204350.0,Arjun Patel,later
+PL00755,M054,buy,61000.0,,2027-07-30,2027-07-13,2027-07-30,0,Printed carton Atorvastatin 10 mg,Printed packaging,Units,V004,Luminda Print & Pack,3.35,204350.0,Arjun Patel,later
+PL00756,M054,buy,60000.0,,2027-08-27,2027-08-10,2027-08-27,0,Printed carton Atorvastatin 10 mg,Printed packaging,Units,V004,Luminda Print & Pack,3.35,201000.0,Arjun Patel,later
+PL00757,M054,buy,61000.0,,2027-09-24,2027-09-07,2027-09-24,0,Printed carton Atorvastatin 10 mg,Printed packaging,Units,V004,Luminda Print & Pack,3.35,204350.0,Arjun Patel,later
+PL00758,M054,buy,60000.0,,2027-10-22,2027-10-05,2027-10-22,0,Printed carton Atorvastatin 10 mg,Printed packaging,Units,V004,Luminda Print & Pack,3.35,201000.0,Arjun Patel,later
+PL00759,M055,buy,43000.0,,2026-12-25,2026-12-09,2026-12-25,0,Printed carton Telmisartan 40 mg,Printed packaging,Units,V004,Luminda Print & Pack,3.48,149640.0,Arjun Patel,later
+PL00760,M055,buy,43000.0,,2027-02-05,2027-01-20,2027-02-05,0,Printed carton Telmisartan 40 mg,Printed packaging,Units,V004,Luminda Print & Pack,3.48,149640.0,Arjun Patel,later
+PL00761,M055,buy,43000.0,,2027-03-12,2027-02-24,2027-03-12,0,Printed carton Telmisartan 40 mg,Printed packaging,Units,V004,Luminda Print & Pack,3.48,149640.0,Arjun Patel,later
+PL00762,M055,buy,43000.0,,2027-04-23,2027-04-07,2027-04-23,0,Printed carton Telmisartan 40 mg,Printed packaging,Units,V004,Luminda Print & Pack,3.48,149640.0,Arjun Patel,later
+PL00763,M055,buy,43000.0,,2027-05-28,2027-05-12,2027-05-28,0,Printed carton Telmisartan 40 mg,Printed packaging,Units,V004,Luminda Print & Pack,3.48,149640.0,Arjun Patel,later
+PL00764,M055,buy,43000.0,,2027-07-02,2027-06-16,2027-07-02,0,Printed carton Telmisartan 40 mg,Printed packaging,Units,V004,Luminda Print & Pack,3.48,149640.0,Arjun Patel,later
+PL00765,M055,buy,43000.0,,2027-08-06,2027-07-21,2027-08-06,0,Printed carton Telmisartan 40 mg,Printed packaging,Units,V004,Luminda Print & Pack,3.48,149640.0,Arjun Patel,later
+PL00766,M055,buy,43000.0,,2027-09-17,2027-09-01,2027-09-17,0,Printed carton Telmisartan 40 mg,Printed packaging,Units,V004,Luminda Print & Pack,3.48,149640.0,Arjun Patel,later
+PL00767,M055,buy,43000.0,,2027-10-22,2027-10-06,2027-10-22,0,Printed carton Telmisartan 40 mg,Printed packaging,Units,V004,Luminda Print & Pack,3.48,149640.0,Arjun Patel,later
+PL00768,M056,buy,44000.0,,2026-12-04,2026-11-21,2026-12-12,8,Printed carton Omeprazole 20 mg,Printed packaging,Units,V003,Elelle Print & Pack,2.3,101200.0,Arjun Patel,release
+PL00769,M056,buy,44000.0,,2027-02-12,2027-01-22,2027-02-12,0,Printed carton Omeprazole 20 mg,Printed packaging,Units,V003,Elelle Print & Pack,2.3,101200.0,Arjun Patel,later
+PL00770,M056,buy,44000.0,,2027-03-19,2027-02-26,2027-03-19,0,Printed carton Omeprazole 20 mg,Printed packaging,Units,V003,Elelle Print & Pack,2.3,101200.0,Arjun Patel,later
+PL00771,M056,buy,44000.0,,2027-04-23,2027-04-02,2027-04-23,0,Printed carton Omeprazole 20 mg,Printed packaging,Units,V003,Elelle Print & Pack,2.3,101200.0,Arjun Patel,later
+PL00772,M056,buy,44000.0,,2027-05-28,2027-05-07,2027-05-28,0,Printed carton Omeprazole 20 mg,Printed packaging,Units,V003,Elelle Print & Pack,2.3,101200.0,Arjun Patel,later
+PL00773,M056,buy,44000.0,,2027-07-02,2027-06-11,2027-07-02,0,Printed carton Omeprazole 20 mg,Printed packaging,Units,V003,Elelle Print & Pack,2.3,101200.0,Arjun Patel,later
+PL00774,M056,buy,44000.0,,2027-07-30,2027-07-09,2027-07-30,0,Printed carton Omeprazole 20 mg,Printed packaging,Units,V003,Elelle Print & Pack,2.3,101200.0,Arjun Patel,later
+PL00775,M056,buy,44000.0,,2027-09-03,2027-08-13,2027-09-03,0,Printed carton Omeprazole 20 mg,Printed packaging,Units,V003,Elelle Print & Pack,2.3,101200.0,Arjun Patel,later
+PL00776,M056,buy,44000.0,,2027-10-08,2027-09-17,2027-10-08,0,Printed carton Omeprazole 20 mg,Printed packaging,Units,V003,Elelle Print & Pack,2.3,101200.0,Arjun Patel,later
+PL00777,M056,buy,44000.0,,2027-11-12,2027-10-22,2027-11-12,0,Printed carton Omeprazole 20 mg,Printed packaging,Units,V003,Elelle Print & Pack,2.3,101200.0,Arjun Patel,later
+PL00778,M057,buy,32000.0,,2026-12-25,2026-12-06,2026-12-25,0,Printed carton export US pack,Printed packaging,Units,V003,Elelle Print & Pack,4.06,129920.0,Arjun Patel,later
+PL00779,M057,buy,32000.0,,2027-01-22,2027-01-03,2027-01-22,0,Printed carton export US pack,Printed packaging,Units,V003,Elelle Print & Pack,4.06,129920.0,Arjun Patel,later
+PL00780,M057,buy,33000.0,,2027-02-19,2027-01-31,2027-02-19,0,Printed carton export US pack,Printed packaging,Units,V003,Elelle Print & Pack,4.06,133980.0,Arjun Patel,later
+PL00781,M057,buy,32000.0,,2027-03-19,2027-02-28,2027-03-19,0,Printed carton export US pack,Printed packaging,Units,V003,Elelle Print & Pack,4.06,129920.0,Arjun Patel,later
+PL00782,M057,buy,32000.0,,2027-04-16,2027-03-28,2027-04-16,0,Printed carton export US pack,Printed packaging,Units,V003,Elelle Print & Pack,4.06,129920.0,Arjun Patel,later
+PL00783,M057,buy,33000.0,,2027-05-14,2027-04-25,2027-05-14,0,Printed carton export US pack,Printed packaging,Units,V003,Elelle Print & Pack,4.06,133980.0,Arjun Patel,later
+PL00784,M057,buy,32000.0,,2027-06-11,2027-05-23,2027-06-11,0,Printed carton export US pack,Printed packaging,Units,V003,Elelle Print & Pack,4.06,129920.0,Arjun Patel,later
+PL00785,M057,buy,32000.0,,2027-07-09,2027-06-20,2027-07-09,0,Printed carton export US pack,Printed packaging,Units,V003,Elelle Print & Pack,4.06,129920.0,Arjun Patel,later
+PL00786,M057,buy,33000.0,,2027-08-06,2027-07-18,2027-08-06,0,Printed carton export US pack,Printed packaging,Units,V003,Elelle Print & Pack,4.06,133980.0,Arjun Patel,later
+PL00787,M057,buy,32000.0,,2027-09-03,2027-08-15,2027-09-03,0,Printed carton export US pack,Printed packaging,Units,V003,Elelle Print & Pack,4.06,129920.0,Arjun Patel,later
+PL00788,M057,buy,32000.0,,2027-10-01,2027-09-12,2027-10-01,0,Printed carton export US pack,Printed packaging,Units,V003,Elelle Print & Pack,4.06,129920.0,Arjun Patel,later
+PL00789,M057,buy,33000.0,,2027-10-29,2027-10-10,2027-10-29,0,Printed carton export US pack,Printed packaging,Units,V003,Elelle Print & Pack,4.06,133980.0,Arjun Patel,later
+PL00790,M058,buy,23000.0,,2026-12-04,2026-11-21,2026-12-12,8,Printed carton export EU pack,Printed packaging,Units,V001,Zoroni Print & Pack,6.89,158470.0,Arjun Patel,release
+PL00791,M058,buy,23000.0,,2027-01-29,2027-01-08,2027-01-29,0,Printed carton export EU pack,Printed packaging,Units,V001,Zoroni Print & Pack,6.89,158470.0,Arjun Patel,later
+PL00792,M058,buy,23000.0,,2027-02-26,2027-02-05,2027-02-26,0,Printed carton export EU pack,Printed packaging,Units,V001,Zoroni Print & Pack,6.89,158470.0,Arjun Patel,later
+PL00793,M058,buy,23000.0,,2027-03-26,2027-03-05,2027-03-26,0,Printed carton export EU pack,Printed packaging,Units,V001,Zoroni Print & Pack,6.89,158470.0,Arjun Patel,later
+PL00794,M058,buy,23000.0,,2027-04-23,2027-04-02,2027-04-23,0,Printed carton export EU pack,Printed packaging,Units,V001,Zoroni Print & Pack,6.89,158470.0,Arjun Patel,later
+PL00795,M058,buy,23000.0,,2027-05-21,2027-04-30,2027-05-21,0,Printed carton export EU pack,Printed packaging,Units,V001,Zoroni Print & Pack,6.89,158470.0,Arjun Patel,later
+PL00796,M058,buy,23000.0,,2027-06-18,2027-05-28,2027-06-18,0,Printed carton export EU pack,Printed packaging,Units,V001,Zoroni Print & Pack,6.89,158470.0,Arjun Patel,later
+PL00797,M058,buy,23000.0,,2027-07-16,2027-06-25,2027-07-16,0,Printed carton export EU pack,Printed packaging,Units,V001,Zoroni Print & Pack,6.89,158470.0,Arjun Patel,later
+PL00798,M058,buy,23000.0,,2027-08-13,2027-07-23,2027-08-13,0,Printed carton export EU pack,Printed packaging,Units,V001,Zoroni Print & Pack,6.89,158470.0,Arjun Patel,later
+PL00799,M058,buy,23000.0,,2027-09-10,2027-08-20,2027-09-10,0,Printed carton export EU pack,Printed packaging,Units,V001,Zoroni Print & Pack,6.89,158470.0,Arjun Patel,later
+PL00800,M058,buy,23000.0,,2027-10-08,2027-09-17,2027-10-08,0,Printed carton export EU pack,Printed packaging,Units,V001,Zoroni Print & Pack,6.89,158470.0,Arjun Patel,later
+PL00801,M058,buy,23000.0,,2027-11-05,2027-10-15,2027-11-05,0,Printed carton export EU pack,Printed packaging,Units,V001,Zoroni Print & Pack,6.89,158470.0,Arjun Patel,later
+PL00802,M059,buy,428000.0,,2026-11-21,2026-11-21,2026-12-12,21,Package leaflet India,Printed packaging,Units,V002,Cenent Print & Pack,0.35,149800.0,Arjun Patel,release
+PL00803,M059,buy,428000.0,,2027-01-29,2027-01-08,2027-01-29,0,Package leaflet India,Printed packaging,Units,V002,Cenent Print & Pack,0.35,149800.0,Arjun Patel,later
+PL00804,M059,buy,428000.0,,2027-03-05,2027-02-12,2027-03-05,0,Package leaflet India,Printed packaging,Units,V002,Cenent Print & Pack,0.35,149800.0,Arjun Patel,later
+PL00805,M059,buy,428000.0,,2027-04-02,2027-03-12,2027-04-02,0,Package leaflet India,Printed packaging,Units,V002,Cenent Print & Pack,0.35,149800.0,Arjun Patel,later
+PL00806,M059,buy,428000.0,,2027-05-07,2027-04-16,2027-05-07,0,Package leaflet India,Printed packaging,Units,V002,Cenent Print & Pack,0.35,149800.0,Arjun Patel,later
+PL00807,M059,buy,428000.0,,2027-06-04,2027-05-14,2027-06-04,0,Package leaflet India,Printed packaging,Units,V002,Cenent Print & Pack,0.35,149800.0,Arjun Patel,later
+PL00808,M059,buy,437000.0,,2027-07-09,2027-06-18,2027-07-09,0,Package leaflet India,Printed packaging,Units,V002,Cenent Print & Pack,0.35,152950.0,Arjun Patel,later
+PL00809,M059,buy,480000.0,,2027-08-06,2027-07-16,2027-08-06,0,Package leaflet India,Printed packaging,Units,V002,Cenent Print & Pack,0.35,168000.0,Arjun Patel,later
+PL00810,M059,buy,454000.0,,2027-09-03,2027-08-13,2027-09-03,0,Package leaflet India,Printed packaging,Units,V002,Cenent Print & Pack,0.35,158900.0,Arjun Patel,later
+PL00811,M059,buy,428000.0,,2027-10-01,2027-09-10,2027-10-01,0,Package leaflet India,Printed packaging,Units,V002,Cenent Print & Pack,0.35,149800.0,Arjun Patel,later
+PL00812,M059,buy,428000.0,,2027-10-29,2027-10-08,2027-10-29,0,Package leaflet India,Printed packaging,Units,V002,Cenent Print & Pack,0.35,149800.0,Arjun Patel,later
+PL00813,M060,buy,147000.0,,2026-12-25,2026-12-11,2026-12-25,0,Package leaflet export US,Printed packaging,Units,V004,Luminda Print & Pack,1.14,167580.0,Arjun Patel,later
+PL00814,M060,buy,147000.0,,2027-05-14,2027-04-30,2027-05-14,0,Package leaflet export US,Printed packaging,Units,V004,Luminda Print & Pack,1.14,167580.0,Arjun Patel,later
+PL00815,M060,buy,147000.0,,2027-09-03,2027-08-20,2027-09-03,0,Package leaflet export US,Printed packaging,Units,V004,Luminda Print & Pack,1.14,167580.0,Arjun Patel,later
+PL00816,M063,buy,206000.0,,2026-11-27,2026-11-21,2026-12-09,12,Bottle label 100 ml,Printed packaging,Units,V015,Quelix Print & Pack,0.44,90640.0,Arjun Patel,release
+PL00817,M064,buy,425.0,,2026-12-25,2026-12-07,2026-12-25,0,Printed blister foil Paracetamol,Printed packaging,kg,V003,Elelle Print & Pack,657.7,279522.5,Arjun Patel,later
+PL00818,M064,buy,475.0,,2027-01-22,2027-01-04,2027-01-22,0,Printed blister foil Paracetamol,Printed packaging,kg,V003,Elelle Print & Pack,657.7,312407.5,Arjun Patel,later
+PL00819,M064,buy,450.0,,2027-02-19,2027-02-01,2027-02-19,0,Printed blister foil Paracetamol,Printed packaging,kg,V003,Elelle Print & Pack,657.7,295965.0,Arjun Patel,later
+PL00820,M064,buy,400.0,,2027-03-19,2027-03-01,2027-03-19,0,Printed blister foil Paracetamol,Printed packaging,kg,V003,Elelle Print & Pack,657.7,263080.0,Arjun Patel,later
+PL00821,M064,buy,375.0,,2027-04-16,2027-03-29,2027-04-16,0,Printed blister foil Paracetamol,Printed packaging,kg,V003,Elelle Print & Pack,657.7,246637.5,Arjun Patel,later
+PL00822,M064,buy,450.0,,2027-05-14,2027-04-26,2027-05-14,0,Printed blister foil Paracetamol,Printed packaging,kg,V003,Elelle Print & Pack,657.7,295965.0,Arjun Patel,later
+PL00823,M064,buy,500.0,,2027-06-11,2027-05-24,2027-06-11,0,Printed blister foil Paracetamol,Printed packaging,kg,V003,Elelle Print & Pack,657.7,328850.0,Arjun Patel,later
+PL00824,M064,buy,600.0,,2027-07-09,2027-06-21,2027-07-09,0,Printed blister foil Paracetamol,Printed packaging,kg,V003,Elelle Print & Pack,657.7,394620.0,Arjun Patel,later
+PL00825,M064,buy,675.0,,2027-08-06,2027-07-19,2027-08-06,0,Printed blister foil Paracetamol,Printed packaging,kg,V003,Elelle Print & Pack,657.7,443947.5,Arjun Patel,later
+PL00826,M064,buy,625.0,,2027-09-03,2027-08-16,2027-09-03,0,Printed blister foil Paracetamol,Printed packaging,kg,V003,Elelle Print & Pack,657.7,411062.5,Arjun Patel,later
+PL00827,M064,buy,525.0,,2027-10-01,2027-09-13,2027-10-01,0,Printed blister foil Paracetamol,Printed packaging,kg,V003,Elelle Print & Pack,657.7,345292.5,Arjun Patel,later
+PL00828,M064,buy,350.0,,2027-10-29,2027-10-11,2027-10-29,0,Printed blister foil Paracetamol,Printed packaging,kg,V003,Elelle Print & Pack,657.7,230195.0,Arjun Patel,later
+PL00829,M065,buy,325.0,,2026-12-18,2026-12-03,2026-12-18,0,Printed blister foil Metformin,Printed packaging,kg,V015,Quelix Print & Pack,555.48,180531.0,Arjun Patel,later
+PL00830,M065,buy,350.0,,2027-01-15,2026-12-31,2027-01-15,0,Printed blister foil Metformin,Printed packaging,kg,V015,Quelix Print & Pack,555.48,194418.0,Arjun Patel,later
+PL00831,M065,buy,350.0,,2027-02-12,2027-01-28,2027-02-12,0,Printed blister foil Metformin,Printed packaging,kg,V015,Quelix Print & Pack,555.48,194418.0,Arjun Patel,later
+PL00832,M065,buy,325.0,,2027-03-12,2027-02-25,2027-03-12,0,Printed blister foil Metformin,Printed packaging,kg,V015,Quelix Print & Pack,555.48,180531.0,Arjun Patel,later
+PL00833,M065,buy,350.0,,2027-04-09,2027-03-25,2027-04-09,0,Printed blister foil Metformin,Printed packaging,kg,V015,Quelix Print & Pack,555.48,194418.0,Arjun Patel,later
+PL00834,M065,buy,325.0,,2027-05-07,2027-04-22,2027-05-07,0,Printed blister foil Metformin,Printed packaging,kg,V015,Quelix Print & Pack,555.48,180531.0,Arjun Patel,later
+PL00835,M065,buy,325.0,,2027-06-04,2027-05-20,2027-06-04,0,Printed blister foil Metformin,Printed packaging,kg,V015,Quelix Print & Pack,555.48,180531.0,Arjun Patel,later
+PL00836,M065,buy,375.0,,2027-07-02,2027-06-17,2027-07-02,0,Printed blister foil Metformin,Printed packaging,kg,V015,Quelix Print & Pack,555.48,208305.0,Arjun Patel,later
+PL00837,M065,buy,325.0,,2027-07-30,2027-07-15,2027-07-30,0,Printed blister foil Metformin,Printed packaging,kg,V015,Quelix Print & Pack,555.48,180531.0,Arjun Patel,later
+PL00838,M065,buy,325.0,,2027-08-27,2027-08-12,2027-08-27,0,Printed blister foil Metformin,Printed packaging,kg,V015,Quelix Print & Pack,555.48,180531.0,Arjun Patel,later
+PL00839,M065,buy,350.0,,2027-09-24,2027-09-09,2027-09-24,0,Printed blister foil Metformin,Printed packaging,kg,V015,Quelix Print & Pack,555.48,194418.0,Arjun Patel,later
+PL00840,M065,buy,325.0,,2027-10-22,2027-10-07,2027-10-22,0,Printed blister foil Metformin,Printed packaging,kg,V015,Quelix Print & Pack,555.48,180531.0,Arjun Patel,later
+PL00841,M066,buy,275.0,,2026-12-04,2026-11-21,2026-12-09,5,Printed blister foil Atorvastatin,Printed packaging,kg,V001,Zoroni Print & Pack,655.11,180155.25,Arjun Patel,release
+PL00842,M066,buy,275.0,,2027-02-12,2027-01-25,2027-02-12,0,Printed blister foil Atorvastatin,Printed packaging,kg,V001,Zoroni Print & Pack,655.11,180155.25,Arjun Patel,later
+PL00843,M066,buy,275.0,,2027-03-26,2027-03-08,2027-03-26,0,Printed blister foil Atorvastatin,Printed packaging,kg,V001,Zoroni Print & Pack,655.11,180155.25,Arjun Patel,later
+PL00844,M066,buy,275.0,,2027-04-30,2027-04-12,2027-04-30,0,Printed blister foil Atorvastatin,Printed packaging,kg,V001,Zoroni Print & Pack,655.11,180155.25,Arjun Patel,later
+PL00845,M066,buy,275.0,,2027-06-04,2027-05-17,2027-06-04,0,Printed blister foil Atorvastatin,Printed packaging,kg,V001,Zoroni Print & Pack,655.11,180155.25,Arjun Patel,later
+PL00846,M066,buy,275.0,,2027-07-09,2027-06-21,2027-07-09,0,Printed blister foil Atorvastatin,Printed packaging,kg,V001,Zoroni Print & Pack,655.11,180155.25,Arjun Patel,later
+PL00847,M066,buy,275.0,,2027-08-13,2027-07-26,2027-08-13,0,Printed blister foil Atorvastatin,Printed packaging,kg,V001,Zoroni Print & Pack,655.11,180155.25,Arjun Patel,later
+PL00848,M066,buy,275.0,,2027-09-17,2027-08-30,2027-09-17,0,Printed blister foil Atorvastatin,Printed packaging,kg,V001,Zoroni Print & Pack,655.11,180155.25,Arjun Patel,later
+PL00849,M066,buy,275.0,,2027-10-29,2027-10-11,2027-10-29,0,Printed blister foil Atorvastatin,Printed packaging,kg,V001,Zoroni Print & Pack,655.11,180155.25,Arjun Patel,later
+PL00850,M067,buy,2935.0,,2026-11-21,2026-11-21,2026-12-09,18,Shipper carton 5-ply,Printed packaging,Units,V002,Cenent Print & Pack,46.93,137739.55,Arjun Patel,release
+PL00851,M067,buy,3315.0,,2027-01-15,2026-12-28,2027-01-15,0,Shipper carton 5-ply,Printed packaging,Units,V002,Cenent Print & Pack,46.93,155572.95,Arjun Patel,later
+PL00852,M067,buy,3900.0,,2027-02-12,2027-01-25,2027-02-12,0,Shipper carton 5-ply,Printed packaging,Units,V002,Cenent Print & Pack,46.93,183027.0,Arjun Patel,later
+PL00853,M067,buy,3650.0,,2027-03-12,2027-02-22,2027-03-12,0,Shipper carton 5-ply,Printed packaging,Units,V002,Cenent Print & Pack,46.93,171294.5,Arjun Patel,later
+PL00854,M067,buy,3750.0,,2027-04-09,2027-03-22,2027-04-09,0,Shipper carton 5-ply,Printed packaging,Units,V002,Cenent Print & Pack,46.93,175987.5,Arjun Patel,later
+PL00855,M067,buy,3700.0,,2027-05-07,2027-04-19,2027-05-07,0,Shipper carton 5-ply,Printed packaging,Units,V002,Cenent Print & Pack,46.93,173641.0,Arjun Patel,later
+PL00856,M067,buy,3950.0,,2027-06-04,2027-05-17,2027-06-04,0,Shipper carton 5-ply,Printed packaging,Units,V002,Cenent Print & Pack,46.93,185373.5,Arjun Patel,later
+PL00857,M067,buy,4400.0,,2027-07-02,2027-06-14,2027-07-02,0,Shipper carton 5-ply,Printed packaging,Units,V002,Cenent Print & Pack,46.93,206492.0,Arjun Patel,later
+PL00858,M067,buy,4550.0,,2027-07-30,2027-07-12,2027-07-30,0,Shipper carton 5-ply,Printed packaging,Units,V002,Cenent Print & Pack,46.93,213531.5,Arjun Patel,later
+PL00859,M067,buy,4600.0,,2027-08-27,2027-08-09,2027-08-27,0,Shipper carton 5-ply,Printed packaging,Units,V002,Cenent Print & Pack,46.93,215878.0,Arjun Patel,later
+PL00860,M067,buy,4250.0,,2027-09-24,2027-09-06,2027-09-24,0,Shipper carton 5-ply,Printed packaging,Units,V002,Cenent Print & Pack,46.93,199452.5,Arjun Patel,later
+PL00861,M067,buy,3900.0,,2027-10-22,2027-10-04,2027-10-22,0,Shipper carton 5-ply,Printed packaging,Units,V002,Cenent Print & Pack,46.93,183027.0,Arjun Patel,later
+PL00862,M068,buy,1741.0,,2027-01-01,2026-12-13,2027-01-01,0,Shipper carton 7-ply export,Printed packaging,Units,V004,Luminda Print & Pack,67.59,117674.19,Arjun Patel,later
+PL00863,M068,buy,1741.0,,2027-02-19,2027-01-31,2027-02-19,0,Shipper carton 7-ply export,Printed packaging,Units,V004,Luminda Print & Pack,67.59,117674.19,Arjun Patel,later
+PL00864,M068,buy,1741.0,,2027-04-16,2027-03-28,2027-04-16,0,Shipper carton 7-ply export,Printed packaging,Units,V004,Luminda Print & Pack,67.59,117674.19,Arjun Patel,later
+PL00865,M068,buy,1741.0,,2027-06-11,2027-05-23,2027-06-11,0,Shipper carton 7-ply export,Printed packaging,Units,V004,Luminda Print & Pack,67.59,117674.19,Arjun Patel,later
+PL00866,M068,buy,1741.0,,2027-08-06,2027-07-18,2027-08-06,0,Shipper carton 7-ply export,Printed packaging,Units,V004,Luminda Print & Pack,67.59,117674.19,Arjun Patel,later
+PL00867,M068,buy,1741.0,,2027-10-01,2027-09-12,2027-10-01,0,Shipper carton 7-ply export,Printed packaging,Units,V004,Luminda Print & Pack,67.59,117674.19,Arjun Patel,later
+PL00868,M069,buy,370000.0,,2026-11-21,2026-11-21,2026-12-14,23,Tamper-evident seal label,Printed packaging,Units,V003,Elelle Print & Pack,0.47,173900.0,Arjun Patel,release
+PL00869,M069,buy,771000.0,,2027-01-15,2026-12-23,2027-01-15,0,Tamper-evident seal label,Printed packaging,Units,V003,Elelle Print & Pack,0.47,362370.0,Arjun Patel,later
+PL00870,M069,buy,839000.0,,2027-02-12,2027-01-20,2027-02-12,0,Tamper-evident seal label,Printed packaging,Units,V003,Elelle Print & Pack,0.47,394330.0,Arjun Patel,later
+PL00871,M069,buy,787000.0,,2027-03-12,2027-02-17,2027-03-12,0,Tamper-evident seal label,Printed packaging,Units,V003,Elelle Print & Pack,0.47,369890.0,Arjun Patel,later
+PL00872,M069,buy,798000.0,,2027-04-09,2027-03-17,2027-04-09,0,Tamper-evident seal label,Printed packaging,Units,V003,Elelle Print & Pack,0.47,375060.0,Arjun Patel,later
+PL00873,M069,buy,798000.0,,2027-05-07,2027-04-14,2027-05-07,0,Tamper-evident seal label,Printed packaging,Units,V003,Elelle Print & Pack,0.47,375060.0,Arjun Patel,later
+PL00874,M069,buy,849000.0,,2027-06-04,2027-05-12,2027-06-04,0,Tamper-evident seal label,Printed packaging,Units,V003,Elelle Print & Pack,0.47,399030.0,Arjun Patel,later
+PL00875,M069,buy,939000.0,,2027-07-02,2027-06-09,2027-07-02,0,Tamper-evident seal label,Printed packaging,Units,V003,Elelle Print & Pack,0.47,441330.0,Arjun Patel,later
+PL00876,M069,buy,970000.0,,2027-07-30,2027-07-07,2027-07-30,0,Tamper-evident seal label,Printed packaging,Units,V003,Elelle Print & Pack,0.47,455900.0,Arjun Patel,later
+PL00877,M069,buy,969000.0,,2027-08-27,2027-08-04,2027-08-27,0,Tamper-evident seal label,Printed packaging,Units,V003,Elelle Print & Pack,0.47,455430.0,Arjun Patel,later
+PL00878,M069,buy,909000.0,,2027-09-24,2027-09-01,2027-09-24,0,Tamper-evident seal label,Printed packaging,Units,V003,Elelle Print & Pack,0.47,427230.0,Arjun Patel,later
+PL00879,M069,buy,838000.0,,2027-10-22,2027-09-29,2027-10-22,0,Tamper-evident seal label,Printed packaging,Units,V003,Elelle Print & Pack,0.47,393860.0,Arjun Patel,later
+PL00880,M070,buy,91000.0,,2026-11-27,2026-11-21,2026-12-13,16,Serialisation label export,Printed packaging,Units,V004,Luminda Print & Pack,1.1,100100.0,Arjun Patel,release
+PL00881,M070,buy,91000.0,,2027-02-19,2027-01-28,2027-02-19,0,Serialisation label export,Printed packaging,Units,V004,Luminda Print & Pack,1.1,100100.0,Arjun Patel,later
+PL00882,M070,buy,91000.0,,2027-03-26,2027-03-04,2027-03-26,0,Serialisation label export,Printed packaging,Units,V004,Luminda Print & Pack,1.1,100100.0,Arjun Patel,later
+PL00883,M070,buy,91000.0,,2027-05-21,2027-04-29,2027-05-21,0,Serialisation label export,Printed packaging,Units,V004,Luminda Print & Pack,1.1,100100.0,Arjun Patel,later
+PL00884,M070,buy,91000.0,,2027-07-09,2027-06-17,2027-07-09,0,Serialisation label export,Printed packaging,Units,V004,Luminda Print & Pack,1.1,100100.0,Arjun Patel,later
+PL00885,M070,buy,91000.0,,2027-08-13,2027-07-22,2027-08-13,0,Serialisation label export,Printed packaging,Units,V004,Luminda Print & Pack,1.1,100100.0,Arjun Patel,later
+PL00886,M070,buy,91000.0,,2027-10-01,2027-09-09,2027-10-01,0,Serialisation label export,Printed packaging,Units,V004,Luminda Print & Pack,1.1,100100.0,Arjun Patel,later
+PL00887,M121,buy,199000.0,,2027-01-15,2026-12-26,2027-01-15,0,Printed carton Paracetamol 500 mg (new artwork),Printed packaging,Units,V003,Elelle Print & Pack,1.91,380090.0,Arjun Patel,later
+PL00888,M121,buy,126000.0,,2027-02-12,2027-01-23,2027-02-12,0,Printed carton Paracetamol 500 mg (new artwork),Printed packaging,Units,V003,Elelle Print & Pack,1.91,240660.0,Arjun Patel,later
+PL00889,M121,buy,116000.0,,2027-03-12,2027-02-20,2027-03-12,0,Printed carton Paracetamol 500 mg (new artwork),Printed packaging,Units,V003,Elelle Print & Pack,1.91,221560.0,Arjun Patel,later
+PL00890,M121,buy,116000.0,,2027-04-09,2027-03-20,2027-04-09,0,Printed carton Paracetamol 500 mg (new artwork),Printed packaging,Units,V003,Elelle Print & Pack,1.91,221560.0,Arjun Patel,later
+PL00891,M121,buy,117000.0,,2027-05-07,2027-04-17,2027-05-07,0,Printed carton Paracetamol 500 mg (new artwork),Printed packaging,Units,V003,Elelle Print & Pack,1.91,223470.0,Arjun Patel,later
+PL00892,M121,buy,136000.0,,2027-06-04,2027-05-15,2027-06-04,0,Printed carton Paracetamol 500 mg (new artwork),Printed packaging,Units,V003,Elelle Print & Pack,1.91,259760.0,Arjun Patel,later
+PL00893,M121,buy,167000.0,,2027-07-02,2027-06-12,2027-07-02,0,Printed carton Paracetamol 500 mg (new artwork),Printed packaging,Units,V003,Elelle Print & Pack,1.91,318970.0,Arjun Patel,later
+PL00894,M121,buy,186000.0,,2027-07-30,2027-07-10,2027-07-30,0,Printed carton Paracetamol 500 mg (new artwork),Printed packaging,Units,V003,Elelle Print & Pack,1.91,355260.0,Arjun Patel,later
+PL00895,M121,buy,187000.0,,2027-08-27,2027-08-07,2027-08-27,0,Printed carton Paracetamol 500 mg (new artwork),Printed packaging,Units,V003,Elelle Print & Pack,1.91,357170.0,Arjun Patel,later
+PL00896,M121,buy,157000.0,,2027-09-24,2027-09-04,2027-09-24,0,Printed carton Paracetamol 500 mg (new artwork),Printed packaging,Units,V003,Elelle Print & Pack,1.91,299870.0,Arjun Patel,later
+PL00897,M121,buy,136000.0,,2027-10-22,2027-10-02,2027-10-22,0,Printed carton Paracetamol 500 mg (new artwork),Printed packaging,Units,V003,Elelle Print & Pack,1.91,259760.0,Arjun Patel,later
+PL00898,M122,buy,52000.0,,2027-01-01,2026-12-18,2027-01-01,0,Package leaflet export EU (safety update),Printed packaging,Units,V003,Elelle Print & Pack,1.21,62920.0,Arjun Patel,later
+PL00899,M122,buy,52000.0,,2027-02-26,2027-02-12,2027-02-26,0,Package leaflet export EU (safety update),Printed packaging,Units,V003,Elelle Print & Pack,1.21,62920.0,Arjun Patel,later
+PL00900,M122,buy,52000.0,,2027-04-23,2027-04-09,2027-04-23,0,Package leaflet export EU (safety update),Printed packaging,Units,V003,Elelle Print & Pack,1.21,62920.0,Arjun Patel,later
+PL00901,M122,buy,52000.0,,2027-06-18,2027-06-04,2027-06-18,0,Package leaflet export EU (safety update),Printed packaging,Units,V003,Elelle Print & Pack,1.21,62920.0,Arjun Patel,later
+PL00902,M122,buy,52000.0,,2027-08-13,2027-07-30,2027-08-13,0,Package leaflet export EU (safety update),Printed packaging,Units,V003,Elelle Print & Pack,1.21,62920.0,Arjun Patel,later
+PL00903,M122,buy,52000.0,,2027-10-08,2027-09-24,2027-10-08,0,Package leaflet export EU (safety update),Printed packaging,Units,V003,Elelle Print & Pack,1.21,62920.0,Arjun Patel,later
+PL00904,M001,buy,3950.0,,2026-12-20,2026-12-06,2026-12-20,0,Paracetamol,APIs,kg,V021,Draoni Pharmachem,395.39,1561790.5,Neha Kulkarni,later
+PL00905,M001,buy,4025.0,,2027-01-03,2026-12-20,2027-01-03,0,Paracetamol,APIs,kg,V021,Draoni Pharmachem,395.39,1591444.75,Neha Kulkarni,later
+PL00906,M001,buy,5050.0,,2027-01-17,2027-01-03,2027-01-17,0,Paracetamol,APIs,kg,V021,Draoni Pharmachem,395.39,1996719.5,Neha Kulkarni,later
+PL00907,M001,buy,3525.0,,2027-01-31,2027-01-17,2027-01-31,0,Paracetamol,APIs,kg,V021,Draoni Pharmachem,395.39,1393749.75,Neha Kulkarni,later
+PL00908,M001,buy,5025.0,,2027-02-14,2027-01-31,2027-02-14,0,Paracetamol,APIs,kg,V021,Draoni Pharmachem,395.39,1986834.75,Neha Kulkarni,later
+PL00909,M001,buy,3025.0,,2027-02-28,2027-02-14,2027-02-28,0,Paracetamol,APIs,kg,V021,Draoni Pharmachem,395.39,1196054.75,Neha Kulkarni,later
+PL00910,M001,buy,4525.0,,2027-03-14,2027-02-28,2027-03-14,0,Paracetamol,APIs,kg,V021,Draoni Pharmachem,395.39,1789139.75,Neha Kulkarni,later
+PL00911,M001,buy,3025.0,,2027-03-28,2027-03-14,2027-03-28,0,Paracetamol,APIs,kg,V021,Draoni Pharmachem,395.39,1196054.75,Neha Kulkarni,later
+PL00912,M001,buy,4525.0,,2027-04-11,2027-03-28,2027-04-11,0,Paracetamol,APIs,kg,V021,Draoni Pharmachem,395.39,1789139.75,Neha Kulkarni,later
+PL00913,M001,buy,3025.0,,2027-04-25,2027-04-11,2027-04-25,0,Paracetamol,APIs,kg,V021,Draoni Pharmachem,395.39,1196054.75,Neha Kulkarni,later
+PL00914,M001,buy,4525.0,,2027-05-09,2027-04-25,2027-05-09,0,Paracetamol,APIs,kg,V021,Draoni Pharmachem,395.39,1789139.75,Neha Kulkarni,later
+PL00915,M001,buy,3525.0,,2027-05-23,2027-05-09,2027-05-23,0,Paracetamol,APIs,kg,V021,Draoni Pharmachem,395.39,1393749.75,Neha Kulkarni,later
+PL00916,M001,buy,5050.0,,2027-06-06,2027-05-23,2027-06-06,0,Paracetamol,APIs,kg,V021,Draoni Pharmachem,395.39,1996719.5,Neha Kulkarni,later
+PL00917,M001,buy,4025.0,,2027-06-20,2027-06-06,2027-06-20,0,Paracetamol,APIs,kg,V021,Draoni Pharmachem,395.39,1591444.75,Neha Kulkarni,later
+PL00918,M001,buy,5550.0,,2027-07-04,2027-06-20,2027-07-04,0,Paracetamol,APIs,kg,V021,Draoni Pharmachem,395.39,2194414.5,Neha Kulkarni,later
+PL00919,M001,buy,4525.0,,2027-07-18,2027-07-04,2027-07-18,0,Paracetamol,APIs,kg,V021,Draoni Pharmachem,395.39,1789139.75,Neha Kulkarni,later
+PL00920,M001,buy,6550.0,,2027-08-01,2027-07-18,2027-08-01,0,Paracetamol,APIs,kg,V021,Draoni Pharmachem,395.39,2589804.5,Neha Kulkarni,later
+PL00921,M001,buy,5025.0,,2027-08-15,2027-08-01,2027-08-15,0,Paracetamol,APIs,kg,V021,Draoni Pharmachem,395.39,1986834.75,Neha Kulkarni,later
+PL00922,M001,buy,6550.0,,2027-08-29,2027-08-15,2027-08-29,0,Paracetamol,APIs,kg,V021,Draoni Pharmachem,395.39,2589804.5,Neha Kulkarni,later
+PL00923,M001,buy,4525.0,,2027-09-12,2027-08-29,2027-09-12,0,Paracetamol,APIs,kg,V021,Draoni Pharmachem,395.39,1789139.75,Neha Kulkarni,later
+PL00924,M001,buy,5050.0,,2027-09-26,2027-09-12,2027-09-26,0,Paracetamol,APIs,kg,V021,Draoni Pharmachem,395.39,1996719.5,Neha Kulkarni,later
+PL00925,M001,buy,4025.0,,2027-10-10,2027-09-26,2027-10-10,0,Paracetamol,APIs,kg,V021,Draoni Pharmachem,395.39,1591444.75,Neha Kulkarni,later
+PL00926,M001,buy,5025.0,,2027-10-24,2027-10-10,2027-10-24,0,Paracetamol,APIs,kg,V021,Draoni Pharmachem,395.39,1986834.75,Neha Kulkarni,later
+PL00927,M001,buy,2025.0,,2027-11-07,2027-10-24,2027-11-07,0,Paracetamol,APIs,kg,V021,Draoni Pharmachem,395.39,800664.75,Neha Kulkarni,later
+PL00928,M002,buy,2400.0,,2026-12-12,2026-11-24,2026-12-12,0,Metformin hydrochloride,APIs,kg,V020,Aroni Pharmachem,316.22,758928.0,Neha Kulkarni,release
+PL00929,M002,buy,3625.0,,2026-12-26,2026-12-08,2026-12-26,0,Metformin hydrochloride,APIs,kg,V020,Aroni Pharmachem,316.22,1146297.5,Neha Kulkarni,later
+PL00930,M002,buy,2825.0,,2027-01-09,2026-12-22,2027-01-09,0,Metformin hydrochloride,APIs,kg,V020,Aroni Pharmachem,316.22,893321.5,Neha Kulkarni,later
+PL00931,M002,buy,3625.0,,2027-01-23,2027-01-05,2027-01-23,0,Metformin hydrochloride,APIs,kg,V020,Aroni Pharmachem,316.22,1146297.5,Neha Kulkarni,later
+PL00932,M002,buy,2425.0,,2027-02-06,2027-01-19,2027-02-06,0,Metformin hydrochloride,APIs,kg,V020,Aroni Pharmachem,316.22,766833.5,Neha Kulkarni,later
+PL00933,M002,buy,4050.0,,2027-02-20,2027-02-02,2027-02-20,0,Metformin hydrochloride,APIs,kg,V020,Aroni Pharmachem,316.22,1280691.0,Neha Kulkarni,later
+PL00934,M002,buy,2425.0,,2027-03-06,2027-02-16,2027-03-06,0,Metformin hydrochloride,APIs,kg,V020,Aroni Pharmachem,316.22,766833.5,Neha Kulkarni,later
+PL00935,M002,buy,3625.0,,2027-03-20,2027-03-02,2027-03-20,0,Metformin hydrochloride,APIs,kg,V020,Aroni Pharmachem,316.22,1146297.5,Neha Kulkarni,later
+PL00936,M002,buy,2425.0,,2027-04-03,2027-03-16,2027-04-03,0,Metformin hydrochloride,APIs,kg,V020,Aroni Pharmachem,316.22,766833.5,Neha Kulkarni,later
+PL00937,M002,buy,3625.0,,2027-04-17,2027-03-30,2027-04-17,0,Metformin hydrochloride,APIs,kg,V020,Aroni Pharmachem,316.22,1146297.5,Neha Kulkarni,later
+PL00938,M002,buy,2825.0,,2027-05-01,2027-04-13,2027-05-01,0,Metformin hydrochloride,APIs,kg,V020,Aroni Pharmachem,316.22,893321.5,Neha Kulkarni,later
+PL00939,M002,buy,3625.0,,2027-05-15,2027-04-27,2027-05-15,0,Metformin hydrochloride,APIs,kg,V020,Aroni Pharmachem,316.22,1146297.5,Neha Kulkarni,later
+PL00940,M002,buy,2425.0,,2027-05-29,2027-05-11,2027-05-29,0,Metformin hydrochloride,APIs,kg,V020,Aroni Pharmachem,316.22,766833.5,Neha Kulkarni,later
+PL00941,M002,buy,3650.0,,2027-06-12,2027-05-25,2027-06-12,0,Metformin hydrochloride,APIs,kg,V020,Aroni Pharmachem,316.22,1154203.0,Neha Kulkarni,later
+PL00942,M002,buy,2825.0,,2027-06-26,2027-06-08,2027-06-26,0,Metformin hydrochloride,APIs,kg,V020,Aroni Pharmachem,316.22,893321.5,Neha Kulkarni,later
+PL00943,M002,buy,3625.0,,2027-07-10,2027-06-22,2027-07-10,0,Metformin hydrochloride,APIs,kg,V020,Aroni Pharmachem,316.22,1146297.5,Neha Kulkarni,later
+PL00944,M002,buy,2425.0,,2027-07-24,2027-07-06,2027-07-24,0,Metformin hydrochloride,APIs,kg,V020,Aroni Pharmachem,316.22,766833.5,Neha Kulkarni,later
+PL00945,M002,buy,4025.0,,2027-08-07,2027-07-20,2027-08-07,0,Metformin hydrochloride,APIs,kg,V020,Aroni Pharmachem,316.22,1272785.5,Neha Kulkarni,later
+PL00946,M002,buy,2425.0,,2027-08-21,2027-08-03,2027-08-21,0,Metformin hydrochloride,APIs,kg,V020,Aroni Pharmachem,316.22,766833.5,Neha Kulkarni,later
+PL00947,M002,buy,3625.0,,2027-09-04,2027-08-17,2027-09-04,0,Metformin hydrochloride,APIs,kg,V020,Aroni Pharmachem,316.22,1146297.5,Neha Kulkarni,later
+PL00948,M002,buy,2425.0,,2027-09-18,2027-08-31,2027-09-18,0,Metformin hydrochloride,APIs,kg,V020,Aroni Pharmachem,316.22,766833.5,Neha Kulkarni,later
+PL00949,M002,buy,3650.0,,2027-10-02,2027-09-14,2027-10-02,0,Metformin hydrochloride,APIs,kg,V020,Aroni Pharmachem,316.22,1154203.0,Neha Kulkarni,later
+PL00950,M002,buy,2400.0,,2027-10-16,2027-09-28,2027-10-16,0,Metformin hydrochloride,APIs,kg,V020,Aroni Pharmachem,316.22,758928.0,Neha Kulkarni,later
+PL00951,M002,buy,3650.0,,2027-10-30,2027-10-12,2027-10-30,0,Metformin hydrochloride,APIs,kg,V020,Aroni Pharmachem,316.22,1154203.0,Neha Kulkarni,later
+PL00952,M003,buy,950.0,,2026-12-07,2026-11-21,2026-12-19,12,Amoxicillin trihydrate,APIs,kg,V020,Aroni Pharmachem,2522.94,2396793.0,Neha Kulkarni,release
+PL00953,M003,buy,1150.0,,2027-01-04,2026-12-07,2027-01-04,0,Amoxicillin trihydrate,APIs,kg,V020,Aroni Pharmachem,2522.94,2901381.0,Neha Kulkarni,later
+PL00954,M003,buy,1175.0,,2027-01-18,2026-12-21,2027-01-18,0,Amoxicillin trihydrate,APIs,kg,V020,Aroni Pharmachem,2522.94,2964454.5,Neha Kulkarni,later
+PL00955,M003,buy,1150.0,,2027-02-01,2027-01-04,2027-02-01,0,Amoxicillin trihydrate,APIs,kg,V020,Aroni Pharmachem,2522.94,2901381.0,Neha Kulkarni,later
+PL00956,M003,buy,875.0,,2027-02-15,2027-01-18,2027-02-15,0,Amoxicillin trihydrate,APIs,kg,V020,Aroni Pharmachem,2522.94,2207572.5,Neha Kulkarni,later
+PL00957,M003,buy,1175.0,,2027-03-01,2027-02-01,2027-03-01,0,Amoxicillin trihydrate,APIs,kg,V020,Aroni Pharmachem,2522.94,2964454.5,Neha Kulkarni,later
+PL00958,M003,buy,875.0,,2027-03-15,2027-02-15,2027-03-15,0,Amoxicillin trihydrate,APIs,kg,V020,Aroni Pharmachem,2522.94,2207572.5,Neha Kulkarni,later
+PL00959,M003,buy,875.0,,2027-03-29,2027-03-01,2027-03-29,0,Amoxicillin trihydrate,APIs,kg,V020,Aroni Pharmachem,2522.94,2207572.5,Neha Kulkarni,later
+PL00960,M003,buy,875.0,,2027-04-12,2027-03-15,2027-04-12,0,Amoxicillin trihydrate,APIs,kg,V020,Aroni Pharmachem,2522.94,2207572.5,Neha Kulkarni,later
+PL00961,M003,buy,850.0,,2027-04-26,2027-03-29,2027-04-26,0,Amoxicillin trihydrate,APIs,kg,V020,Aroni Pharmachem,2522.94,2144499.0,Neha Kulkarni,later
+PL00962,M003,buy,1175.0,,2027-05-10,2027-04-12,2027-05-10,0,Amoxicillin trihydrate,APIs,kg,V020,Aroni Pharmachem,2522.94,2964454.5,Neha Kulkarni,later
+PL00963,M003,buy,1175.0,,2027-05-24,2027-04-26,2027-05-24,0,Amoxicillin trihydrate,APIs,kg,V020,Aroni Pharmachem,2522.94,2964454.5,Neha Kulkarni,later
+PL00964,M003,buy,1150.0,,2027-06-07,2027-05-10,2027-06-07,0,Amoxicillin trihydrate,APIs,kg,V020,Aroni Pharmachem,2522.94,2901381.0,Neha Kulkarni,later
+PL00965,M003,buy,1175.0,,2027-06-21,2027-05-24,2027-06-21,0,Amoxicillin trihydrate,APIs,kg,V020,Aroni Pharmachem,2522.94,2964454.5,Neha Kulkarni,later
+PL00966,M003,buy,1150.0,,2027-07-05,2027-06-07,2027-07-05,0,Amoxicillin trihydrate,APIs,kg,V020,Aroni Pharmachem,2522.94,2901381.0,Neha Kulkarni,later
+PL00967,M003,buy,1475.0,,2027-07-19,2027-06-21,2027-07-19,0,Amoxicillin trihydrate,APIs,kg,V020,Aroni Pharmachem,2522.94,3721336.5,Neha Kulkarni,later
+PL00968,M003,buy,1725.0,,2027-08-02,2027-07-05,2027-08-02,0,Amoxicillin trihydrate,APIs,kg,V020,Aroni Pharmachem,2522.94,4352071.5,Neha Kulkarni,later
+PL00969,M003,buy,1475.0,,2027-08-16,2027-07-19,2027-08-16,0,Amoxicillin trihydrate,APIs,kg,V020,Aroni Pharmachem,2522.94,3721336.5,Neha Kulkarni,later
+PL00970,M003,buy,1450.0,,2027-08-30,2027-08-02,2027-08-30,0,Amoxicillin trihydrate,APIs,kg,V020,Aroni Pharmachem,2522.94,3658263.0,Neha Kulkarni,later
+PL00971,M003,buy,1450.0,,2027-09-13,2027-08-16,2027-09-13,0,Amoxicillin trihydrate,APIs,kg,V020,Aroni Pharmachem,2522.94,3658263.0,Neha Kulkarni,later
+PL00972,M003,buy,1175.0,,2027-09-27,2027-08-30,2027-09-27,0,Amoxicillin trihydrate,APIs,kg,V020,Aroni Pharmachem,2522.94,2964454.5,Neha Kulkarni,later
+PL00973,M003,buy,1150.0,,2027-10-11,2027-09-13,2027-10-11,0,Amoxicillin trihydrate,APIs,kg,V020,Aroni Pharmachem,2522.94,2901381.0,Neha Kulkarni,later
+PL00974,M003,buy,1450.0,,2027-10-25,2027-09-27,2027-10-25,0,Amoxicillin trihydrate,APIs,kg,V020,Aroni Pharmachem,2522.94,3658263.0,Neha Kulkarni,later
+PL00975,M003,buy,300.0,,2027-11-08,2027-10-11,2027-11-08,0,Amoxicillin trihydrate,APIs,kg,V020,Aroni Pharmachem,2522.94,756882.0,Neha Kulkarni,later
+PL00976,M005,buy,50.0,,2026-11-21,2026-11-21,2026-12-16,25,Omeprazole,APIs,kg,V019,Queleth Pharmachem,5484.95,274247.5,Neha Kulkarni,release
+PL00977,M005,buy,50.0,,2027-01-10,2026-12-16,2027-01-10,0,Omeprazole,APIs,kg,V019,Queleth Pharmachem,5484.95,274247.5,Neha Kulkarni,later
+PL00978,M005,buy,50.0,,2027-01-31,2027-01-06,2027-01-31,0,Omeprazole,APIs,kg,V019,Queleth Pharmachem,5484.95,274247.5,Neha Kulkarni,later
+PL00979,M005,buy,50.0,,2027-02-21,2027-01-27,2027-02-21,0,Omeprazole,APIs,kg,V019,Queleth Pharmachem,5484.95,274247.5,Neha Kulkarni,later
+PL00980,M005,buy,50.0,,2027-03-07,2027-02-10,2027-03-07,0,Omeprazole,APIs,kg,V019,Queleth Pharmachem,5484.95,274247.5,Neha Kulkarni,later
+PL00981,M005,buy,50.0,,2027-03-28,2027-03-03,2027-03-28,0,Omeprazole,APIs,kg,V019,Queleth Pharmachem,5484.95,274247.5,Neha Kulkarni,later
+PL00982,M005,buy,50.0,,2027-04-18,2027-03-24,2027-04-18,0,Omeprazole,APIs,kg,V019,Queleth Pharmachem,5484.95,274247.5,Neha Kulkarni,later
+PL00983,M005,buy,50.0,,2027-05-09,2027-04-14,2027-05-09,0,Omeprazole,APIs,kg,V019,Queleth Pharmachem,5484.95,274247.5,Neha Kulkarni,later
+PL00984,M005,buy,50.0,,2027-05-23,2027-04-28,2027-05-23,0,Omeprazole,APIs,kg,V019,Queleth Pharmachem,5484.95,274247.5,Neha Kulkarni,later
+PL00985,M005,buy,50.0,,2027-06-13,2027-05-19,2027-06-13,0,Omeprazole,APIs,kg,V019,Queleth Pharmachem,5484.95,274247.5,Neha Kulkarni,later
+PL00986,M005,buy,50.0,,2027-06-27,2027-06-02,2027-06-27,0,Omeprazole,APIs,kg,V019,Queleth Pharmachem,5484.95,274247.5,Neha Kulkarni,later
+PL00987,M005,buy,50.0,,2027-07-18,2027-06-23,2027-07-18,0,Omeprazole,APIs,kg,V019,Queleth Pharmachem,5484.95,274247.5,Neha Kulkarni,later
+PL00988,M005,buy,50.0,,2027-08-08,2027-07-14,2027-08-08,0,Omeprazole,APIs,kg,V019,Queleth Pharmachem,5484.95,274247.5,Neha Kulkarni,later
+PL00989,M005,buy,50.0,,2027-08-29,2027-08-04,2027-08-29,0,Omeprazole,APIs,kg,V019,Queleth Pharmachem,5484.95,274247.5,Neha Kulkarni,later
+PL00990,M005,buy,50.0,,2027-09-19,2027-08-25,2027-09-19,0,Omeprazole,APIs,kg,V019,Queleth Pharmachem,5484.95,274247.5,Neha Kulkarni,later
+PL00991,M005,buy,50.0,,2027-10-03,2027-09-08,2027-10-03,0,Omeprazole,APIs,kg,V019,Queleth Pharmachem,5484.95,274247.5,Neha Kulkarni,later
+PL00992,M005,buy,50.0,,2027-10-24,2027-09-29,2027-10-24,0,Omeprazole,APIs,kg,V019,Queleth Pharmachem,5484.95,274247.5,Neha Kulkarni,later
+PL00993,M007,buy,45.0,,2026-11-21,2026-11-21,2026-12-04,13,Telmisartan,APIs,kg,V020,Aroni Pharmachem,7335.15,330081.75,Neha Kulkarni,release
+PL00994,M007,buy,45.0,,2026-12-20,2026-12-07,2026-12-20,0,Telmisartan,APIs,kg,V020,Aroni Pharmachem,7335.15,330081.75,Neha Kulkarni,later
+PL00995,M007,buy,75.0,,2027-01-03,2026-12-21,2027-01-03,0,Telmisartan,APIs,kg,V020,Aroni Pharmachem,7335.15,550136.25,Neha Kulkarni,later
+PL00996,M007,buy,60.0,,2027-01-17,2027-01-04,2027-01-17,0,Telmisartan,APIs,kg,V020,Aroni Pharmachem,7335.15,440109.0,Neha Kulkarni,later
+PL00997,M007,buy,60.0,,2027-01-31,2027-01-18,2027-01-31,0,Telmisartan,APIs,kg,V020,Aroni Pharmachem,7335.15,440109.0,Neha Kulkarni,later
+PL00998,M007,buy,60.0,,2027-02-14,2027-02-01,2027-02-14,0,Telmisartan,APIs,kg,V020,Aroni Pharmachem,7335.15,440109.0,Neha Kulkarni,later
+PL00999,M007,buy,60.0,,2027-02-28,2027-02-15,2027-02-28,0,Telmisartan,APIs,kg,V020,Aroni Pharmachem,7335.15,440109.0,Neha Kulkarni,later
+PL01000,M007,buy,80.0,,2027-03-14,2027-03-01,2027-03-14,0,Telmisartan,APIs,kg,V020,Aroni Pharmachem,7335.15,586812.0,Neha Kulkarni,later
+PL01001,M007,buy,60.0,,2027-03-28,2027-03-15,2027-03-28,0,Telmisartan,APIs,kg,V020,Aroni Pharmachem,7335.15,440109.0,Neha Kulkarni,later
+PL01002,M007,buy,60.0,,2027-04-11,2027-03-29,2027-04-11,0,Telmisartan,APIs,kg,V020,Aroni Pharmachem,7335.15,440109.0,Neha Kulkarni,later
+PL01003,M007,buy,60.0,,2027-04-25,2027-04-12,2027-04-25,0,Telmisartan,APIs,kg,V020,Aroni Pharmachem,7335.15,440109.0,Neha Kulkarni,later
+PL01004,M007,buy,85.0,,2027-05-09,2027-04-26,2027-05-09,0,Telmisartan,APIs,kg,V020,Aroni Pharmachem,7335.15,623487.75,Neha Kulkarni,later
+PL01005,M007,buy,80.0,,2027-05-23,2027-05-10,2027-05-23,0,Telmisartan,APIs,kg,V020,Aroni Pharmachem,7335.15,586812.0,Neha Kulkarni,later
+PL01006,M007,buy,60.0,,2027-06-06,2027-05-24,2027-06-06,0,Telmisartan,APIs,kg,V020,Aroni Pharmachem,7335.15,440109.0,Neha Kulkarni,later
+PL01007,M007,buy,60.0,,2027-06-20,2027-06-07,2027-06-20,0,Telmisartan,APIs,kg,V020,Aroni Pharmachem,7335.15,440109.0,Neha Kulkarni,later
+PL01008,M007,buy,60.0,,2027-07-04,2027-06-21,2027-07-04,0,Telmisartan,APIs,kg,V020,Aroni Pharmachem,7335.15,440109.0,Neha Kulkarni,later
+PL01009,M007,buy,60.0,,2027-07-18,2027-07-05,2027-07-18,0,Telmisartan,APIs,kg,V020,Aroni Pharmachem,7335.15,440109.0,Neha Kulkarni,later
+PL01010,M007,buy,80.0,,2027-08-01,2027-07-19,2027-08-01,0,Telmisartan,APIs,kg,V020,Aroni Pharmachem,7335.15,586812.0,Neha Kulkarni,later
+PL01011,M007,buy,60.0,,2027-08-15,2027-08-02,2027-08-15,0,Telmisartan,APIs,kg,V020,Aroni Pharmachem,7335.15,440109.0,Neha Kulkarni,later
+PL01012,M007,buy,60.0,,2027-08-29,2027-08-16,2027-08-29,0,Telmisartan,APIs,kg,V020,Aroni Pharmachem,7335.15,440109.0,Neha Kulkarni,later
+PL01013,M007,buy,60.0,,2027-09-12,2027-08-30,2027-09-12,0,Telmisartan,APIs,kg,V020,Aroni Pharmachem,7335.15,440109.0,Neha Kulkarni,later
+PL01014,M007,buy,60.0,,2027-09-26,2027-09-13,2027-09-26,0,Telmisartan,APIs,kg,V020,Aroni Pharmachem,7335.15,440109.0,Neha Kulkarni,later
+PL01015,M007,buy,80.0,,2027-10-10,2027-09-27,2027-10-10,0,Telmisartan,APIs,kg,V020,Aroni Pharmachem,7335.15,586812.0,Neha Kulkarni,later
+PL01016,M007,buy,85.0,,2027-10-24,2027-10-11,2027-10-24,0,Telmisartan,APIs,kg,V020,Aroni Pharmachem,7335.15,623487.75,Neha Kulkarni,later
+PL01017,M007,buy,45.0,,2027-11-07,2027-10-25,2027-11-07,0,Telmisartan,APIs,kg,V020,Aroni Pharmachem,7335.15,330081.75,Neha Kulkarni,later
+PL01018,M008,buy,25.0,,2026-12-12,2026-11-29,2026-12-12,0,Atorvastatin calcium,APIs,kg,V029,Hemeth Pharmachem,31445.85,786146.25,Neha Kulkarni,later
+PL01019,M008,buy,35.0,,2026-12-26,2026-12-13,2026-12-26,0,Atorvastatin calcium,APIs,kg,V029,Hemeth Pharmachem,31445.85,1100604.75,Neha Kulkarni,later
+PL01020,M008,buy,35.0,,2027-01-09,2026-12-27,2027-01-09,0,Atorvastatin calcium,APIs,kg,V029,Hemeth Pharmachem,31445.85,1100604.75,Neha Kulkarni,later
+PL01021,M008,buy,40.0,,2027-01-23,2027-01-10,2027-01-23,0,Atorvastatin calcium,APIs,kg,V029,Hemeth Pharmachem,31445.85,1257834.0,Neha Kulkarni,later
+PL01022,M008,buy,35.0,,2027-02-06,2027-01-24,2027-02-06,0,Atorvastatin calcium,APIs,kg,V029,Hemeth Pharmachem,31445.85,1100604.75,Neha Kulkarni,later
+PL01023,M008,buy,35.0,,2027-02-20,2027-02-07,2027-02-20,0,Atorvastatin calcium,APIs,kg,V029,Hemeth Pharmachem,31445.85,1100604.75,Neha Kulkarni,later
+PL01024,M008,buy,30.0,,2027-03-06,2027-02-21,2027-03-06,0,Atorvastatin calcium,APIs,kg,V029,Hemeth Pharmachem,31445.85,943375.5,Neha Kulkarni,later
+PL01025,M008,buy,35.0,,2027-03-20,2027-03-07,2027-03-20,0,Atorvastatin calcium,APIs,kg,V029,Hemeth Pharmachem,31445.85,1100604.75,Neha Kulkarni,later
+PL01026,M008,buy,30.0,,2027-04-03,2027-03-21,2027-04-03,0,Atorvastatin calcium,APIs,kg,V029,Hemeth Pharmachem,31445.85,943375.5,Neha Kulkarni,later
+PL01027,M008,buy,35.0,,2027-04-17,2027-04-04,2027-04-17,0,Atorvastatin calcium,APIs,kg,V029,Hemeth Pharmachem,31445.85,1100604.75,Neha Kulkarni,later
+PL01028,M008,buy,35.0,,2027-05-01,2027-04-18,2027-05-01,0,Atorvastatin calcium,APIs,kg,V029,Hemeth Pharmachem,31445.85,1100604.75,Neha Kulkarni,later
+PL01029,M008,buy,30.0,,2027-05-15,2027-05-02,2027-05-15,0,Atorvastatin calcium,APIs,kg,V029,Hemeth Pharmachem,31445.85,943375.5,Neha Kulkarni,later
+PL01030,M008,buy,35.0,,2027-05-29,2027-05-16,2027-05-29,0,Atorvastatin calcium,APIs,kg,V029,Hemeth Pharmachem,31445.85,1100604.75,Neha Kulkarni,later
+PL01031,M008,buy,30.0,,2027-06-12,2027-05-30,2027-06-12,0,Atorvastatin calcium,APIs,kg,V029,Hemeth Pharmachem,31445.85,943375.5,Neha Kulkarni,later
+PL01032,M008,buy,45.0,,2027-06-26,2027-06-13,2027-06-26,0,Atorvastatin calcium,APIs,kg,V029,Hemeth Pharmachem,31445.85,1415063.25,Neha Kulkarni,later
+PL01033,M008,buy,35.0,,2027-07-10,2027-06-27,2027-07-10,0,Atorvastatin calcium,APIs,kg,V029,Hemeth Pharmachem,31445.85,1100604.75,Neha Kulkarni,later
+PL01034,M008,buy,30.0,,2027-07-24,2027-07-11,2027-07-24,0,Atorvastatin calcium,APIs,kg,V029,Hemeth Pharmachem,31445.85,943375.5,Neha Kulkarni,later
+PL01035,M008,buy,35.0,,2027-08-07,2027-07-25,2027-08-07,0,Atorvastatin calcium,APIs,kg,V029,Hemeth Pharmachem,31445.85,1100604.75,Neha Kulkarni,later
+PL01036,M008,buy,30.0,,2027-08-21,2027-08-08,2027-08-21,0,Atorvastatin calcium,APIs,kg,V029,Hemeth Pharmachem,31445.85,943375.5,Neha Kulkarni,later
+PL01037,M008,buy,35.0,,2027-09-04,2027-08-22,2027-09-04,0,Atorvastatin calcium,APIs,kg,V029,Hemeth Pharmachem,31445.85,1100604.75,Neha Kulkarni,later
+PL01038,M008,buy,35.0,,2027-09-18,2027-09-05,2027-09-18,0,Atorvastatin calcium,APIs,kg,V029,Hemeth Pharmachem,31445.85,1100604.75,Neha Kulkarni,later
+PL01039,M008,buy,30.0,,2027-10-02,2027-09-19,2027-10-02,0,Atorvastatin calcium,APIs,kg,V029,Hemeth Pharmachem,31445.85,943375.5,Neha Kulkarni,later
+PL01040,M008,buy,35.0,,2027-10-16,2027-10-03,2027-10-16,0,Atorvastatin calcium,APIs,kg,V029,Hemeth Pharmachem,31445.85,1100604.75,Neha Kulkarni,later
+PL01041,M008,buy,30.0,,2027-10-30,2027-10-17,2027-10-30,0,Atorvastatin calcium,APIs,kg,V029,Hemeth Pharmachem,31445.85,943375.5,Neha Kulkarni,later
+PL01042,M016,buy,650.0,,2026-12-26,2026-12-17,2026-12-26,0,Microcrystalline cellulose PH101,Excipients,kg,V040,Telium Excipients,271.25,176312.5,Neha Kulkarni,later
+PL01043,M016,buy,675.0,,2027-01-23,2027-01-14,2027-01-23,0,Microcrystalline cellulose PH101,Excipients,kg,V040,Telium Excipients,271.25,183093.75,Neha Kulkarni,later
+PL01044,M016,buy,700.0,,2027-02-20,2027-02-11,2027-02-20,0,Microcrystalline cellulose PH101,Excipients,kg,V040,Telium Excipients,271.25,189875.0,Neha Kulkarni,later
+PL01045,M016,buy,675.0,,2027-03-20,2027-03-11,2027-03-20,0,Microcrystalline cellulose PH101,Excipients,kg,V040,Telium Excipients,271.25,183093.75,Neha Kulkarni,later
+PL01046,M016,buy,700.0,,2027-04-17,2027-04-08,2027-04-17,0,Microcrystalline cellulose PH101,Excipients,kg,V040,Telium Excipients,271.25,189875.0,Neha Kulkarni,later
+PL01047,M016,buy,675.0,,2027-05-15,2027-05-06,2027-05-15,0,Microcrystalline cellulose PH101,Excipients,kg,V040,Telium Excipients,271.25,183093.75,Neha Kulkarni,later
+PL01048,M016,buy,700.0,,2027-06-12,2027-06-03,2027-06-12,0,Microcrystalline cellulose PH101,Excipients,kg,V040,Telium Excipients,271.25,189875.0,Neha Kulkarni,later
+PL01049,M016,buy,675.0,,2027-07-10,2027-07-01,2027-07-10,0,Microcrystalline cellulose PH101,Excipients,kg,V040,Telium Excipients,271.25,183093.75,Neha Kulkarni,later
+PL01050,M016,buy,700.0,,2027-08-07,2027-07-29,2027-08-07,0,Microcrystalline cellulose PH101,Excipients,kg,V040,Telium Excipients,271.25,189875.0,Neha Kulkarni,later
+PL01051,M016,buy,675.0,,2027-09-04,2027-08-26,2027-09-04,0,Microcrystalline cellulose PH101,Excipients,kg,V040,Telium Excipients,271.25,183093.75,Neha Kulkarni,later
+PL01052,M016,buy,650.0,,2027-10-02,2027-09-23,2027-10-02,0,Microcrystalline cellulose PH101,Excipients,kg,V040,Telium Excipients,271.25,176312.5,Neha Kulkarni,later
+PL01053,M016,buy,525.0,,2027-10-30,2027-10-21,2027-10-30,0,Microcrystalline cellulose PH101,Excipients,kg,V040,Telium Excipients,271.25,142406.25,Neha Kulkarni,later
+PL01054,M017,buy,375.0,,2027-01-16,2027-01-04,2027-01-16,0,Microcrystalline cellulose PH102,Excipients,kg,V034,Draora Excipients,203.72,76395.0,Neha Kulkarni,later
+PL01055,M017,buy,375.0,,2027-02-27,2027-02-15,2027-02-27,0,Microcrystalline cellulose PH102,Excipients,kg,V034,Draora Excipients,203.72,76395.0,Neha Kulkarni,later
+PL01056,M017,buy,375.0,,2027-04-10,2027-03-29,2027-04-10,0,Microcrystalline cellulose PH102,Excipients,kg,V034,Draora Excipients,203.72,76395.0,Neha Kulkarni,later
+PL01057,M017,buy,375.0,,2027-05-22,2027-05-10,2027-05-22,0,Microcrystalline cellulose PH102,Excipients,kg,V034,Draora Excipients,203.72,76395.0,Neha Kulkarni,later
+PL01058,M017,buy,375.0,,2027-07-03,2027-06-21,2027-07-03,0,Microcrystalline cellulose PH102,Excipients,kg,V034,Draora Excipients,203.72,76395.0,Neha Kulkarni,later
+PL01059,M017,buy,375.0,,2027-08-14,2027-08-02,2027-08-14,0,Microcrystalline cellulose PH102,Excipients,kg,V034,Draora Excipients,203.72,76395.0,Neha Kulkarni,later
+PL01060,M017,buy,375.0,,2027-09-25,2027-09-13,2027-09-25,0,Microcrystalline cellulose PH102,Excipients,kg,V034,Draora Excipients,203.72,76395.0,Neha Kulkarni,later
+PL01061,M017,buy,375.0,,2027-11-06,2027-10-25,2027-11-06,0,Microcrystalline cellulose PH102,Excipients,kg,V034,Draora Excipients,203.72,76395.0,Neha Kulkarni,later
+PL01062,M018,buy,1125.0,,2027-01-23,2027-01-15,2027-01-23,0,Lactose monohydrate,Excipients,kg,V025,Lumova Excipients,146.77,165116.25,Neha Kulkarni,later
+PL01063,M018,buy,1125.0,,2027-04-10,2027-04-02,2027-04-10,0,Lactose monohydrate,Excipients,kg,V025,Lumova Excipients,146.77,165116.25,Neha Kulkarni,later
+PL01064,M018,buy,1125.0,,2027-06-26,2027-06-18,2027-06-26,0,Lactose monohydrate,Excipients,kg,V025,Lumova Excipients,146.77,165116.25,Neha Kulkarni,later
+PL01065,M018,buy,1125.0,,2027-09-11,2027-09-03,2027-09-11,0,Lactose monohydrate,Excipients,kg,V025,Lumova Excipients,146.77,165116.25,Neha Kulkarni,later
+PL01066,M020,buy,350.0,,2026-12-07,2026-11-21,2026-12-08,1,Magnesium stearate,Excipients,kg,V024,Galix Excipients,378.36,132426.0,Neha Kulkarni,release
+PL01067,M020,buy,350.0,,2027-01-31,2027-01-14,2027-01-31,0,Magnesium stearate,Excipients,kg,V024,Galix Excipients,378.36,132426.0,Neha Kulkarni,later
+PL01068,M020,buy,350.0,,2027-04-03,2027-03-17,2027-04-03,0,Magnesium stearate,Excipients,kg,V024,Galix Excipients,378.36,132426.0,Neha Kulkarni,later
+PL01069,M020,buy,350.0,,2027-05-31,2027-05-14,2027-05-31,0,Magnesium stearate,Excipients,kg,V024,Galix Excipients,378.36,132426.0,Neha Kulkarni,later
+PL01070,M020,buy,350.0,,2027-07-25,2027-07-08,2027-07-25,0,Magnesium stearate,Excipients,kg,V024,Galix Excipients,378.36,132426.0,Neha Kulkarni,later
+PL01071,M020,buy,350.0,,2027-09-11,2027-08-25,2027-09-11,0,Magnesium stearate,Excipients,kg,V024,Galix Excipients,378.36,132426.0,Neha Kulkarni,later
+PL01072,M020,buy,350.0,,2027-11-01,2027-10-15,2027-11-01,0,Magnesium stearate,Excipients,kg,V024,Galix Excipients,378.36,132426.0,Neha Kulkarni,later
+PL01073,M021,buy,250.0,,2026-11-28,2026-11-21,2026-12-05,7,Croscarmellose sodium,Excipients,kg,V034,Draora Excipients,777.42,194355.0,Neha Kulkarni,release
+PL01074,M021,buy,250.0,,2027-01-30,2027-01-16,2027-01-30,0,Croscarmellose sodium,Excipients,kg,V034,Draora Excipients,777.42,194355.0,Neha Kulkarni,later
+PL01075,M021,buy,250.0,,2027-02-27,2027-02-13,2027-02-27,0,Croscarmellose sodium,Excipients,kg,V034,Draora Excipients,777.42,194355.0,Neha Kulkarni,later
+PL01076,M021,buy,250.0,,2027-04-03,2027-03-20,2027-04-03,0,Croscarmellose sodium,Excipients,kg,V034,Draora Excipients,777.42,194355.0,Neha Kulkarni,later
+PL01077,M021,buy,250.0,,2027-05-08,2027-04-24,2027-05-08,0,Croscarmellose sodium,Excipients,kg,V034,Draora Excipients,777.42,194355.0,Neha Kulkarni,later
+PL01078,M021,buy,250.0,,2027-06-05,2027-05-22,2027-06-05,0,Croscarmellose sodium,Excipients,kg,V034,Draora Excipients,777.42,194355.0,Neha Kulkarni,later
+PL01079,M021,buy,250.0,,2027-07-10,2027-06-26,2027-07-10,0,Croscarmellose sodium,Excipients,kg,V034,Draora Excipients,777.42,194355.0,Neha Kulkarni,later
+PL01080,M021,buy,250.0,,2027-08-07,2027-07-24,2027-08-07,0,Croscarmellose sodium,Excipients,kg,V034,Draora Excipients,777.42,194355.0,Neha Kulkarni,later
+PL01081,M021,buy,250.0,,2027-09-04,2027-08-21,2027-09-04,0,Croscarmellose sodium,Excipients,kg,V034,Draora Excipients,777.42,194355.0,Neha Kulkarni,later
+PL01082,M021,buy,250.0,,2027-10-09,2027-09-25,2027-10-09,0,Croscarmellose sodium,Excipients,kg,V034,Draora Excipients,777.42,194355.0,Neha Kulkarni,later
+PL01083,M022,buy,375.0,,2027-01-10,2026-12-24,2027-01-10,0,Sodium starch glycolate,Excipients,kg,V023,Telana Excipients,393.32,147495.0,Neha Kulkarni,later
+PL01084,M022,buy,375.0,,2027-02-14,2027-01-28,2027-02-14,0,Sodium starch glycolate,Excipients,kg,V023,Telana Excipients,393.32,147495.0,Neha Kulkarni,later
+PL01085,M022,buy,375.0,,2027-03-21,2027-03-04,2027-03-21,0,Sodium starch glycolate,Excipients,kg,V023,Telana Excipients,393.32,147495.0,Neha Kulkarni,later
+PL01086,M022,buy,375.0,,2027-05-02,2027-04-15,2027-05-02,0,Sodium starch glycolate,Excipients,kg,V023,Telana Excipients,393.32,147495.0,Neha Kulkarni,later
+PL01087,M022,buy,375.0,,2027-06-06,2027-05-20,2027-06-06,0,Sodium starch glycolate,Excipients,kg,V023,Telana Excipients,393.32,147495.0,Neha Kulkarni,later
+PL01088,M022,buy,375.0,,2027-07-11,2027-06-24,2027-07-11,0,Sodium starch glycolate,Excipients,kg,V023,Telana Excipients,393.32,147495.0,Neha Kulkarni,later
+PL01089,M022,buy,375.0,,2027-08-08,2027-07-22,2027-08-08,0,Sodium starch glycolate,Excipients,kg,V023,Telana Excipients,393.32,147495.0,Neha Kulkarni,later
+PL01090,M022,buy,375.0,,2027-09-05,2027-08-19,2027-09-05,0,Sodium starch glycolate,Excipients,kg,V023,Telana Excipients,393.32,147495.0,Neha Kulkarni,later
+PL01091,M022,buy,375.0,,2027-10-10,2027-09-23,2027-10-10,0,Sodium starch glycolate,Excipients,kg,V023,Telana Excipients,393.32,147495.0,Neha Kulkarni,later
+PL01092,M023,buy,175.0,,2026-11-21,2026-11-21,2026-12-04,13,Povidone K30,Excipients,kg,V040,Telium Excipients,834.39,146018.25,Neha Kulkarni,release
+PL01093,M023,buy,725.0,,2027-01-02,2026-12-20,2027-01-02,0,Povidone K30,Excipients,kg,V040,Telium Excipients,834.39,604932.75,Neha Kulkarni,later
+PL01094,M023,buy,700.0,,2027-01-30,2027-01-17,2027-01-30,0,Povidone K30,Excipients,kg,V040,Telium Excipients,834.39,584073.0,Neha Kulkarni,later
+PL01095,M023,buy,625.0,,2027-02-27,2027-02-14,2027-02-27,0,Povidone K30,Excipients,kg,V040,Telium Excipients,834.39,521493.75,Neha Kulkarni,later
+PL01096,M023,buy,650.0,,2027-03-27,2027-03-14,2027-03-27,0,Povidone K30,Excipients,kg,V040,Telium Excipients,834.39,542353.5,Neha Kulkarni,later
+PL01097,M023,buy,650.0,,2027-04-24,2027-04-11,2027-04-24,0,Povidone K30,Excipients,kg,V040,Telium Excipients,834.39,542353.5,Neha Kulkarni,later
+PL01098,M023,buy,700.0,,2027-05-22,2027-05-09,2027-05-22,0,Povidone K30,Excipients,kg,V040,Telium Excipients,834.39,584073.0,Neha Kulkarni,later
+PL01099,M023,buy,725.0,,2027-06-19,2027-06-06,2027-06-19,0,Povidone K30,Excipients,kg,V040,Telium Excipients,834.39,604932.75,Neha Kulkarni,later
+PL01100,M023,buy,800.0,,2027-07-17,2027-07-04,2027-07-17,0,Povidone K30,Excipients,kg,V040,Telium Excipients,834.39,667512.0,Neha Kulkarni,later
+PL01101,M023,buy,775.0,,2027-08-14,2027-08-01,2027-08-14,0,Povidone K30,Excipients,kg,V040,Telium Excipients,834.39,646652.25,Neha Kulkarni,later
+PL01102,M023,buy,750.0,,2027-09-11,2027-08-29,2027-09-11,0,Povidone K30,Excipients,kg,V040,Telium Excipients,834.39,625792.5,Neha Kulkarni,later
+PL01103,M023,buy,725.0,,2027-10-09,2027-09-26,2027-10-09,0,Povidone K30,Excipients,kg,V040,Telium Excipients,834.39,604932.75,Neha Kulkarni,later
+PL01104,M023,buy,125.0,,2027-11-06,2027-10-24,2027-11-06,0,Povidone K30,Excipients,kg,V040,Telium Excipients,834.39,104298.75,Neha Kulkarni,later
+PL01105,M024,buy,3300.0,,2027-03-07,2027-02-25,2027-03-07,0,Maize starch,Excipients,kg,V024,Galix Excipients,43.74,144342.0,Neha Kulkarni,later
+PL01106,M024,buy,3300.0,,2027-06-13,2027-06-03,2027-06-13,0,Maize starch,Excipients,kg,V024,Galix Excipients,43.74,144342.0,Neha Kulkarni,later
+PL01107,M024,buy,3300.0,,2027-08-29,2027-08-19,2027-08-29,0,Maize starch,Excipients,kg,V024,Galix Excipients,43.74,144342.0,Neha Kulkarni,later
+PL01108,M027,buy,1800.0,,2027-10-18,2027-10-01,2027-10-18,0,Talc,Excipients,kg,V023,Telana Excipients,55.05,99090.0,Neha Kulkarni,later
+PL01109,M028,buy,225.0,,2026-11-21,2026-11-21,2026-12-01,10,HPMC E5,Excipients,kg,V035,Elova Excipients,875.01,196877.25,Neha Kulkarni,release
+PL01110,M028,buy,225.0,,2027-01-24,2027-01-14,2027-01-24,0,HPMC E5,Excipients,kg,V035,Elova Excipients,875.01,196877.25,Neha Kulkarni,later
+PL01111,M028,buy,225.0,,2027-03-06,2027-02-24,2027-03-06,0,HPMC E5,Excipients,kg,V035,Elova Excipients,875.01,196877.25,Neha Kulkarni,later
+PL01112,M028,buy,225.0,,2027-04-10,2027-03-31,2027-04-10,0,HPMC E5,Excipients,kg,V035,Elova Excipients,875.01,196877.25,Neha Kulkarni,later
+PL01113,M028,buy,225.0,,2027-05-15,2027-05-05,2027-05-15,0,HPMC E5,Excipients,kg,V035,Elova Excipients,875.01,196877.25,Neha Kulkarni,later
+PL01114,M028,buy,225.0,,2027-06-13,2027-06-03,2027-06-13,0,HPMC E5,Excipients,kg,V035,Elova Excipients,875.01,196877.25,Neha Kulkarni,later
+PL01115,M028,buy,225.0,,2027-07-24,2027-07-14,2027-07-24,0,HPMC E5,Excipients,kg,V035,Elova Excipients,875.01,196877.25,Neha Kulkarni,later
+PL01116,M028,buy,225.0,,2027-08-28,2027-08-18,2027-08-28,0,HPMC E5,Excipients,kg,V035,Elova Excipients,875.01,196877.25,Neha Kulkarni,later
+PL01117,M028,buy,225.0,,2027-10-02,2027-09-22,2027-10-02,0,HPMC E5,Excipients,kg,V035,Elova Excipients,875.01,196877.25,Neha Kulkarni,later
+PL01118,M028,buy,225.0,,2027-11-06,2027-10-27,2027-11-06,0,HPMC E5,Excipients,kg,V035,Elova Excipients,875.01,196877.25,Neha Kulkarni,later
+PL01119,M029,buy,200.0,,2026-12-26,2026-12-17,2026-12-26,0,Film-coating system white,Excipients,kg,V013,Cenana Excipients,1019.93,203986.0,Neha Kulkarni,later
+PL01120,M029,buy,200.0,,2027-01-23,2027-01-14,2027-01-23,0,Film-coating system white,Excipients,kg,V013,Cenana Excipients,1019.93,203986.0,Neha Kulkarni,later
+PL01121,M029,buy,200.0,,2027-02-20,2027-02-11,2027-02-20,0,Film-coating system white,Excipients,kg,V013,Cenana Excipients,1019.93,203986.0,Neha Kulkarni,later
+PL01122,M029,buy,200.0,,2027-03-20,2027-03-11,2027-03-20,0,Film-coating system white,Excipients,kg,V013,Cenana Excipients,1019.93,203986.0,Neha Kulkarni,later
+PL01123,M029,buy,225.0,,2027-04-17,2027-04-08,2027-04-17,0,Film-coating system white,Excipients,kg,V013,Cenana Excipients,1019.93,229484.25,Neha Kulkarni,later
+PL01124,M029,buy,200.0,,2027-05-15,2027-05-06,2027-05-15,0,Film-coating system white,Excipients,kg,V013,Cenana Excipients,1019.93,203986.0,Neha Kulkarni,later
+PL01125,M029,buy,225.0,,2027-06-12,2027-06-03,2027-06-12,0,Film-coating system white,Excipients,kg,V013,Cenana Excipients,1019.93,229484.25,Neha Kulkarni,later
+PL01126,M029,buy,200.0,,2027-07-10,2027-07-01,2027-07-10,0,Film-coating system white,Excipients,kg,V013,Cenana Excipients,1019.93,203986.0,Neha Kulkarni,later
+PL01127,M029,buy,225.0,,2027-08-07,2027-07-29,2027-08-07,0,Film-coating system white,Excipients,kg,V013,Cenana Excipients,1019.93,229484.25,Neha Kulkarni,later
+PL01128,M029,buy,200.0,,2027-09-04,2027-08-26,2027-09-04,0,Film-coating system white,Excipients,kg,V013,Cenana Excipients,1019.93,203986.0,Neha Kulkarni,later
+PL01129,M029,buy,200.0,,2027-10-02,2027-09-23,2027-10-02,0,Film-coating system white,Excipients,kg,V013,Cenana Excipients,1019.93,203986.0,Neha Kulkarni,later
+PL01130,M029,buy,200.0,,2027-10-30,2027-10-21,2027-10-30,0,Film-coating system white,Excipients,kg,V013,Cenana Excipients,1019.93,203986.0,Neha Kulkarni,later
+PL01131,M030,buy,925.0,,2026-12-13,2026-11-26,2026-12-13,0,Mannitol,Excipients,kg,V013,Cenana Excipients,230.67,213369.75,Neha Kulkarni,release
+PL01132,M030,buy,900.0,,2027-01-10,2026-12-24,2027-01-10,0,Mannitol,Excipients,kg,V013,Cenana Excipients,230.67,207603.0,Neha Kulkarni,later
+PL01133,M030,buy,975.0,,2027-02-07,2027-01-21,2027-02-07,0,Mannitol,Excipients,kg,V013,Cenana Excipients,230.67,224903.25,Neha Kulkarni,later
+PL01134,M030,buy,900.0,,2027-03-07,2027-02-18,2027-03-07,0,Mannitol,Excipients,kg,V013,Cenana Excipients,230.67,207603.0,Neha Kulkarni,later
+PL01135,M030,buy,975.0,,2027-04-04,2027-03-18,2027-04-04,0,Mannitol,Excipients,kg,V013,Cenana Excipients,230.67,224903.25,Neha Kulkarni,later
+PL01136,M030,buy,1100.0,,2027-05-02,2027-04-15,2027-05-02,0,Mannitol,Excipients,kg,V013,Cenana Excipients,230.67,253737.0,Neha Kulkarni,later
+PL01137,M030,buy,900.0,,2027-05-30,2027-05-13,2027-05-30,0,Mannitol,Excipients,kg,V013,Cenana Excipients,230.67,207603.0,Neha Kulkarni,later
+PL01138,M030,buy,975.0,,2027-06-27,2027-06-10,2027-06-27,0,Mannitol,Excipients,kg,V013,Cenana Excipients,230.67,224903.25,Neha Kulkarni,later
+PL01139,M030,buy,900.0,,2027-07-25,2027-07-08,2027-07-25,0,Mannitol,Excipients,kg,V013,Cenana Excipients,230.67,207603.0,Neha Kulkarni,later
+PL01140,M030,buy,975.0,,2027-08-22,2027-08-05,2027-08-22,0,Mannitol,Excipients,kg,V013,Cenana Excipients,230.67,224903.25,Neha Kulkarni,later
+PL01141,M030,buy,975.0,,2027-09-19,2027-09-02,2027-09-19,0,Mannitol,Excipients,kg,V013,Cenana Excipients,230.67,224903.25,Neha Kulkarni,later
+PL01142,M030,buy,975.0,,2027-10-17,2027-09-30,2027-10-17,0,Mannitol,Excipients,kg,V013,Cenana Excipients,230.67,224903.25,Neha Kulkarni,later
+PL01143,M031,buy,750.0,,2027-05-08,2027-04-30,2027-05-08,0,Dibasic calcium phosphate,Excipients,kg,V024,Galix Excipients,95.77,71827.5,Neha Kulkarni,later
+PL01144,M031,buy,750.0,,2027-10-23,2027-10-15,2027-10-23,0,Dibasic calcium phosphate,Excipients,kg,V024,Galix Excipients,95.77,71827.5,Neha Kulkarni,later
+PL01145,M033,buy,1100.0,,2026-11-23,2026-11-21,2026-11-29,6,Hard gelatin capsule shells size 0,Excipients,Thousand,V013,Cenana Excipients,188.0,206800.0,Neha Kulkarni,release
+PL01146,M033,buy,3400.0,,2026-12-28,2026-12-20,2026-12-28,0,Hard gelatin capsule shells size 0,Excipients,Thousand,V013,Cenana Excipients,188.0,639200.0,Neha Kulkarni,later
+PL01147,M033,buy,4100.0,,2027-01-25,2027-01-17,2027-01-25,0,Hard gelatin capsule shells size 0,Excipients,Thousand,V013,Cenana Excipients,188.0,770800.0,Neha Kulkarni,later
+PL01148,M033,buy,3100.0,,2027-02-22,2027-02-14,2027-02-22,0,Hard gelatin capsule shells size 0,Excipients,Thousand,V013,Cenana Excipients,188.0,582800.0,Neha Kulkarni,later
+PL01149,M033,buy,3000.0,,2027-03-22,2027-03-14,2027-03-22,0,Hard gelatin capsule shells size 0,Excipients,Thousand,V013,Cenana Excipients,188.0,564000.0,Neha Kulkarni,later
+PL01150,M033,buy,3600.0,,2027-04-19,2027-04-11,2027-04-19,0,Hard gelatin capsule shells size 0,Excipients,Thousand,V013,Cenana Excipients,188.0,676800.0,Neha Kulkarni,later
+PL01151,M033,buy,4100.0,,2027-05-17,2027-05-09,2027-05-17,0,Hard gelatin capsule shells size 0,Excipients,Thousand,V013,Cenana Excipients,188.0,770800.0,Neha Kulkarni,later
+PL01152,M033,buy,4100.0,,2027-06-14,2027-06-06,2027-06-14,0,Hard gelatin capsule shells size 0,Excipients,Thousand,V013,Cenana Excipients,188.0,770800.0,Neha Kulkarni,later
+PL01153,M033,buy,5100.0,,2027-07-12,2027-07-04,2027-07-12,0,Hard gelatin capsule shells size 0,Excipients,Thousand,V013,Cenana Excipients,188.0,958800.0,Neha Kulkarni,later
+PL01154,M033,buy,5100.0,,2027-08-09,2027-08-01,2027-08-09,0,Hard gelatin capsule shells size 0,Excipients,Thousand,V013,Cenana Excipients,188.0,958800.0,Neha Kulkarni,later
+PL01155,M033,buy,5100.0,,2027-09-06,2027-08-29,2027-09-06,0,Hard gelatin capsule shells size 0,Excipients,Thousand,V013,Cenana Excipients,188.0,958800.0,Neha Kulkarni,later
+PL01156,M033,buy,4600.0,,2027-10-04,2027-09-26,2027-10-04,0,Hard gelatin capsule shells size 0,Excipients,Thousand,V013,Cenana Excipients,188.0,864800.0,Neha Kulkarni,later
+PL01157,M033,buy,1500.0,,2027-11-01,2027-10-24,2027-11-01,0,Hard gelatin capsule shells size 0,Excipients,Thousand,V013,Cenana Excipients,188.0,282000.0,Neha Kulkarni,later
+PL01158,M034,buy,3300.0,,2026-12-27,2026-12-11,2026-12-27,0,Hard gelatin capsule shells size 1,Excipients,Thousand,V023,Telana Excipients,175.29,578457.0,Neha Kulkarni,later
+PL01159,M034,buy,3600.0,,2027-01-24,2027-01-08,2027-01-24,0,Hard gelatin capsule shells size 1,Excipients,Thousand,V023,Telana Excipients,175.29,631044.0,Neha Kulkarni,later
+PL01160,M034,buy,4100.0,,2027-02-21,2027-02-05,2027-02-21,0,Hard gelatin capsule shells size 1,Excipients,Thousand,V023,Telana Excipients,175.29,718689.0,Neha Kulkarni,later
+PL01161,M034,buy,3500.0,,2027-03-21,2027-03-05,2027-03-21,0,Hard gelatin capsule shells size 1,Excipients,Thousand,V023,Telana Excipients,175.29,613515.0,Neha Kulkarni,later
+PL01162,M034,buy,3600.0,,2027-04-18,2027-04-02,2027-04-18,0,Hard gelatin capsule shells size 1,Excipients,Thousand,V023,Telana Excipients,175.29,631044.0,Neha Kulkarni,later
+PL01163,M034,buy,4100.0,,2027-05-16,2027-04-30,2027-05-16,0,Hard gelatin capsule shells size 1,Excipients,Thousand,V023,Telana Excipients,175.29,718689.0,Neha Kulkarni,later
+PL01164,M034,buy,3600.0,,2027-06-13,2027-05-28,2027-06-13,0,Hard gelatin capsule shells size 1,Excipients,Thousand,V023,Telana Excipients,175.29,631044.0,Neha Kulkarni,later
+PL01165,M034,buy,4000.0,,2027-07-11,2027-06-25,2027-07-11,0,Hard gelatin capsule shells size 1,Excipients,Thousand,V023,Telana Excipients,175.29,701160.0,Neha Kulkarni,later
+PL01166,M034,buy,3600.0,,2027-08-08,2027-07-23,2027-08-08,0,Hard gelatin capsule shells size 1,Excipients,Thousand,V023,Telana Excipients,175.29,631044.0,Neha Kulkarni,later
+PL01167,M034,buy,3600.0,,2027-09-05,2027-08-20,2027-09-05,0,Hard gelatin capsule shells size 1,Excipients,Thousand,V023,Telana Excipients,175.29,631044.0,Neha Kulkarni,later
+PL01168,M034,buy,3600.0,,2027-10-03,2027-09-17,2027-10-03,0,Hard gelatin capsule shells size 1,Excipients,Thousand,V023,Telana Excipients,175.29,631044.0,Neha Kulkarni,later
+PL01169,M034,buy,2000.0,,2027-10-31,2027-10-15,2027-10-31,0,Hard gelatin capsule shells size 1,Excipients,Thousand,V023,Telana Excipients,175.29,350580.0,Neha Kulkarni,later

@@ -1,7 +1,7 @@
 """The MRP arithmetic, checked against examples worked out by hand."""
 from datetime import date
 
-from planner.engine import Bom, Item, adjust_for_potency, lot_size, low_level_codes, run_mrp
+from planner.engine import Bom, Item, adjust_for_potency, consume_forecast, lot_size, low_level_codes, run_mrp
 
 TODAY = date(2026, 1, 5)
 
@@ -153,3 +153,18 @@ def test_follow_up_is_planned_after_the_parent_explodes():
     boms = {"PACK": Bom(10, {"OLD": 10})}
     result = run_mrp(items, boms, [("PACK", day(20), 10, "demand")], [], TODAY)
     assert ("NEW", 10) in [(o["item"], o["qty"]) for o in result.orders]
+
+
+def test_orders_consume_the_forecast_instead_of_adding_to_it():
+    # Lesson 3, question 1: forecast 14,000 in an August week
+    forecast = [("AMOX", day(10), 14000), ("AMOX", day(17), 14000), ("AMOX", day(24), 14000)]
+    orders = [("AMOX", day(10), 9000, "SO-1"),                       # fewer orders: plan 14,000
+              ("AMOX", day(17), 10000, "SO-2"), ("AMOX", day(17), 6000, "SO-3"),   # more: plan 16,000
+              ]                                                     # none yet: plan the forecast
+    demand = consume_forecast(forecast, orders)
+    week = {}
+    for _, when, quantity, _ in demand:
+        week[when] = week.get(when, 0) + quantity
+    assert week == {day(10): 14000, day(17): 16000, day(24): 14000}
+    assert ("AMOX", day(10), 5000, "Forecast") in demand           # what is still expected to come in
+    assert not any(d[1] == day(17) and d[3] == "Forecast" for d in demand)   # forecast used up

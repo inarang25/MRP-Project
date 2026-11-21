@@ -13,6 +13,7 @@ F005,Finished goods,1428.571,7100.0,1,
 F006,Finished goods,2142.857,10700.0,1,
 F007,Finished goods,1142.857,5700.0,1,
 F008,Finished goods,1285.714,6400.0,1,
+F009,Finished goods,0.0,0.0,1,
 M001,APIs,322.303,3225.0,14,99.3
 M002,APIs,220.879,2225.0,14,99.1
 M003,APIs,83.665,850.0,14,98.6
@@ -66,3 +67,4 @@ M069,Printed packaging,31165.714,312000.0,28,
 M070,Printed packaging,2020.0,21000.0,28,
 M121,Printed packaging,5194.286,52000.0,28,
 M122,Printed packaging,865.714,9000.0,28,
+M123,Printed packaging,0.0,0.0,28,

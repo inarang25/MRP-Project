@@ -6,11 +6,14 @@ the purchase-to-pay process-mining project. ProcessPro shows how buying actually
 decides what to make and buy, and sends its shortages into that same buying process.
 
 ## What it does
-1. **Master data in Odoo**: 8 finished packs, 6 bulk products, two-level bills of materials on 51
-   purchased materials, operations on 7 work centres.
-2. **MRP run**: reads stock, BOMs, open purchase orders and vendor records from Odoo, explodes 26
-   weeks of demand, nets, sizes lots, schedules by lead time, and lists exceptions.
-3. **Release**: this week's purchase proposals become requisitions (raised by the planner) and
+1. **Master data in Odoo**: 9 finished packs (one only for government tenders), 6 bulk products,
+   two-level bills of materials on 52 purchased materials, operations on 7 work centres.
+2. **Demand**: a 52-week forecast by therapy (seasonal for fever and infection medicines, steady for
+   chronic ones), distributor orders that consume the forecast, export contracts, and a tender
+   register. An open tender is not planned; a second calculation shows what winning it would need.
+3. **MRP run**: reads stock, BOMs, open purchase orders and vendor records from Odoo, explodes the
+   demand, nets, sizes lots, schedules by lead time, and lists exceptions.
+4. **Release**: this week's purchase proposals become requisitions (raised by the planner) and
    purchase orders (created by the buyer, marked `MRP-<run id>`), so ProcessPro can tell planned
    buying from manual buying.
 
@@ -22,7 +25,9 @@ orders already late; 17 purchase orders released, 5 above the approval limit.
 |---|---|
 | Finished pack, bulk | Material types FERT, HALB |
 | Bill of materials, operations, work centre | BOM (CS01), routing (CA01), work center (CR01) |
-| `data/plan/demand.csv` | Planned independent requirements (MD61) |
+| `data/plan/forecast.csv` | Planned independent requirements (MD61) |
+| `data/plan/customer_orders.csv`, forecast consumption | Sales orders (VA01), planning strategy 40 |
+| `data/plan/tenders.csv`, `tender_impact.csv` | Quotation / simulative planning version |
 | `planner/run.py` | MRP run (MD01), stock/requirements list (MD04) |
 | `exceptions.csv` | Exception messages (MD06) |
 | `requirements.csv` | Pegging (MD09) |

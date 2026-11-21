@@ -1,0 +1,78 @@
+order,customer,type,item,due_date,qty
+SO-00001,Shree Ganesh Pharma Distributors (C&F West),distributor,F001,2026-11-23,4000
+SO-00002,Northline Medical Agencies (C&F North),distributor,F001,2026-11-23,10000
+SO-00003,Kaveri Health Distributors (C&F South),distributor,F001,2026-11-23,9000
+SO-00004,Eastern Pharma Stockists (C&F East),distributor,F001,2026-11-23,4800
+SO-00005,Shree Ganesh Pharma Distributors (C&F West),distributor,F001,2026-11-30,600
+SO-00006,Northline Medical Agencies (C&F North),distributor,F001,2026-11-30,4200
+SO-00007,Kaveri Health Distributors (C&F South),distributor,F001,2026-11-30,10100
+SO-00008,Eastern Pharma Stockists (C&F East),distributor,F001,2026-11-30,7000
+SO-00009,Shree Ganesh Pharma Distributors (C&F West),distributor,F001,2026-12-07,1000
+SO-00010,Northline Medical Agencies (C&F North),distributor,F001,2026-12-07,1800
+SO-00011,Kaveri Health Distributors (C&F South),distributor,F001,2026-12-07,6300
+SO-00012,Eastern Pharma Stockists (C&F East),distributor,F001,2026-12-07,1800
+SO-00013,Meridian Generics Inc. (USA),export,F002,2026-11-30,32000
+SO-00014,Meridian Generics Inc. (USA),export,F002,2026-12-28,32000
+SO-00015,Meridian Generics Inc. (USA),export,F002,2027-01-25,32000
+SO-00016,Shree Ganesh Pharma Distributors (C&F West),distributor,F003,2026-11-23,8100
+SO-00017,Northline Medical Agencies (C&F North),distributor,F003,2026-11-23,3800
+SO-00018,Kaveri Health Distributors (C&F South),distributor,F003,2026-11-23,6800
+SO-00019,Eastern Pharma Stockists (C&F East),distributor,F003,2026-11-23,900
+SO-00020,Shree Ganesh Pharma Distributors (C&F West),distributor,F003,2026-11-30,10400
+SO-00021,Northline Medical Agencies (C&F North),distributor,F003,2026-11-30,300
+SO-00022,Kaveri Health Distributors (C&F South),distributor,F003,2026-11-30,700
+SO-00023,Eastern Pharma Stockists (C&F East),distributor,F003,2026-11-30,1600
+SO-00024,Shree Ganesh Pharma Distributors (C&F West),distributor,F003,2026-12-07,1600
+SO-00025,Northline Medical Agencies (C&F North),distributor,F003,2026-12-07,500
+SO-00026,Kaveri Health Distributors (C&F South),distributor,F003,2026-12-07,3000
+SO-00027,Eastern Pharma Stockists (C&F East),distributor,F003,2026-12-07,600
+SO-00028,Nordvale Pharma GmbH (Germany),export,F004,2026-12-07,24000
+SO-00029,Nordvale Pharma GmbH (Germany),export,F004,2027-01-04,24000
+SO-00030,Nordvale Pharma GmbH (Germany),export,F004,2027-02-01,24000
+SO-00031,Shree Ganesh Pharma Distributors (C&F West),distributor,F005,2026-11-23,600
+SO-00032,Northline Medical Agencies (C&F North),distributor,F005,2026-11-23,4000
+SO-00033,Kaveri Health Distributors (C&F South),distributor,F005,2026-11-23,2500
+SO-00034,Eastern Pharma Stockists (C&F East),distributor,F005,2026-11-23,1100
+SO-00035,Shree Ganesh Pharma Distributors (C&F West),distributor,F005,2026-11-30,2700
+SO-00036,Northline Medical Agencies (C&F North),distributor,F005,2026-11-30,2200
+SO-00037,Kaveri Health Distributors (C&F South),distributor,F005,2026-11-30,200
+SO-00038,Shree Ganesh Pharma Distributors (C&F West),distributor,F005,2026-12-07,600
+SO-00039,Northline Medical Agencies (C&F North),distributor,F005,2026-12-07,400
+SO-00040,Kaveri Health Distributors (C&F South),distributor,F005,2026-12-07,1100
+SO-00041,Eastern Pharma Stockists (C&F East),distributor,F005,2026-12-07,1000
+SO-00042,Shree Ganesh Pharma Distributors (C&F West),distributor,F006,2026-11-23,6600
+SO-00043,Northline Medical Agencies (C&F North),distributor,F006,2026-11-23,6100
+SO-00044,Kaveri Health Distributors (C&F South),distributor,F006,2026-11-23,3300
+SO-00045,Eastern Pharma Stockists (C&F East),distributor,F006,2026-11-23,300
+SO-00046,Shree Ganesh Pharma Distributors (C&F West),distributor,F006,2026-11-30,3500
+SO-00047,Northline Medical Agencies (C&F North),distributor,F006,2026-11-30,1100
+SO-00048,Kaveri Health Distributors (C&F South),distributor,F006,2026-11-30,1800
+SO-00049,Eastern Pharma Stockists (C&F East),distributor,F006,2026-11-30,3200
+SO-00050,Shree Ganesh Pharma Distributors (C&F West),distributor,F006,2026-12-07,1600
+SO-00051,Northline Medical Agencies (C&F North),distributor,F006,2026-12-07,600
+SO-00052,Kaveri Health Distributors (C&F South),distributor,F006,2026-12-07,1100
+SO-00053,Eastern Pharma Stockists (C&F East),distributor,F006,2026-12-07,700
+SO-00054,Shree Ganesh Pharma Distributors (C&F West),distributor,F007,2026-11-23,1600
+SO-00055,Northline Medical Agencies (C&F North),distributor,F007,2026-11-23,600
+SO-00056,Kaveri Health Distributors (C&F South),distributor,F007,2026-11-23,2400
+SO-00057,Eastern Pharma Stockists (C&F East),distributor,F007,2026-11-23,2800
+SO-00058,Shree Ganesh Pharma Distributors (C&F West),distributor,F007,2026-11-30,1600
+SO-00059,Northline Medical Agencies (C&F North),distributor,F007,2026-11-30,1600
+SO-00060,Kaveri Health Distributors (C&F South),distributor,F007,2026-11-30,1600
+SO-00061,Eastern Pharma Stockists (C&F East),distributor,F007,2026-11-30,400
+SO-00062,Shree Ganesh Pharma Distributors (C&F West),distributor,F007,2026-12-07,300
+SO-00063,Northline Medical Agencies (C&F North),distributor,F007,2026-12-07,1000
+SO-00064,Kaveri Health Distributors (C&F South),distributor,F007,2026-12-07,600
+SO-00065,Eastern Pharma Stockists (C&F East),distributor,F007,2026-12-07,100
+SO-00066,Shree Ganesh Pharma Distributors (C&F West),distributor,F008,2026-11-23,400
+SO-00067,Northline Medical Agencies (C&F North),distributor,F008,2026-11-23,3400
+SO-00068,Kaveri Health Distributors (C&F South),distributor,F008,2026-11-23,1400
+SO-00069,Eastern Pharma Stockists (C&F East),distributor,F008,2026-11-23,2100
+SO-00070,Shree Ganesh Pharma Distributors (C&F West),distributor,F008,2026-11-30,900
+SO-00071,Northline Medical Agencies (C&F North),distributor,F008,2026-11-30,1500
+SO-00072,Kaveri Health Distributors (C&F South),distributor,F008,2026-11-30,2000
+SO-00073,Eastern Pharma Stockists (C&F East),distributor,F008,2026-11-30,300
+SO-00074,Shree Ganesh Pharma Distributors (C&F West),distributor,F008,2026-12-07,600
+SO-00075,Northline Medical Agencies (C&F North),distributor,F008,2026-12-07,500
+SO-00076,Kaveri Health Distributors (C&F South),distributor,F008,2026-12-07,400
+SO-00077,Eastern Pharma Stockists (C&F East),distributor,F008,2026-12-07,500

@@ -39,7 +39,7 @@ Read `docs/HANDOFF_MRP.md` first: it describes the Odoo setup, conventions and t
 
 ## Layout
 ```
-planner/config.py       all assumptions: products, BOMs, yields, potency, artwork changes, demand
+planner/config.py       all assumptions: products, BOMs, yields, potency, artwork changes, demand, tenders
 planner/master_data.py  config -> data/plan/*.csv
 planner/engine.py       the MRP calculation (pure Python, no Odoo)
 planner/run.py          read Odoo with SQL -> engine -> data/mrp/<run id>/
@@ -73,7 +73,12 @@ batch yield, API potency with filler compensation, artwork changes (new material
 open orders batch by batch, last use date, write-off report). Run 20261119-02: 362 production orders,
 241 purchase proposals (Rs 12.5 crore), artwork write-off Rs 9,602. 22 tests pass. Not released.
 Known simplification: one India leaflet (M059) is shared by six products; real leaflets are per product.
-Lesson 3 (demand) taught 2026-11-21; waiting for answers. Current demand draft is flat +/-15% noise:
-no seasonality, no customer orders, no tenders, no export orders. After the answers: rebuild demand.
+Lesson 3 (demand) done 2026-11-21: Q1 right (14k, 16k); Q2 right (seasonal follows the disease),
+taught building stock before the season; Q3 good business instinct, taught pre-buy common materials
+only. Built after it (DEC-013, DEC-014): 52-week seasonal forecast (acute vs chronic), distributor
+orders consume the forecast, export contracts firm for 12 weeks, tender register with a Government
+supply pack (F009, carton M123) and a what-if report. Run 20261121-03: 646 production orders, 523
+purchase proposals (Rs 28.0 crore over 52 weeks), 22 to release (not released); open tender needs
+Rs 63 lakh, Rs 12.4 lakh of common materials before the result. 27 tests pass.
 Known pharma gap to fix in lesson 8: Amoxicillin (a penicillin) shares work centres with other
-products, which GMP does not allow. Next: lesson 3 answers, then the demand rebuild, then lesson 4.
+products, which GMP does not allow. Next: lesson 4 (netting: quarantine, QC release, expiry, retest dates).

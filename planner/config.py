@@ -17,7 +17,6 @@ TARGET_DB = "p2p_mrp"           # our copy, with Manufacturing installed
 
 # Planning starts on this Monday. Demand is weekly, due every Monday from the week after.
 PLAN_START = "2026-11-16"
-DEMAND_WEEKS = 26
 
 # ---------------------------------------------------------------------
 # People (added to the 12 ProcessPro users)
@@ -136,7 +135,18 @@ FINISHED = {
              **blister_pack("B005", "M055", 8000, forming="M039")},
     "F008": {"name": "Omeprazole 20 mg capsules, 10x10 alu-alu blister (India)",
              **blister_pack("B006", "M056", 9000, forming="M039")},
+    # Sold only through government tenders: same tablets, but a carton printed "Government supply,
+    # not for sale". No regular demand: it is planned only from tenders (see TENDERS below).
+    "F009": {"name": "Paracetamol 500 mg tablets, 10x10 blister (Government supply)",
+             **blister_pack("B001", "M123", 0, lidding="M064")},
 }
+
+# Printed materials that are new, not replacing anything (copied in Odoo from a similar one, with the
+# same approved printers). The new artwork from MATERIAL_CHANGES is created the same way.
+NEW_MATERIALS = [
+    {"new": "M123", "copy_of": "M051", "new_name": "Printed carton Paracetamol 500 mg (Government supply)",
+     "reason": "Tender packs must say 'Government supply, not for sale'."},
+]
 
 # ---------------------------------------------------------------------
 # API potency (SAP: active ingredient management)
@@ -167,7 +177,47 @@ MATERIAL_CHANGES = [
                "4 Jan 2027."},
 ]
 
-DEMAND_NOISE = 0.15             # weekly demand varies +/-15% around the average
+# ---------------------------------------------------------------------
+# Demand (lesson 3). Four sources, each planned its own way:
+#   forecast         what we expect India to buy, by therapy and season  (SAP: planned independent reqs, MD61)
+#   customer orders  distributor orders already booked, 1-3 weeks ahead  (SAP: sales orders, VA01)
+#                    -> orders consume the forecast: plan the larger of the two per week (SAP: strategy 40)
+#   export contracts fixed shipments of a registered pack every 4 weeks, firm for 12 weeks
+#   tenders          government bids: not in the plan until won; a "what if we win" report meanwhile
+# "weekly_demand" above is the yearly average per week. Forecasts are based on secondary sales
+# (distributor to chemist), so they leave out the quarter-end "loading" of distributors.
+# ---------------------------------------------------------------------
+DEMAND_WEEKS = 52               # a full year, so next year's monsoon is in view when buying APIs
+DEMAND_PATTERN = {              # how each pack's demand behaves
+    "F001": "acute", "F005": "acute",                                # fever, infections: seasonal
+    "F003": "chronic", "F006": "chronic", "F007": "chronic", "F008": "chronic",   # daily, for years: steady
+    "F002": "export", "F004": "export",                              # contract shipments
+    "F009": "tender",                                                # only from tenders
+}
+# Acute medicines in India, demand by month against the yearly average (estimates for teaching):
+# monsoon fevers, dengue and infections from July to September, a smaller winter peak, a low spring.
+_ACUTE = {1: 1.10, 2: 0.95, 3: 0.85, 4: 0.80, 5: 0.85, 6: 0.95, 7: 1.20, 8: 1.35, 9: 1.30, 10: 1.05,
+          11: 0.95, 12: 1.10}
+SEASONALITY = {"acute": {m: v * 12 / sum(_ACUTE.values()) for m, v in _ACUTE.items()},   # averages 1.0
+               "chronic": {m: 1.0 for m in range(1, 13)}}
+ACTUAL_VS_FORECAST = 0.15       # real weekly demand lands within +/-15% of the forecast
+ORDER_BOOK = {1: 0.95, 2: 0.60, 3: 0.25}   # share of a week's real demand already ordered, by weeks ahead
+DISTRIBUTORS = ["Shree Ganesh Pharma Distributors (C&F West)", "Northline Medical Agencies (C&F North)",
+                "Kaveri Health Distributors (C&F South)", "Eastern Pharma Stockists (C&F East)"]
+EXPORT_CONTRACTS = {            # pack: customer, packs per shipment, first shipment week, every n weeks
+    "F002": {"customer": "Meridian Generics Inc. (USA)", "packs": 32000, "first_week": 2, "every": 4},
+    "F004": {"customer": "Nordvale Pharma GmbH (Germany)", "packs": 24000, "first_week": 3, "every": 4},
+}
+EXPORT_FIRM_WEEKS = 12          # export orders are firm this far ahead; beyond that, the contract rate
+# Tender register (SAP: a quotation, or a separate planning version, until the award).
+# status: "bid" (waiting for the result: not in the plan), "won" (firm demand), "lost".
+TENDERS = [
+    {"tender": "TN-MSC-2026-118", "authority": "State Medical Services Corporation (fictional)",
+     "item": "F009", "status": "bid", "bid_date": "2026-11-16", "result_date": "2026-12-28",
+     "lots": [("2027-01-25", 70000), ("2027-02-22", 65000), ("2027-03-22", 65000)],
+     "penalty": "0.5% of the lot value per week late; repeated failure means blacklisting"},
+]
+
 FINISHED_SHELF_LIFE_MONTHS = 36
 BULK_SHELF_LIFE_MONTHS = 6      # bulk hold time before packing
 

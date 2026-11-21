@@ -1,7 +1,9 @@
 """One MRP run: read the planning situation from Odoo, calculate, write the results.
 
 Reads with SQL only (BOMs, stock, open purchase orders, open requisitions, vendor records), the
-same way ProcessPro's extractor reads. Demand and planning parameters come from data/plan/.
+same way ProcessPro's extractor reads. Demand and planning parameters come from data/plan/:
+the forecast, consumed by customer orders, plus tenders already won. A tender still waiting for its
+result is not planned; a second calculation shows what winning it would need (tender_impact.csv).
 Nothing is written to Odoo here: releasing proposals is a separate step (planner/release.py).
 
 Outputs in data/mrp/<run id>/ and a copy in data/mrp/latest/:
@@ -9,6 +11,7 @@ Outputs in data/mrp/<run id>/ and a copy in data/mrp/latest/:
   requirements.csv     every requirement and the order or demand that caused it      (SAP: pegging, MD09)
   projection.csv       stock projection per item and date                           (SAP: MD04 stock/requirements list)
   exceptions.csv       what the planner must look at                                (SAP: exception messages, MD06)
+  tender_impact.csv    open tenders: what winning needs, and what must be bought before the result
   run.json             when, on which database, counts
 
 Usage: .venv/Scripts/python -m planner.run [--today YYYY-MM-DD]
@@ -22,7 +25,7 @@ from datetime import date, timedelta
 import pandas as pd
 
 from planner import config
-from planner.engine import Bom, Item, adjust_for_potency, run_mrp
+from planner.engine import Bom, Item, adjust_for_potency, consume_forecast, run_mrp
 from planner.odoo import DATABASE, connect, sql
 
 ITEMS = """
@@ -81,6 +84,61 @@ def choose_vendor(rows, gmp):
     return rows.sort_values(["preferred", "price"], ascending=[False, True]).iloc[0]
 
 
+def tender_impact(open_tenders, tender_lots, items, boms, demand_rows, receipts, today, base, params, price,
+                  products):
+    """For each tender waiting for its result: plan again as if it were won, and compare.
+
+    For every purchased material the tender needs more of: how much, worth how much, the first day an
+    extra order must be placed, and whether that is before the result. Materials that regular products
+    also use are a small risk to buy early (normal demand uses them up if the tender is lost); materials
+    only the tender uses are lost money if the tender is lost."""
+    columns = ["tender", "item", "name", "category", "regular_use", "extra_qty", "uom", "extra_value",
+               "first_order_date", "result_date", "before_result", "decision"]
+    rows = []
+    regular = {r["item"] for r in base.requirements if r["qty"] > 0}
+    base_orders = pd.DataFrame(base.orders)
+    base_need = pd.DataFrame(base.requirements).groupby("item")["qty"].sum()
+    for tender, lots in open_tenders.groupby("tender"):
+        result_date = lots["result_date"].iloc[0].date()
+        won = run_mrp(items, boms, demand_rows + tender_lots(lots), receipts, today)
+        scenario = pd.DataFrame(won.orders)
+        # Extra need = what the tender consumes (requirements), not extra orders, which round up to lots
+        need = pd.DataFrame(won.requirements).groupby("item")["qty"].sum().sub(base_need, fill_value=0)
+        for code in sorted(set(scenario.loc[scenario["kind"] == "buy", "item"])):
+            extra = float(need.get(code, 0))
+            if extra <= 1e-6:
+                continue                      # no extra quantity (at most an order a few days earlier)
+            mine = scenario[scenario["item"] == code].groupby("order_date")["qty"].sum()
+            theirs = base_orders[base_orders["item"] == code].groupby("order_date")["qty"].sum()
+            both = pd.concat([mine.rename("tender"), theirs.rename("base")], axis=1).fillna(0).sort_index()
+            gap = (both["tender"] - both["base"]).cumsum()
+            if (gap <= 1e-6).all():
+                continue                      # covered by stock and orders already planned
+            first = gap[gap > 1e-6].index[0]
+            before = first < result_date
+            uses_it = code in regular
+            per_day = float(params["daily_usage"].get(code, 0) or 0)
+            if before and uses_it:
+                decision = "order before the result"
+                if per_day:
+                    decision += f"; if the tender is lost, regular demand uses it up in about {extra / per_day:,.0f} days"
+            elif before:
+                decision = (f"needed {(result_date - first).days} days before the result and used only by the "
+                            f"tender: approve the artwork and book the printer now, order on the award day, and "
+                            f"agree the first delivery date with the authority")
+            elif uses_it:
+                decision = f"wait for the result; order by {first}"
+            else:
+                decision = (f"wait for the result; order by {first}, {(first - result_date).days} days after it: "
+                            f"have the artwork approved and a printer slot booked before the result")
+            rows.append({"tender": tender, "item": code, "name": products.loc[code, "name"],
+                         "category": products.loc[code, "category"], "regular_use": uses_it,
+                         "extra_qty": round(extra, 3), "uom": products.loc[code, "uom"],
+                         "extra_value": round(extra * price.get(code, 0), 2), "first_order_date": first,
+                         "result_date": result_date, "before_result": before, "decision": decision})
+    return pd.DataFrame(rows, columns=columns)
+
+
 def next_run_id(today):
     prefix = today.strftime("%Y%m%d")
     existing = [name for name in os.listdir(config.RUN_DIR) if name.startswith(prefix)] \
@@ -101,7 +159,9 @@ def main():
         open_orders = sql(connection, OPEN_ORDERS)
         open_requisitions = sql(connection, OPEN_REQUISITIONS)
         vendors = sql(connection, VENDORS)
-    demand = pd.read_csv(f"{config.PLAN_DIR}/demand.csv", parse_dates=["due_date"])
+    forecast = pd.read_csv(f"{config.PLAN_DIR}/forecast.csv", parse_dates=["due_date"])
+    customer_orders = pd.read_csv(f"{config.PLAN_DIR}/customer_orders.csv", parse_dates=["due_date"])
+    tenders = pd.read_csv(f"{config.PLAN_DIR}/tenders.csv", parse_dates=["due_date", "result_date"])
     params = pd.read_csv(f"{config.PLAN_DIR}/planning_params.csv").set_index("item")
     make_plan = pd.read_csv(f"{config.PLAN_DIR}/make_items.csv").set_index("item")
     changes = pd.read_csv(f"{config.PLAN_DIR}/material_changes.csv", parse_dates=["last_use"]).set_index("old")
@@ -182,10 +242,19 @@ def main():
     for _, row in open_requisitions[open_requisitions["item"].isin(planned_codes)].iterrows():
         receipts.append((row["item"], max(row["due"], today), row["qty"], row["requisition"]))
 
-    demand_rows = [(row.item, row.due_date.date(), float(row.qty), "Demand")
-                   for row in demand.itertuples() if row.item in items]
+    # Demand: orders consume the forecast; a won tender is a firm order for each of its lots
+    def tender_lots(rows):
+        return [(row.item, row.due_date.date(), float(row.qty), f"{row.tender} lot {row.lot}")
+                for row in rows.itertuples()]
+    fc = [(row.item, row.due_date.date(), float(row.qty)) for row in forecast.itertuples()]
+    booked = [(row.item, row.due_date.date(), float(row.qty), row.order) for row in customer_orders.itertuples()]
+    demand_rows = [line for line in consume_forecast(fc, booked + tender_lots(tenders[tenders["status"] == "won"]))
+                   if line[0] in items]
 
     result = run_mrp(items, boms, demand_rows, receipts, today)
+    price = {code: float(vendor["price"]) for code, vendor in chosen.items()}
+    impact = tender_impact(tenders[tenders["status"] == "bid"], tender_lots, items, boms, demand_rows, receipts,
+                           today, result, params, price, products)
 
     # ----- results -----
     run_id = next_run_id(today)
@@ -208,7 +277,6 @@ def main():
                               columns=["type", "item", "order_id", "date", "detail", "qty"])
     exceptions["name"] = exceptions["item"].map(products["name"])
     # Value of what will be scrapped, at the vendor price (before GST)
-    price = {code: float(vendor["price"]) for code, vendor in chosen.items()}
     exceptions["value"] = (exceptions["qty"] * exceptions["item"].map(price)).round(2)
     requirements = pd.DataFrame(result.requirements)
     projection = pd.DataFrame(result.projection)
@@ -225,6 +293,16 @@ def main():
         "late_orders": int((orders["late_days"] > 0).sum()),
         "write_off_value": round(float(exceptions.loc[exceptions["type"] == "write_off", "value"].sum()), 2),
         "exceptions": exceptions["type"].value_counts().to_dict(),
+        "demand_by_source": {
+            "forecast": round(sum(d[2] for d in demand_rows if d[3] == "Forecast")),
+            "customer_orders": round(sum(d[2] for d in demand_rows if d[3].startswith("SO-"))),
+            "tenders_won": round(sum(d[2] for d in demand_rows if " lot " in d[3]))},
+        "open_tenders": {
+            tender: {"extra_value": round(float(rows["extra_value"].sum()), 2),
+                     "to_buy_before_result": round(float(rows.loc[rows["before_result"], "extra_value"].sum()), 2),
+                     "of_which_tender_only": round(float(rows.loc[rows["before_result"] & ~rows["regular_use"],
+                                                                   "extra_value"].sum()), 2)}
+            for tender, rows in impact.groupby("tender")},
     }
 
     folder = f"{config.RUN_DIR}/{run_id}"
@@ -233,6 +311,7 @@ def main():
     requirements.to_csv(f"{folder}/requirements.csv", index=False)
     projection.to_csv(f"{folder}/projection.csv", index=False)
     exceptions.to_csv(f"{folder}/exceptions.csv", index=False)
+    impact.to_csv(f"{folder}/tender_impact.csv", index=False)
     with open(f"{folder}/run.json", "w", encoding="utf-8") as handle:
         json.dump(summary, handle, indent=2)
     latest = f"{config.RUN_DIR}/latest"
@@ -248,6 +327,10 @@ def main():
     print(f"  Artwork write-off      Rs {summary['write_off_value']:,.0f}")
     for kind, count in summary["exceptions"].items():
         print(f"  Exception: {kind:24} {count}")
+    for tender, figures in summary["open_tenders"].items():
+        print(f"  Open tender {tender}: winning needs Rs {figures['extra_value']:,.0f} more materials; "
+              f"Rs {figures['to_buy_before_result']:,.0f} must be ordered before the result "
+              f"(Rs {figures['of_which_tender_only']:,.0f} of it usable only for the tender)")
     print(f"Results in {folder}")
 
 
