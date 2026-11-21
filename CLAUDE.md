@@ -73,5 +73,7 @@ batch yield, API potency with filler compensation, artwork changes (new material
 open orders batch by batch, last use date, write-off report). Run 20261119-02: 362 production orders,
 241 purchase proposals (Rs 12.5 crore), artwork write-off Rs 9,602. 22 tests pass. Not released.
 Known simplification: one India leaflet (M059) is shared by six products; real leaflets are per product.
+Lesson 3 (demand) taught 2026-11-21; waiting for answers. Current demand draft is flat +/-15% noise:
+no seasonality, no customer orders, no tenders, no export orders. After the answers: rebuild demand.
 Known pharma gap to fix in lesson 8: Amoxicillin (a penicillin) shares work centres with other
-products, which GMP does not allow. Next: owner reviews the lesson 2 build, then lesson 3 (demand).
+products, which GMP does not allow. Next: lesson 3 answers, then the demand rebuild, then lesson 4.
